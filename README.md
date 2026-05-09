@@ -1,14 +1,14 @@
 # macbench
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20094245.svg)](https://doi.org/10.5281/zenodo.20094245)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20094244.svg)](https://doi.org/10.5281/zenodo.20094244)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **The first publicly published macOS-native computer-use benchmark
 for autonomous agents.** As far as we know.
 
 **Paper:** *macbench: A macOS-Native Computer-Use Benchmark for
-Autonomous Agents* — [zenodo.org/records/20094245](https://zenodo.org/records/20094245)
-(DOI `10.5281/zenodo.20094245`, EN+中文 at
+Autonomous Agents* — concept DOI [`10.5281/zenodo.20094244`](https://doi.org/10.5281/zenodo.20094244)
+(CC-BY-4.0, single PDF bundles EN + 中文; also rendered at
 [localkin.dev/papers/macbench](https://www.localkin.dev/papers/macbench)).
 
 ```

@@ -9,12 +9,14 @@ and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ### Added
 
-- **Zenodo DOI for v0.1 paper:** [`10.5281/zenodo.20094245`](https://zenodo.org/records/20094245).
-  The paper *macbench: A macOS-Native Computer-Use Benchmark for
-  Autonomous Agents* is now permanently archived (CC-BY-4.0,
-  EN + 中文 at
-  [localkin.dev/papers/macbench](https://www.localkin.dev/papers/macbench)).
-  README now carries the Zenodo DOI badge.
+- **Zenodo concept DOI for v0.1 paper:** [`10.5281/zenodo.20094244`](https://doi.org/10.5281/zenodo.20094244)
+  (auto-resolves to the latest version). The paper *macbench: A
+  macOS-Native Computer-Use Benchmark for Autonomous Agents* is now
+  permanently archived (CC-BY-4.0). The PDF bundles EN + 中文 in a
+  single document, generated directly from the canonical Markdown
+  source via pandoc → HTML → Chrome. README now carries the Zenodo
+  DOI badge. Bilingual mirror at
+  [localkin.dev/papers/macbench](https://www.localkin.dev/papers/macbench).
 
 ## [0.1.0] - 2026-05-08
 
