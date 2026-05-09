@@ -1,7 +1,15 @@
 # macbench
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20094245.svg)](https://doi.org/10.5281/zenodo.20094245)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **The first publicly published macOS-native computer-use benchmark
 for autonomous agents.** As far as we know.
+
+**Paper:** *macbench: A macOS-Native Computer-Use Benchmark for
+Autonomous Agents* — [zenodo.org/records/20094245](https://zenodo.org/records/20094245)
+(DOI `10.5281/zenodo.20094245`, EN+中文 at
+[localkin.dev/papers/macbench](https://www.localkin.dev/papers/macbench)).
 
 ```
 369 task slots defined        ← matches OSWorld's task count exactly

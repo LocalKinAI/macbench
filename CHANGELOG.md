@@ -5,6 +5,17 @@ All notable changes to macbench are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - 2026-05-09
+
+### Added
+
+- **Zenodo DOI for v0.1 paper:** [`10.5281/zenodo.20094245`](https://zenodo.org/records/20094245).
+  The paper *macbench: A macOS-Native Computer-Use Benchmark for
+  Autonomous Agents* is now permanently archived (CC-BY-4.0,
+  EN + 中文 at
+  [localkin.dev/papers/macbench](https://www.localkin.dev/papers/macbench)).
+  README now carries the Zenodo DOI badge.
+
 ## [0.1.0] - 2026-05-08
 
 Initial public release. The first publicly published macOS-native
