@@ -1,0 +1,7 @@
+{
+  "id": "342-music-play-album",
+  "category": "music",
+  "difficulty": "T2",
+  "prompt": "Play a specific album from the library (any album with at least one song)",
+  "status": "stub"
+}

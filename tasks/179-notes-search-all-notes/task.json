@@ -1,0 +1,6 @@
+{
+  "id": "179-notes-search-all-notes",
+  "category": "notes",
+  "difficulty": "T2",
+  "prompt": "Search all Notes for the term 'kinbench-search-179' and write the count of matching notes to ~/Desktop/kinbench/179-count.txt"
+}

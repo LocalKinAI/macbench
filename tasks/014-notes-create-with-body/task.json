@@ -1,0 +1,7 @@
+{
+  "id": "014-notes-create-with-body",
+  "category": "notes",
+  "difficulty": "T1",
+  "prompt": "Create a new note in Notes titled 'KinBench Test 014' with body content that includes the phrase 'agent benchmark validation'",
+  "timeout_sec": 90
+}

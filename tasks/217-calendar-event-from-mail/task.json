@@ -1,0 +1,8 @@
+{
+  "id": "217-calendar-event-from-mail",
+  "category": "calendar",
+  "difficulty": "T3",
+  "prompt": "Find a Mail message containing flight info (subject contains 'flight'), create a calendar event from the departure date/time",
+  "timeout_sec": 300,
+  "status": "stub"
+}

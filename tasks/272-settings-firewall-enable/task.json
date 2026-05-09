@@ -1,0 +1,7 @@
+{
+  "id": "272-settings-firewall-enable",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Enable the macOS firewall (System Settings \u003e Network \u003e Firewall \u003e toggle on)",
+  "status": "stub"
+}

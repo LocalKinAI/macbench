@@ -1,0 +1,7 @@
+{
+  "id": "332-keynote-set-transition",
+  "category": "keynote",
+  "difficulty": "T2",
+  "prompt": "Set the transition between slides 1 and 2 to 'Cube' (Animate inspector \u003e Add Effect \u003e Cube)",
+  "status": "stub"
+}

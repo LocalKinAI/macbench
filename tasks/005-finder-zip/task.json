@@ -1,0 +1,7 @@
+{
+  "id": "005-finder-zip",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "There are three files in ~/Desktop/kinbench/005-archive/ (a.txt, b.txt, c.txt). Compress them into a single zip archive named ~/Desktop/kinbench/005-archive.zip",
+  "timeout_sec": 120
+}

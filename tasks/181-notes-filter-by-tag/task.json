@@ -1,0 +1,7 @@
+{
+  "id": "181-notes-filter-by-tag",
+  "category": "notes",
+  "difficulty": "T2",
+  "prompt": "Filter the Notes view to show only notes tagged with #kinbench",
+  "status": "stub"
+}

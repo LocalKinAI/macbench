@@ -1,0 +1,7 @@
+{
+  "id": "276-settings-icloud-toggle-drive",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Toggle iCloud Drive sync (System Settings \u003e [Apple ID] \u003e iCloud \u003e iCloud Drive)",
+  "status": "stub"
+}

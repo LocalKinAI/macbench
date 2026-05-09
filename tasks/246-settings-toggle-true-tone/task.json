@@ -1,0 +1,7 @@
+{
+  "id": "246-settings-toggle-true-tone",
+  "category": "settings",
+  "difficulty": "T1",
+  "prompt": "Toggle True Tone display setting (System Settings \u003e Displays \u003e True Tone)",
+  "status": "stub"
+}

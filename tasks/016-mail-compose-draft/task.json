@@ -1,0 +1,7 @@
+{
+  "id": "016-mail-compose-draft",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "In Mail, create a new email draft with the subject 'KinBench 016 Test' and the body 'This is a test draft from kin-bench.' Don't send it — leave it as a draft.",
+  "timeout_sec": 120
+}

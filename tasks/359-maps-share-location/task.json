@@ -1,0 +1,7 @@
+{
+  "id": "359-maps-share-location",
+  "category": "maps",
+  "difficulty": "T2",
+  "prompt": "In Maps, share the location 'Apple Park, Cupertino' via Mail (Share button \u003e Mail). Save the resulting email as a draft.",
+  "status": "stub"
+}

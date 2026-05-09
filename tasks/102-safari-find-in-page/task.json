@@ -1,0 +1,7 @@
+{
+  "id": "102-safari-find-in-page",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Use Cmd+F on the current Safari page to find the term 'macOS' and highlight matches",
+  "status": "stub"
+}

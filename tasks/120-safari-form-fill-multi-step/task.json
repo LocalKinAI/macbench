@@ -1,0 +1,7 @@
+{
+  "id": "120-safari-form-fill-multi-step",
+  "category": "safari",
+  "difficulty": "T3",
+  "prompt": "Navigate to https://duckduckgo.com, perform a search for 'kinbench', then click on the first non-ad result",
+  "status": "stub"
+}

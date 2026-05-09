@@ -1,0 +1,6 @@
+{
+  "id": "065-finder-remove-all-tags",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Remove all color tags from the file ~/Desktop/kinbench/065-tagged.txt"
+}

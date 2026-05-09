@@ -1,0 +1,7 @@
+{
+  "id": "125-mail-mark-as-read",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "Mark the most recent unread message in the Inbox as read",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "312-numbers-bold-cell",
+  "category": "numbers",
+  "difficulty": "T1",
+  "prompt": "In the open Numbers spreadsheet, make cell A1's value bold",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "131-mail-print-as-pdf",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "Save the most recent Inbox message as PDF to ~/Desktop/kinbench/131-message.pdf",
+  "status": "stub"
+}

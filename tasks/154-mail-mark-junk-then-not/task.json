@@ -1,0 +1,7 @@
+{
+  "id": "154-mail-mark-junk-then-not",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Mark a message as junk, then mark the same message as 'not junk' (reverse the action)",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "247-settings-toggle-low-power",
+  "category": "settings",
+  "difficulty": "T1",
+  "prompt": "Enable Low Power Mode (System Settings \u003e Battery \u003e Low Power Mode \u003e Always or Only on Battery)",
+  "status": "stub"
+}

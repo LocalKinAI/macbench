@@ -1,0 +1,7 @@
+{
+  "id": "112-safari-mute-tab",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Mute a Safari tab playing audio (right-click tab \u003e Mute Tab, or click the speaker icon in the tab)",
+  "status": "stub"
+}

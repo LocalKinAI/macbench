@@ -1,0 +1,7 @@
+{
+  "id": "019-calendar-event-with-location",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Create a calendar event titled 'KinBench Coffee' for the day after tomorrow at 9:00 AM, and set the location to 'Blue Bottle'",
+  "timeout_sec": 150
+}

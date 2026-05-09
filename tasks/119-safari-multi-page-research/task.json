@@ -1,0 +1,8 @@
+{
+  "id": "119-safari-multi-page-research",
+  "category": "safari",
+  "difficulty": "T3",
+  "prompt": "Open three Safari tabs (apple.com/macos, en.wikipedia.org/wiki/macOS, github.com), find the year macOS was first released, and write that 4-digit year to ~/Desktop/kinbench/119-year.txt",
+  "timeout_sec": 240,
+  "status": "stub"
+}

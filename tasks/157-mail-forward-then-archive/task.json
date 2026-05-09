@@ -1,0 +1,7 @@
+{
+  "id": "157-mail-forward-then-archive",
+  "category": "mail",
+  "difficulty": "T3",
+  "prompt": "Forward a specific message to test@example.com (save as draft), then archive the original",
+  "status": "stub"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "362-multi-search-then-calendar",
+  "category": "multi-app",
+  "difficulty": "T3",
+  "prompt": "Search Mail for messages with subject containing 'flight'. From the most recent match, find the departure date/time, create a calendar event titled 'KinBench Flight 362' with that start time",
+  "timeout_sec": 360,
+  "status": "stub"
+}

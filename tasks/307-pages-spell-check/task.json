@@ -1,0 +1,7 @@
+{
+  "id": "307-pages-spell-check",
+  "category": "pages",
+  "difficulty": "T2",
+  "prompt": "Run spell check on the Pages document (Edit \u003e Spelling and Grammar \u003e Check Document Now)",
+  "status": "stub"
+}

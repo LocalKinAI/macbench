@@ -1,0 +1,7 @@
+{
+  "id": "285-terminal-clear-screen",
+  "category": "terminal",
+  "difficulty": "T1",
+  "prompt": "Clear the current Terminal screen (Cmd+K or 'clear' command)",
+  "status": "stub"
+}

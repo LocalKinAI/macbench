@@ -1,0 +1,7 @@
+{
+  "id": "221-reminders-show-flagged",
+  "category": "reminders",
+  "difficulty": "T1",
+  "prompt": "Switch to the Flagged smart list in Reminders (sidebar \u003e Flagged)",
+  "status": "stub"
+}

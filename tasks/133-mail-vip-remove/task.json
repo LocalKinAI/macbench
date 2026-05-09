@@ -1,0 +1,7 @@
+{
+  "id": "133-mail-vip-remove",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "Remove a specific sender from the VIP list",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "060-finder-sort-by-date",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Sort the contents of ~/Desktop/kinbench/ by Date Modified (descending)",
+  "status": "stub"
+}

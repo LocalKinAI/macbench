@@ -1,0 +1,7 @@
+{
+  "id": "008-finder-move-file",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Move the file file.txt from ~/Desktop/kinbench/008-src/ to ~/Desktop/kinbench/008-dst/",
+  "timeout_sec": 90
+}

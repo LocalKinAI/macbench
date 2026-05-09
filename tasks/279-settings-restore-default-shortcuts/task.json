@@ -1,0 +1,7 @@
+{
+  "id": "279-settings-restore-default-shortcuts",
+  "category": "settings",
+  "difficulty": "T3",
+  "prompt": "In System Settings \u003e Keyboard \u003e Keyboard Shortcuts, click 'Restore Defaults' to reset all shortcuts",
+  "status": "stub"
+}

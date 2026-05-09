@@ -1,0 +1,7 @@
+{
+  "id": "350-photos-add-to-album",
+  "category": "photos",
+  "difficulty": "T2",
+  "prompt": "Add a specific photo to the album 'KinBench Album 350'",
+  "status": "stub"
+}

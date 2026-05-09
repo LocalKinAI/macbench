@@ -1,0 +1,6 @@
+{
+  "id": "199-calendar-create-event-with-attendees",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Create an event 'KinBench Invite 199' tomorrow at 4 PM and invite test1@example.com and test2@example.com (do not actually send invites — just add as attendees)"
+}

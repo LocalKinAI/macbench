@@ -1,0 +1,7 @@
+{
+  "id": "100-safari-add-reading-list",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Add the current Safari page (https://en.wikipedia.org/wiki/macOS) to Reading List",
+  "status": "stub"
+}

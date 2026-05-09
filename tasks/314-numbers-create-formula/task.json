@@ -1,0 +1,7 @@
+{
+  "id": "314-numbers-create-formula",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "In the open Numbers spreadsheet (with values in A1:A5), enter the formula =SUM(A1:A5) into cell A6",
+  "status": "stub"
+}

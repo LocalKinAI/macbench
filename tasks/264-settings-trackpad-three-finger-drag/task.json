@@ -1,0 +1,7 @@
+{
+  "id": "264-settings-trackpad-three-finger-drag",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Enable 'Three-Finger Drag' for the trackpad (System Settings \u003e Accessibility \u003e Pointer Control \u003e Trackpad Options)",
+  "status": "stub"
+}

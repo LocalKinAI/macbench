@@ -1,0 +1,7 @@
+{
+  "id": "325-numbers-export-pdf",
+  "category": "numbers",
+  "difficulty": "T3",
+  "prompt": "Export the active Numbers spreadsheet as PDF to ~/Desktop/kinbench/325-sheet.pdf (File \u003e Export To \u003e PDF)",
+  "status": "stub"
+}

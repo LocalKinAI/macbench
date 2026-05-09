@@ -1,0 +1,6 @@
+{
+  "id": "075-finder-rename-extension",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Rename ~/Desktop/kinbench/075-doc.txt to 075-doc.md (changing the extension; keep contents)"
+}

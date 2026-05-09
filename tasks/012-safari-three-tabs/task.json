@@ -1,0 +1,7 @@
+{
+  "id": "012-safari-three-tabs",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Open Safari and create three tabs in a single window, navigating to each of these URLs: https://www.apple.com, https://github.com, https://en.wikipedia.org",
+  "timeout_sec": 150
+}

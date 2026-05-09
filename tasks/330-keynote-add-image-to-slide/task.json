@@ -1,0 +1,7 @@
+{
+  "id": "330-keynote-add-image-to-slide",
+  "category": "keynote",
+  "difficulty": "T2",
+  "prompt": "Insert the image ~/Desktop/kinbench/330-photo.jpg into the current Keynote slide",
+  "status": "stub"
+}

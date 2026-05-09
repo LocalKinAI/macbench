@@ -1,0 +1,6 @@
+{
+  "id": "172-notes-add-table",
+  "category": "notes",
+  "difficulty": "T2",
+  "prompt": "Add a 3x3 table to the note 'KinBench Table 172' (Format > Table or Cmd+Option+T)"
+}

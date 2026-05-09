@@ -1,0 +1,7 @@
+{
+  "id": "072-finder-recent-items",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Open a file from the Apple menu's Recent Items list",
+  "status": "stub"
+}

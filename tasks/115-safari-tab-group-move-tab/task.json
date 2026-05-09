@@ -1,0 +1,7 @@
+{
+  "id": "115-safari-tab-group-move-tab",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Move the current front tab into the 'KinBench Research' Tab Group (right-click tab \u003e Move to Tab Group)",
+  "status": "stub"
+}

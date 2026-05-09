@@ -1,0 +1,7 @@
+{
+  "id": "095-safari-zoom-in",
+  "category": "safari",
+  "difficulty": "T1",
+  "prompt": "Zoom in on the current Safari page 3 times (Cmd+= three times)",
+  "status": "stub"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "369-multi-notes-export-then-mail",
+  "category": "multi-app",
+  "difficulty": "T3",
+  "prompt": "Export the Note titled 'KinBench Export 369' as PDF, save to ~/Desktop/kinbench/369-note.pdf, attach to a Mail draft with subject 'KinBench 369'",
+  "timeout_sec": 360,
+  "status": "stub"
+}

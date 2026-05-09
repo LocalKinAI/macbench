@@ -1,0 +1,7 @@
+{
+  "id": "134-mail-empty-trash",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "Empty Mail's Trash mailbox (Mailbox menu \u003e Erase Deleted Items \u003e In All Accounts)",
+  "status": "stub"
+}

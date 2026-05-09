@@ -1,0 +1,7 @@
+{
+  "id": "122-safari-history-search-then-open",
+  "category": "safari",
+  "difficulty": "T3",
+  "prompt": "Search Safari's browsing history for 'apple', then click the first matching entry to open it",
+  "status": "stub"
+}

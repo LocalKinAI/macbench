@@ -1,0 +1,6 @@
+{
+  "id": "208-calendar-create-from-natural-language",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Use Calendar's Quick Event entry (File > New Event with Natural Language, or '+' button) to create: 'Lunch with Bob tomorrow at noon'"
+}

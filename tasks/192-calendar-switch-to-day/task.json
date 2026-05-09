@@ -1,0 +1,7 @@
+{
+  "id": "192-calendar-switch-to-day",
+  "category": "calendar",
+  "difficulty": "T1",
+  "prompt": "Switch Calendar view to Day (Cmd+1 or View \u003e by Day)",
+  "status": "stub"
+}

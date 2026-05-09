@@ -1,0 +1,7 @@
+{
+  "id": "203-calendar-change-calendar",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Move the event 'KinBench Move 203' from its current calendar to a different calendar",
+  "status": "stub"
+}

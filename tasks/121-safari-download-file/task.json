@@ -1,0 +1,7 @@
+{
+  "id": "121-safari-download-file",
+  "category": "safari",
+  "difficulty": "T3",
+  "prompt": "Navigate to https://www.gnu.org/licenses/gpl-3.0.txt and download the file (file should land in ~/Downloads/)",
+  "status": "stub"
+}

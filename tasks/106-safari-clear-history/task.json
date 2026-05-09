@@ -1,0 +1,7 @@
+{
+  "id": "106-safari-clear-history",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Clear Safari's browsing history for 'the last hour' (History \u003e Clear History \u003e 'the last hour')",
+  "status": "stub"
+}

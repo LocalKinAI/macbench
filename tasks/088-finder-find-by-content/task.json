@@ -1,0 +1,6 @@
+{
+  "id": "088-finder-find-by-content",
+  "category": "finder",
+  "difficulty": "T3",
+  "prompt": "Find all .txt files in ~/Desktop/kinbench/088-corpus/ that contain the word 'kinbench' and write their full paths (one per line) to ~/Desktop/kinbench/088-matches.txt"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "156-mail-reply-with-attached-screenshot",
+  "category": "mail",
+  "difficulty": "T3",
+  "prompt": "Reply to a specific message with a fresh screenshot attached. Body: 'KinBench 156'. Save as draft.",
+  "timeout_sec": 240,
+  "status": "stub"
+}

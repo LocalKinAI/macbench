@@ -1,0 +1,7 @@
+{
+  "id": "137-mail-forward-message",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Forward a specific Inbox message to test@example.com. Save as draft.",
+  "status": "stub"
+}

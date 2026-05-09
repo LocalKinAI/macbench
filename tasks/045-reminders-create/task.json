@@ -1,0 +1,7 @@
+{
+  "id": "045-reminders-create",
+  "category": "reminders",
+  "difficulty": "T1",
+  "prompt": "In the Reminders app, create a new reminder titled 'KinBench Buy Milk' (no due date or priority needed)",
+  "timeout_sec": 90
+}

@@ -1,0 +1,7 @@
+{
+  "id": "322-numbers-freeze-row",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "Freeze the first (header) row of the active Numbers table",
+  "status": "stub"
+}

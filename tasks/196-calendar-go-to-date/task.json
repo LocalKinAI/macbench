@@ -1,0 +1,7 @@
+{
+  "id": "196-calendar-go-to-date",
+  "category": "calendar",
+  "difficulty": "T1",
+  "prompt": "Use View \u003e Go to Date (Cmd+Shift+T) to navigate to March 15, 2027",
+  "status": "stub"
+}

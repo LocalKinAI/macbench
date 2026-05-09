@@ -1,0 +1,7 @@
+{
+  "id": "209-calendar-show-availability",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Find available 1-hour time slots tomorrow between 9 AM and 5 PM, and write them (one per line, format 'HH:MM-HH:MM') to ~/Desktop/kinbench/209-slots.txt",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "277-settings-bluetooth-pair",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Open the Bluetooth pairing dialog (System Settings \u003e Bluetooth, with Bluetooth on so pairable devices are listed). Don't actually pair — just open the dialog.",
+  "status": "stub"
+}

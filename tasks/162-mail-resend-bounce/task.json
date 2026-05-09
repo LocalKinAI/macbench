@@ -1,0 +1,7 @@
+{
+  "id": "162-mail-resend-bounce",
+  "category": "mail",
+  "difficulty": "T3",
+  "prompt": "Find a draft message in the Drafts mailbox titled 'KinBench 162 Resend' and modify it to add 'Re-sending' to the subject. Save as draft.",
+  "status": "stub"
+}

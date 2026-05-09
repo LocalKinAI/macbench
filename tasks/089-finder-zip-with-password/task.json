@@ -1,0 +1,6 @@
+{
+  "id": "089-finder-zip-with-password",
+  "category": "finder",
+  "difficulty": "T3",
+  "prompt": "Create a password-protected zip archive of ~/Desktop/kinbench/089-secret/ at ~/Desktop/kinbench/089-secret.zip (password: 'kinbench')"
+}

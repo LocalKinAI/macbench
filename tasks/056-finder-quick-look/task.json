@@ -1,0 +1,7 @@
+{
+  "id": "056-finder-quick-look",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Open Quick Look (spacebar) on a specific file in Finder",
+  "status": "stub"
+}

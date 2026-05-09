@@ -1,0 +1,7 @@
+{
+  "id": "241-settings-toggle-wifi",
+  "category": "settings",
+  "difficulty": "T1",
+  "prompt": "Toggle Wi-Fi off then back on (Control Center or System Settings \u003e Wi-Fi)",
+  "status": "stub"
+}

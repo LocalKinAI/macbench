@@ -1,0 +1,7 @@
+{
+  "id": "004-settings-dark-mode",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Switch macOS to Dark Mode (use System Settings → Appearance)",
+  "timeout_sec": 120
+}

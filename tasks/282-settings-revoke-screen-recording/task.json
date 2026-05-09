@@ -1,0 +1,7 @@
+{
+  "id": "282-settings-revoke-screen-recording",
+  "category": "settings",
+  "difficulty": "T3",
+  "prompt": "In System Settings \u003e Privacy \u0026 Security \u003e Screen Recording, disable a non-essential app's screen recording permission",
+  "status": "stub"
+}

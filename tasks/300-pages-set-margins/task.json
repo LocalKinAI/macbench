@@ -1,0 +1,7 @@
+{
+  "id": "300-pages-set-margins",
+  "category": "pages",
+  "difficulty": "T1",
+  "prompt": "Change the document margins to 1 inch on all sides (Document inspector \u003e Margins)",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "298-pages-bold-selection",
+  "category": "pages",
+  "difficulty": "T1",
+  "prompt": "In an open Pages document, select the phrase 'KinBench 298' and make it bold (Cmd+B)",
+  "status": "stub"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "064-finder-tag-multiple-colors",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Apply both the Yellow and Green color tags to the file ~/Desktop/kinbench/064-multi-tag.txt"
+}

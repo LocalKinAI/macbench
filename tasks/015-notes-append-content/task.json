@@ -1,0 +1,7 @@
+{
+  "id": "015-notes-append-content",
+  "category": "notes",
+  "difficulty": "T2",
+  "prompt": "There's a note titled 'KinBench Test 015' in Notes that currently contains the line 'original line'. Open it and append a new line that says 'appended line' (so the final note has both lines).",
+  "timeout_sec": 90
+}

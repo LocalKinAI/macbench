@@ -1,0 +1,7 @@
+{
+  "id": "333-keynote-rearrange-slides",
+  "category": "keynote",
+  "difficulty": "T2",
+  "prompt": "Move slide 3 to position 1 in the slide navigator",
+  "status": "stub"
+}

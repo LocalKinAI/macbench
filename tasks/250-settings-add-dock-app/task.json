@@ -1,0 +1,6 @@
+{
+  "id": "250-settings-add-dock-app",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Add the app 'TextEdit' to the Dock (drag from Applications, or right-click the running TextEdit and 'Keep in Dock')"
+}

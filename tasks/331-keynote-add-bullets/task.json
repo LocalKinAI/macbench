@@ -1,0 +1,7 @@
+{
+  "id": "331-keynote-add-bullets",
+  "category": "keynote",
+  "difficulty": "T2",
+  "prompt": "Add a content slide with 3 bullet points: 'First', 'Second', 'Third'",
+  "status": "stub"
+}

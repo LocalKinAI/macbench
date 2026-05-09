@@ -1,0 +1,8 @@
+{
+  "id": "364-multi-screenshot-then-pages",
+  "category": "multi-app",
+  "difficulty": "T3",
+  "prompt": "Take a screenshot of the current screen, save to ~/Desktop/kinbench/364-shot.png, create a new Pages document with the screenshot inserted, save the doc to ~/Desktop/kinbench/364-doc.pages",
+  "timeout_sec": 360,
+  "status": "stub"
+}

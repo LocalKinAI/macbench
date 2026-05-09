@@ -1,0 +1,8 @@
+{
+  "id": "361-multi-photo-from-camera-to-mail",
+  "category": "multi-app",
+  "difficulty": "T3",
+  "prompt": "Open Photo Booth, take a photo, save it to ~/Desktop/kinbench/361-photo.jpg, then attach that photo to a Mail draft with subject 'KinBench 361'",
+  "timeout_sec": 360,
+  "status": "stub"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "239-reminders-import-from-file",
+  "category": "reminders",
+  "difficulty": "T3",
+  "prompt": "Read the markdown checklist at ~/Desktop/kinbench/239-checklist.md ('- [ ] item' format), create a reminder in the list 'kinbench-imported' for each unchecked item"
+}

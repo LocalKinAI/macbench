@@ -1,0 +1,7 @@
+{
+  "id": "028-numbers-create-sheet",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "Open Numbers, create a new blank spreadsheet, type the value 42 into cell A1, and save the file to ~/Desktop/kinbench/028-sheet.numbers",
+  "timeout_sec": 240
+}

@@ -1,0 +1,8 @@
+{
+  "id": "368-multi-reminders-then-calendar",
+  "category": "multi-app",
+  "difficulty": "T3",
+  "prompt": "List all reminders due today in the Reminders app, create matching calendar events tomorrow at the same time of day",
+  "timeout_sec": 360,
+  "status": "stub"
+}

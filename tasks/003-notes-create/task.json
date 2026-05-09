@@ -1,0 +1,7 @@
+{
+  "id": "003-notes-create",
+  "category": "notes",
+  "difficulty": "T1",
+  "prompt": "Create a new note in the Notes app titled 'KinBench Test 003' (any body content is fine)",
+  "timeout_sec": 90
+}

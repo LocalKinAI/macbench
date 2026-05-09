@@ -1,0 +1,7 @@
+{
+  "id": "328-keynote-add-title",
+  "category": "keynote",
+  "difficulty": "T2",
+  "prompt": "Add a title slide with the text 'KinBench Keynote 328' as the title",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "026-terminal-pipe-output",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "Use Terminal to count how many .txt files are in ~/Desktop/kinbench/026-input/ and write that number (just the digits, on a single line) to ~/Desktop/kinbench/026-count.txt",
+  "timeout_sec": 90
+}

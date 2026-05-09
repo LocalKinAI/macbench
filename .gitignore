@@ -1,0 +1,18 @@
+# Build artifacts
+/macbench
+/macbench-runner
+
+# Per-run outputs go in results/<timestamp>/ — gitignored at the
+# results/ root via results/.gitignore. Keep that file.
+
+# Go cache leakage just in case
+*.test
+*.out
+
+# macOS noise
+.DS_Store
+
+# Editor crud
+.vscode/
+.idea/
+*.swp

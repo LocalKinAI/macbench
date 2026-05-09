@@ -1,0 +1,6 @@
+{
+  "id": "218-reminders-create-with-list",
+  "category": "reminders",
+  "difficulty": "T1",
+  "prompt": "Create a reminder titled 'KinBench List Item 218' in a specific list named 'kinbench-list-218'. Create the list first if it doesn't exist."
+}

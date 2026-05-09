@@ -1,0 +1,7 @@
+{
+  "id": "090-finder-flatten-folder",
+  "category": "finder",
+  "difficulty": "T3",
+  "prompt": "Flatten the nested folder structure in ~/Desktop/kinbench/090-tree/: move all files (recursive) into ~/Desktop/kinbench/090-flat/ (preserving filenames; on conflict suffix _1, _2)",
+  "timeout_sec": 180
+}

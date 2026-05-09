@@ -1,0 +1,6 @@
+{
+  "id": "225-reminders-delete-list",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "Delete the reminder list named 'kinbench-deleteme-225'"
+}

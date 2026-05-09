@@ -1,0 +1,7 @@
+{
+  "id": "317-numbers-format-currency",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "Format the values in column A as USD currency with 2 decimal places",
+  "status": "stub"
+}

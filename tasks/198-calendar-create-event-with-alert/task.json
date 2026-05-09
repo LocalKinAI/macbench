@@ -1,0 +1,6 @@
+{
+  "id": "198-calendar-create-event-with-alert",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Create an event 'KinBench Alert 198' tomorrow at 3 PM with a 15-minute reminder alert"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "034-safari-pin-tab",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "In Safari, with apple.com loaded as the front tab, pin that tab (Window menu → Pin Tab, or right-click → Pin Tab)",
+  "timeout_sec": 90
+}

@@ -1,0 +1,7 @@
+{
+  "id": "357-maps-get-directions",
+  "category": "maps",
+  "difficulty": "T2",
+  "prompt": "In Maps, get driving directions from current location to 'Apple Park, Cupertino'",
+  "status": "stub"
+}

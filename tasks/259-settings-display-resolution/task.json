@@ -1,0 +1,7 @@
+{
+  "id": "259-settings-display-resolution",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Change the display resolution to 'More Space' or 'Larger Text' in System Settings \u003e Displays (any non-current option)",
+  "status": "stub"
+}

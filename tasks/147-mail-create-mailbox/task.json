@@ -1,0 +1,7 @@
+{
+  "id": "147-mail-create-mailbox",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Create a new mailbox folder named 'kinbench-test-mailbox'",
+  "status": "stub"
+}

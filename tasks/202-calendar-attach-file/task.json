@@ -1,0 +1,6 @@
+{
+  "id": "202-calendar-attach-file",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Attach the file ~/Desktop/kinbench/202-attach.txt to the existing calendar event 'KinBench Attach 202'"
+}

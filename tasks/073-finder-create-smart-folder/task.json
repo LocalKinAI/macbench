@@ -1,0 +1,6 @@
+{
+  "id": "073-finder-create-smart-folder",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Create a Smart Folder titled 'KinBench Today' that shows files modified today, save to sidebar"
+}

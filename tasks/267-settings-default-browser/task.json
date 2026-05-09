@@ -1,0 +1,7 @@
+{
+  "id": "267-settings-default-browser",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Change the default web browser (System Settings \u003e Desktop \u0026 Dock \u003e Default web browser) to a non-current browser",
+  "status": "stub"
+}

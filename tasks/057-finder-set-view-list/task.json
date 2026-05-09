@@ -1,0 +1,6 @@
+{
+  "id": "057-finder-set-view-list",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Switch the active Finder window to List view (Cmd+2)"
+}

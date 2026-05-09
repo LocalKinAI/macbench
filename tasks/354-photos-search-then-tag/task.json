@@ -1,0 +1,8 @@
+{
+  "id": "354-photos-search-then-tag",
+  "category": "photos",
+  "difficulty": "T3",
+  "prompt": "Search Photos for photos taken in the last 30 days, mark the first 3 results as Favorite",
+  "timeout_sec": 240,
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "113-safari-rearrange-tabs",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Rearrange Safari tabs so that apple.com is the first tab in the front window (drag-and-drop the tab)",
+  "status": "stub"
+}

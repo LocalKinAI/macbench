@@ -1,0 +1,7 @@
+{
+  "id": "166-notes-lock-note",
+  "category": "notes",
+  "difficulty": "T1",
+  "prompt": "Lock the note titled 'KinBench Lock 166' with a password",
+  "status": "stub"
+}

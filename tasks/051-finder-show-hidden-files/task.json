@@ -1,0 +1,6 @@
+{
+  "id": "051-finder-show-hidden-files",
+  "category": "finder",
+  "difficulty": "T1",
+  "prompt": "Toggle hidden files visibility in Finder (Cmd+Shift+.). The defaults key AppleShowAllFiles flips."
+}

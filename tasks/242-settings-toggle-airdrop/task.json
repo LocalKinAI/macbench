@@ -1,0 +1,7 @@
+{
+  "id": "242-settings-toggle-airdrop",
+  "category": "settings",
+  "difficulty": "T1",
+  "prompt": "Toggle AirDrop visibility between 'Contacts Only' and 'Everyone for 10 minutes'",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "228-reminders-mark-subtask",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "Mark the subtask 'KinBench Subtask 228' (under 'KinBench Parent 228') as completed",
+  "status": "stub"
+}

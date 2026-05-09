@@ -1,0 +1,7 @@
+{
+  "id": "288-terminal-split-pane",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "Split the Terminal window into two panes (View menu \u003e Split Window or Cmd+D)",
+  "status": "stub"
+}

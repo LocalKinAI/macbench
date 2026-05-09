@@ -1,0 +1,7 @@
+{
+  "id": "240-settings-toggle-bluetooth",
+  "category": "settings",
+  "difficulty": "T1",
+  "prompt": "Toggle Bluetooth (turn it off if on, or on if off; either via Control Center or System Settings)",
+  "status": "stub"
+}

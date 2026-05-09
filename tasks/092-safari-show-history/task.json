@@ -1,0 +1,7 @@
+{
+  "id": "092-safari-show-history",
+  "category": "safari",
+  "difficulty": "T1",
+  "prompt": "Open Safari's full History view (Cmd+Y or History menu \u003e Show All History)",
+  "status": "stub"
+}

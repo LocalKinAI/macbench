@@ -1,0 +1,8 @@
+{
+  "id": "360-maps-multi-stop-route",
+  "category": "maps",
+  "difficulty": "T3",
+  "prompt": "Plan a multi-stop route in Maps: from current location → 'Apple Park, Cupertino' → 'Stanford University' → 'Half Moon Bay'",
+  "timeout_sec": 300,
+  "status": "stub"
+}

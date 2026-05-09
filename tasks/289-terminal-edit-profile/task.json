@@ -1,0 +1,7 @@
+{
+  "id": "289-terminal-edit-profile",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "Change the Terminal profile to 'Pro' or any non-default profile (Terminal \u003e Settings \u003e Profiles)",
+  "status": "stub"
+}

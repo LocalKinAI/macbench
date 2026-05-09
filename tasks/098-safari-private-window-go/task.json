@@ -1,0 +1,6 @@
+{
+  "id": "098-safari-private-window-go",
+  "category": "safari",
+  "difficulty": "T1",
+  "prompt": "Open a new Safari Private Window (Shift+Cmd+N) and navigate to https://en.wikipedia.org"
+}

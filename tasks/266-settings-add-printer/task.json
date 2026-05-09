@@ -1,0 +1,7 @@
+{
+  "id": "266-settings-add-printer",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Open System Settings \u003e Printers \u0026 Scanners \u003e Add Printer dialog (don't actually add — just open the dialog)",
+  "status": "stub"
+}

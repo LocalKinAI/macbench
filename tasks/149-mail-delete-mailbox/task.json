@@ -1,0 +1,7 @@
+{
+  "id": "149-mail-delete-mailbox",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Delete the custom mailbox named 'kinbench-deleteme'",
+  "status": "stub"
+}

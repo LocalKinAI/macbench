@@ -1,0 +1,7 @@
+{
+  "id": "222-reminders-show-today",
+  "category": "reminders",
+  "difficulty": "T1",
+  "prompt": "Switch to the Today smart list in Reminders (sidebar \u003e Today)",
+  "status": "stub"
+}

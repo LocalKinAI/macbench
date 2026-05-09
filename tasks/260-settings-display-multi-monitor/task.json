@@ -1,0 +1,7 @@
+{
+  "id": "260-settings-display-multi-monitor",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Open System Settings \u003e Displays \u003e Arrange and view multi-monitor arrangement (or report 'single display' if only one display is connected)",
+  "status": "stub"
+}

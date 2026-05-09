@@ -1,0 +1,7 @@
+{
+  "id": "284-terminal-open-new-tab",
+  "category": "terminal",
+  "difficulty": "T1",
+  "prompt": "Open a new Terminal tab (Cmd+T)",
+  "status": "stub"
+}

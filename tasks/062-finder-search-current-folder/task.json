@@ -1,0 +1,7 @@
+{
+  "id": "062-finder-search-current-folder",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "In Finder, search the current folder (~/Desktop) for files containing 'kinbench' in their name",
+  "status": "stub"
+}

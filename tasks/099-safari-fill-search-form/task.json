@@ -1,0 +1,7 @@
+{
+  "id": "099-safari-fill-search-form",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Open google.com in Safari, type 'macOS computer use' into the search box, press Return",
+  "status": "stub"
+}

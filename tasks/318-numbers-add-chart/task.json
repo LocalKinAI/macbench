@@ -1,0 +1,7 @@
+{
+  "id": "318-numbers-add-chart",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "Insert a 2D bar chart from the data in A1:B10",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "118-safari-translate-page",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Translate the current Safari page to English (Translate menu in the URL bar, if available; report 'translation not available' if the source is already English)",
+  "status": "stub"
+}

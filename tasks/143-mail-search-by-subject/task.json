@@ -1,0 +1,7 @@
+{
+  "id": "143-mail-search-by-subject",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Search Mail for messages with subject containing 'receipt'. Write the count to ~/Desktop/kinbench/143-count.txt",
+  "status": "stub"
+}

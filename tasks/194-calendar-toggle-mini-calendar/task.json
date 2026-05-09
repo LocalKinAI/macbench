@@ -1,0 +1,7 @@
+{
+  "id": "194-calendar-toggle-mini-calendar",
+  "category": "calendar",
+  "difficulty": "T1",
+  "prompt": "Toggle the mini calendar in the Calendar sidebar (View \u003e Hide Calendar List / Show Calendar List)",
+  "status": "stub"
+}

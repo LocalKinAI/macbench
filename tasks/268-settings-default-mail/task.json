@@ -1,0 +1,7 @@
+{
+  "id": "268-settings-default-mail",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Change the default email client (Mail app \u003e Settings \u003e General \u003e Default email reader) to a different option if available",
+  "status": "stub"
+}

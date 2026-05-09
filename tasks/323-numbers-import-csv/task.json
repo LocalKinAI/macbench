@@ -1,0 +1,8 @@
+{
+  "id": "323-numbers-import-csv",
+  "category": "numbers",
+  "difficulty": "T3",
+  "prompt": "Import the CSV file ~/Desktop/kinbench/323-data.csv into a new Numbers spreadsheet, save the spreadsheet to ~/Desktop/kinbench/323-imported.numbers",
+  "timeout_sec": 240,
+  "status": "stub"
+}

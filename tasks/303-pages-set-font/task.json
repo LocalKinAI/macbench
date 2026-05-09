@@ -1,0 +1,7 @@
+{
+  "id": "303-pages-set-font",
+  "category": "pages",
+  "difficulty": "T2",
+  "prompt": "Change the font of the selected paragraph to Helvetica 14pt",
+  "status": "stub"
+}

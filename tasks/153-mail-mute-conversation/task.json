@@ -1,0 +1,7 @@
+{
+  "id": "153-mail-mute-conversation",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Mute a specific conversation/thread (Message \u003e Mute)",
+  "status": "stub"
+}

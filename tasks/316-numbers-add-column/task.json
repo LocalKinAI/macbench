@@ -1,0 +1,7 @@
+{
+  "id": "316-numbers-add-column",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "Insert a new column before column B in the open Numbers spreadsheet",
+  "status": "stub"
+}

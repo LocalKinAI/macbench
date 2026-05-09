@@ -1,0 +1,7 @@
+{
+  "id": "320-numbers-filter-rows",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "Filter the active Numbers table to show only rows where column A is greater than 100",
+  "status": "stub"
+}

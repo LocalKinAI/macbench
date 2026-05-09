@@ -1,0 +1,7 @@
+{
+  "id": "021-settings-do-not-disturb",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Turn on Do Not Disturb (or any Focus mode) using the Control Center icon in the menu bar (or System Settings > Focus)",
+  "timeout_sec": 150
+}

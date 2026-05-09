@@ -1,0 +1,7 @@
+{
+  "id": "042-settings-natural-scroll",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Toggle the 'Natural scrolling' setting in System Settings > Trackpad (or Mouse) > Scroll & Zoom — it doesn't matter whether you turn it on or off, just flip whatever the current state is",
+  "timeout_sec": 180
+}

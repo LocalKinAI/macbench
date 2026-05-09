@@ -1,0 +1,6 @@
+{
+  "id": "290-terminal-pip-install",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "In Terminal, run 'pip3 install --user requests' and verify the install succeeded by running 'pip3 show requests'. Write the version line of pip3 show output to ~/Desktop/kinbench/290-version.txt"
+}

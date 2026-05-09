@@ -1,0 +1,7 @@
+{
+  "id": "234-reminders-share-list",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "Open the share sheet for the reminder list 'kinbench-share-234' (don't actually share — just open the share UI)",
+  "status": "stub"
+}

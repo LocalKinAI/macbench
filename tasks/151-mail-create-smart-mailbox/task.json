@@ -1,0 +1,7 @@
+{
+  "id": "151-mail-create-smart-mailbox",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Create a Smart Mailbox titled 'KinBench This Month' showing messages received this month",
+  "status": "stub"
+}

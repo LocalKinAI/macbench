@@ -1,0 +1,7 @@
+{
+  "id": "193-calendar-search-event",
+  "category": "calendar",
+  "difficulty": "T1",
+  "prompt": "Use Calendar's search to find an event titled 'KinBench Search 193' and select it",
+  "status": "stub"
+}

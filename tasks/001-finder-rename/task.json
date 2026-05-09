@@ -1,0 +1,7 @@
+{
+  "id": "001-finder-rename",
+  "category": "finder",
+  "difficulty": "T1",
+  "prompt": "Rename the file at ~/Desktop/kinbench/001-input.txt to 001-output.txt (keep it in the same folder)",
+  "timeout_sec": 60
+}

@@ -1,0 +1,7 @@
+{
+  "id": "114-safari-tab-group-create",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Create a new Tab Group in Safari named 'KinBench Research' (sidebar \u003e '+' next to Tab Groups)",
+  "status": "stub"
+}

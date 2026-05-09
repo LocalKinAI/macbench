@@ -1,0 +1,7 @@
+{
+  "id": "040-settings-volume",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Set the system output volume to 50% (use any method — menu bar volume slider, System Settings > Sound, or function keys)",
+  "timeout_sec": 90
+}

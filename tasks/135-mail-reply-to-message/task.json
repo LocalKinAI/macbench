@@ -1,0 +1,7 @@
+{
+  "id": "135-mail-reply-to-message",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Reply to the most recent Inbox message with body 'KinBench 135 reply'. Don't send — leave the reply as a draft.",
+  "status": "stub"
+}

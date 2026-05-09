@@ -1,0 +1,7 @@
+{
+  "id": "050-multi-pages-pdf",
+  "category": "multi-app",
+  "difficulty": "T3",
+  "prompt": "Open Pages, create a new blank document containing the text 'kinbench 050 export', then export the document as a PDF to ~/Desktop/kinbench/050-doc.pdf (File menu → Export To → PDF)",
+  "timeout_sec": 300
+}

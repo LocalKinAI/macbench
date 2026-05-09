@@ -1,0 +1,7 @@
+{
+  "id": "254-settings-mission-control-spaces",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Create a new Space in Mission Control (Ctrl+Up to enter Mission Control, then click '+')",
+  "status": "stub"
+}

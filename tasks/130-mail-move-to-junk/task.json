@@ -1,0 +1,7 @@
+{
+  "id": "130-mail-move-to-junk",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "Mark a specific message as Junk (Message \u003e Move to Junk)",
+  "status": "stub"
+}

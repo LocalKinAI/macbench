@@ -1,0 +1,7 @@
+{
+  "id": "146-mail-move-to-mailbox",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Move a specific Inbox message to a sub-mailbox named 'KinBench 146' (create if needed)",
+  "status": "stub"
+}

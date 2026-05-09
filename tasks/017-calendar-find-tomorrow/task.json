@@ -1,0 +1,7 @@
+{
+  "id": "017-calendar-find-tomorrow",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "In Calendar, find the event titled 'KinBench Find Me' that's scheduled for tomorrow. Note the time it starts and write that time (in HH:MM 24-hour format) to ~/Desktop/kinbench/017-found-time.txt",
+  "timeout_sec": 150
+}

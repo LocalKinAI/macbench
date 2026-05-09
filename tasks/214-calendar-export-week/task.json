@@ -1,0 +1,6 @@
+{
+  "id": "214-calendar-export-week",
+  "category": "calendar",
+  "difficulty": "T3",
+  "prompt": "Export this week's events to an .ics file at ~/Desktop/kinbench/214-week.ics"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "107-safari-clear-cookies",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "In Safari Settings \u003e Privacy \u003e Manage Website Data, delete the data for example.com specifically",
+  "status": "stub"
+}

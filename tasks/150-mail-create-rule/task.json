@@ -1,0 +1,7 @@
+{
+  "id": "150-mail-create-rule",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Create a Mail rule that flags messages whose subject contains 'kinbench-rule'",
+  "status": "stub"
+}

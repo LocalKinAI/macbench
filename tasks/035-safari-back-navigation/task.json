@@ -1,0 +1,7 @@
+{
+  "id": "035-safari-back-navigation",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "In Safari, navigate to https://www.apple.com first, then to https://github.com, then click the Back button (or use Cmd+[) so you're back on apple.com",
+  "timeout_sec": 120
+}

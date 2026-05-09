@@ -1,0 +1,7 @@
+{
+  "id": "257-settings-input-source-add",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Add a new input source (any non-current source — e.g. 'Pinyin - Simplified' or 'British English') in System Settings \u003e Keyboard \u003e Input Sources",
+  "status": "stub"
+}

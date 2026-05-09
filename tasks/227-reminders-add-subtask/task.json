@@ -1,0 +1,6 @@
+{
+  "id": "227-reminders-add-subtask",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "Add a subtask titled 'KinBench Subtask A 227' to the existing reminder 'KinBench Parent 227'"
+}

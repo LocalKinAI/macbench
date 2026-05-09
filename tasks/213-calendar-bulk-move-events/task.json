@@ -1,0 +1,7 @@
+{
+  "id": "213-calendar-bulk-move-events",
+  "category": "calendar",
+  "difficulty": "T3",
+  "prompt": "Move every event titled 'KinBench Bulk' from its current calendar to a calendar named 'KinBench Calendar' (create the calendar if it doesn't exist)",
+  "timeout_sec": 240
+}

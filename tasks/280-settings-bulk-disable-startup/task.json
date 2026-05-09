@@ -1,0 +1,8 @@
+{
+  "id": "280-settings-bulk-disable-startup",
+  "category": "settings",
+  "difficulty": "T3",
+  "prompt": "In System Settings \u003e General \u003e Login Items, disable every 'Allow in the Background' app except essential ones (define essential as: Apple-signed)",
+  "timeout_sec": 240,
+  "status": "stub"
+}

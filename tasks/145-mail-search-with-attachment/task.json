@@ -1,0 +1,7 @@
+{
+  "id": "145-mail-search-with-attachment",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Search Mail for messages that have attachments. Write the count to ~/Desktop/kinbench/145-count.txt",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "237-reminders-bulk-priority",
+  "category": "reminders",
+  "difficulty": "T3",
+  "prompt": "Set the priority to High on every reminder due today",
+  "timeout_sec": 240
+}

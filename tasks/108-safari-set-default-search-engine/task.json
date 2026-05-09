@@ -1,0 +1,7 @@
+{
+  "id": "108-safari-set-default-search-engine",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Change Safari's default search engine to DuckDuckGo (Settings \u003e Search \u003e Search engine)",
+  "status": "stub"
+}

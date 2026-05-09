@@ -1,0 +1,7 @@
+{
+  "id": "103-safari-print-as-pdf",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Save the current Safari page as a PDF to ~/Desktop/kinbench/103-page.pdf (File > Export as PDF)",
+  "timeout_sec": 180
+}

@@ -1,0 +1,6 @@
+{
+  "id": "343-music-shuffle-toggle",
+  "category": "music",
+  "difficulty": "T2",
+  "prompt": "Toggle shuffle mode in Music (Controls > Shuffle)"
+}

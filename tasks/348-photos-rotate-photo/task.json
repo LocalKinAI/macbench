@@ -1,0 +1,7 @@
+{
+  "id": "348-photos-rotate-photo",
+  "category": "photos",
+  "difficulty": "T1",
+  "prompt": "Rotate a specific photo 90° clockwise (Image menu \u003e Rotate Clockwise or Cmd+R)",
+  "status": "stub"
+}

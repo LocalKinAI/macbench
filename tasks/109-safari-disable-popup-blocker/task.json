@@ -1,0 +1,7 @@
+{
+  "id": "109-safari-disable-popup-blocker",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "In Safari Settings \u003e Websites \u003e Pop-up Windows, allow popups for example.com",
+  "status": "stub"
+}

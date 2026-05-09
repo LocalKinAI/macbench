@@ -1,0 +1,6 @@
+{
+  "id": "293-terminal-grep-recursive",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "Use grep -r in Terminal to find all files in ~/Desktop/kinbench/293-corpus/ that contain the word 'kinbench'. Write matching file paths to ~/Desktop/kinbench/293-matches.txt"
+}

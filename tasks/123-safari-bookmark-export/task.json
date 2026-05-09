@@ -1,0 +1,7 @@
+{
+  "id": "123-safari-bookmark-export",
+  "category": "safari",
+  "difficulty": "T3",
+  "prompt": "Export Safari bookmarks as HTML (File \u003e Export \u003e Bookmarks) to ~/Desktop/kinbench/123-bookmarks.html",
+  "status": "stub"
+}

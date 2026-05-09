@@ -1,0 +1,6 @@
+{
+  "id": "224-reminders-rename-list",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "Rename the reminder list 'kinbench-rename-pre' to 'kinbench-rename-post'"
+}

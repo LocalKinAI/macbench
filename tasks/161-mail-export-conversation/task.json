@@ -1,0 +1,8 @@
+{
+  "id": "161-mail-export-conversation",
+  "category": "mail",
+  "difficulty": "T3",
+  "prompt": "Export a specific conversation thread as a single PDF to ~/Desktop/kinbench/161-thread.pdf",
+  "timeout_sec": 240,
+  "status": "stub"
+}

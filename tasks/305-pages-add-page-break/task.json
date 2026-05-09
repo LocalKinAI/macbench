@@ -1,0 +1,7 @@
+{
+  "id": "305-pages-add-page-break",
+  "category": "pages",
+  "difficulty": "T2",
+  "prompt": "Insert a page break at the cursor position (Insert menu \u003e Page Break)",
+  "status": "stub"
+}

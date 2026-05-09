@@ -1,0 +1,7 @@
+{
+  "id": "261-settings-screen-time-enable",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Enable Screen Time downtime (System Settings \u003e Screen Time \u003e Downtime \u003e Set a schedule)",
+  "status": "stub"
+}

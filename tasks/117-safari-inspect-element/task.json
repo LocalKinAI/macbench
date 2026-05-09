@@ -1,0 +1,7 @@
+{
+  "id": "117-safari-inspect-element",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Open Safari's Web Inspector for the current page (Develop menu \u003e Show Web Inspector). Develop menu must be enabled first.",
+  "status": "stub"
+}

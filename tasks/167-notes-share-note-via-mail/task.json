@@ -1,0 +1,7 @@
+{
+  "id": "167-notes-share-note-via-mail",
+  "category": "notes",
+  "difficulty": "T1",
+  "prompt": "Share the note 'KinBench Share 167' via Mail (Share button). Save the resulting email as a draft.",
+  "status": "stub"
+}

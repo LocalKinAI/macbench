@@ -1,0 +1,7 @@
+{
+  "id": "129-mail-archive-message",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "Archive the most recent Inbox message (move to Archive mailbox)",
+  "status": "stub"
+}

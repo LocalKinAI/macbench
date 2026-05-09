@@ -1,0 +1,7 @@
+{
+  "id": "140-mail-attach-file-to-draft",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Compose a draft, subject 'KinBench 140'. Attach the file ~/Desktop/kinbench/140-attach.txt. Save as draft.",
+  "status": "stub"
+}

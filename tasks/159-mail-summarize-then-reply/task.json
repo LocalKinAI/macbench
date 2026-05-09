@@ -1,0 +1,7 @@
+{
+  "id": "159-mail-summarize-then-reply",
+  "category": "mail",
+  "difficulty": "T3",
+  "prompt": "Read a specific multi-message thread, summarize the key points (2-3 sentences) in a reply to the most recent message. Save as draft.",
+  "status": "stub"
+}

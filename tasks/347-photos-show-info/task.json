@@ -1,0 +1,7 @@
+{
+  "id": "347-photos-show-info",
+  "category": "photos",
+  "difficulty": "T1",
+  "prompt": "Open the Get Info panel for a specific photo (Cmd+I)",
+  "status": "stub"
+}

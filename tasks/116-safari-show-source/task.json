@@ -1,0 +1,7 @@
+{
+  "id": "116-safari-show-source",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "View the page source of the current Safari page (Develop menu \u003e Show Page Source). Develop menu must be enabled first.",
+  "status": "stub"
+}

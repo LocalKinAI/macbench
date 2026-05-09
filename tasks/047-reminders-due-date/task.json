@@ -1,0 +1,7 @@
+{
+  "id": "047-reminders-due-date",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "There's a reminder titled 'KinBench Schedule' in the Reminders app. Set its due date to tomorrow at 5:00 PM (17:00).",
+  "timeout_sec": 180
+}

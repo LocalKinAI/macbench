@@ -1,0 +1,8 @@
+{
+  "id": "216-calendar-find-conflict",
+  "category": "calendar",
+  "difficulty": "T3",
+  "prompt": "Identify scheduling conflicts (overlapping events) in the next 7 days and write a list to ~/Desktop/kinbench/216-conflicts.txt (one conflict per line, format 'HH:MM Event A vs Event B')",
+  "timeout_sec": 240,
+  "status": "stub"
+}

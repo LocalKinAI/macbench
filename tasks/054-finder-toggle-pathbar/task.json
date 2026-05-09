@@ -1,0 +1,6 @@
+{
+  "id": "054-finder-toggle-pathbar",
+  "category": "finder",
+  "difficulty": "T1",
+  "prompt": "Toggle the Finder path bar (View menu > Show / Hide Path Bar)"
+}

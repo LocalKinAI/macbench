@@ -1,0 +1,7 @@
+{
+  "id": "319-numbers-sort-data",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "Sort the rows in the active Numbers table by column A in ascending order",
+  "status": "stub"
+}

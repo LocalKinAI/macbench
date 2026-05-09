@@ -1,0 +1,6 @@
+{
+  "id": "292-terminal-curl-and-save",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "Use curl in Terminal to fetch https://example.com and save the response body to ~/Desktop/kinbench/292-page.html"
+}

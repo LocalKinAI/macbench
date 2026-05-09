@@ -1,0 +1,7 @@
+{
+  "id": "258-settings-input-source-remove",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Remove a non-default input source from System Settings \u003e Keyboard \u003e Input Sources",
+  "status": "stub"
+}

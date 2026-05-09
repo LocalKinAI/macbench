@@ -1,0 +1,7 @@
+{
+  "id": "044-terminal-pipe-grep",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "Use Terminal to count how many lines in ~/Desktop/kinbench/044-input.txt contain the word 'kinbench' (case-sensitive) and write just that number to ~/Desktop/kinbench/044-count.txt",
+  "timeout_sec": 90
+}

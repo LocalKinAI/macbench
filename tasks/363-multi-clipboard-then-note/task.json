@@ -1,0 +1,7 @@
+{
+  "id": "363-multi-clipboard-then-note",
+  "category": "multi-app",
+  "difficulty": "T3",
+  "prompt": "Open Safari, navigate to https://en.wikipedia.org/wiki/macOS, copy the first paragraph to the clipboard, then create a note titled 'KinBench Clipboard 363' containing that paragraph",
+  "timeout_sec": 240
+}

@@ -1,0 +1,7 @@
+{
+  "id": "025-terminal-create-file",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "Open Terminal and create a file at ~/Desktop/kinbench/025-greeting.txt containing the single line 'hello from kinbench' (use any shell command — echo, cat heredoc, printf, whatever)",
+  "timeout_sec": 90
+}

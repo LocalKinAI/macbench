@@ -1,0 +1,7 @@
+{
+  "id": "032-finder-create-alias",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "In Finder, make an alias of ~/Desktop/kinbench/032-target.txt and place the alias in ~/Desktop/kinbench/032-aliases/ (use Finder File menu → Make Alias, or Cmd+L, or right-click)",
+  "timeout_sec": 120
+}

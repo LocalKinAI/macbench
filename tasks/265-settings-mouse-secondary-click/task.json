@@ -1,0 +1,7 @@
+{
+  "id": "265-settings-mouse-secondary-click",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Configure the mouse secondary click to 'Click on right side' (System Settings \u003e Mouse). If no mouse, report and skip.",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "327-keynote-add-slide",
+  "category": "keynote",
+  "difficulty": "T1",
+  "prompt": "Add a new slide to the existing Keynote presentation (Slide menu \u003e New Slide or Cmd+Shift+N)",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "046-reminders-complete",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "In the Reminders app, mark the reminder titled 'KinBench Mark Done' as completed (click its checkbox)",
+  "timeout_sec": 90
+}

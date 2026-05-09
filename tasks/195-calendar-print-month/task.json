@@ -1,0 +1,7 @@
+{
+  "id": "195-calendar-print-month",
+  "category": "calendar",
+  "difficulty": "T1",
+  "prompt": "Print the current Calendar month view as PDF to ~/Desktop/kinbench/195-month.pdf",
+  "status": "stub"
+}

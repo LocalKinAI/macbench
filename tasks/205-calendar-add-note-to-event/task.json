@@ -1,0 +1,6 @@
+{
+  "id": "205-calendar-add-note-to-event",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Add a notes/description text 'KinBench note for event 205' to the existing event 'KinBench Note 205'"
+}

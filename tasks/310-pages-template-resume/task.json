@@ -1,0 +1,8 @@
+{
+  "id": "310-pages-template-resume",
+  "category": "pages",
+  "difficulty": "T3",
+  "prompt": "Create a new Pages document from the Resume template, replace the placeholder name with 'Jacky Sun' and email with 'sxm1981@gmail.com'. Save to ~/Desktop/kinbench/310-resume.pages",
+  "timeout_sec": 300,
+  "status": "stub"
+}

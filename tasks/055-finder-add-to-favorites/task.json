@@ -1,0 +1,7 @@
+{
+  "id": "055-finder-add-to-favorites",
+  "category": "finder",
+  "difficulty": "T1",
+  "prompt": "Add ~/Desktop/kinbench/ to the Finder sidebar Favorites",
+  "status": "stub"
+}

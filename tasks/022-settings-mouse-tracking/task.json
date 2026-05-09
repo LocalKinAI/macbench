@@ -1,0 +1,7 @@
+{
+  "id": "022-settings-mouse-tracking",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Open System Settings and change the mouse tracking speed (also called pointer speed / tracking speed) to a new value — anything different from current is fine",
+  "timeout_sec": 180
+}

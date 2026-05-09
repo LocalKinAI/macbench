@@ -1,0 +1,7 @@
+{
+  "id": "191-calendar-switch-to-week",
+  "category": "calendar",
+  "difficulty": "T1",
+  "prompt": "Switch Calendar view to Week (Cmd+2 or View \u003e by Week)",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "104-safari-share-via-mail",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Share the current Safari page via Mail (Share button \u003e Mail) — leave the draft as a draft",
+  "status": "stub"
+}

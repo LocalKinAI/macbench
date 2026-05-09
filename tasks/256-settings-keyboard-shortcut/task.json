@@ -1,0 +1,7 @@
+{
+  "id": "256-settings-keyboard-shortcut",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Add a custom keyboard shortcut Cmd+Shift+K for the menu item 'About Safari' in Safari (System Settings \u003e Keyboard \u003e Keyboard Shortcuts \u003e App Shortcuts)",
+  "status": "stub"
+}

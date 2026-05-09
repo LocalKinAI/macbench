@@ -1,0 +1,7 @@
+{
+  "id": "024-terminal-pwd",
+  "category": "terminal",
+  "difficulty": "T1",
+  "prompt": "Open the Terminal app and run the command 'pwd > ~/Desktop/kinbench/024-pwd.txt' so the current directory gets written to that file",
+  "timeout_sec": 90
+}

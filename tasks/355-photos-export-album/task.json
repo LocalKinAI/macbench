@@ -1,0 +1,8 @@
+{
+  "id": "355-photos-export-album",
+  "category": "photos",
+  "difficulty": "T3",
+  "prompt": "Export every photo in the album 'KinBench Album 355' to ~/Desktop/kinbench/355-export/",
+  "timeout_sec": 360,
+  "status": "stub"
+}

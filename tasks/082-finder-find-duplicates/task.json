@@ -1,0 +1,7 @@
+{
+  "id": "082-finder-find-duplicates",
+  "category": "finder",
+  "difficulty": "T3",
+  "prompt": "Identify any duplicate files in ~/Desktop/kinbench/082-files/ (same size + same content) and write a list of duplicate pairs to ~/Desktop/kinbench/082-dupes.txt",
+  "timeout_sec": 240
+}

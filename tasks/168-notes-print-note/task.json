@@ -1,0 +1,6 @@
+{
+  "id": "168-notes-print-note",
+  "category": "notes",
+  "difficulty": "T1",
+  "prompt": "Save the note 'KinBench Print 168' as PDF to ~/Desktop/kinbench/168-note.pdf"
+}

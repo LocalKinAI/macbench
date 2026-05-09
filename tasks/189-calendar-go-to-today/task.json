@@ -1,0 +1,7 @@
+{
+  "id": "189-calendar-go-to-today",
+  "category": "calendar",
+  "difficulty": "T1",
+  "prompt": "In Calendar, navigate to today's date (Cmd+T or 'Today' button in toolbar)",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "190-calendar-switch-to-month",
+  "category": "calendar",
+  "difficulty": "T1",
+  "prompt": "Switch Calendar view to Month (Cmd+3 or View \u003e by Month)",
+  "status": "stub"
+}

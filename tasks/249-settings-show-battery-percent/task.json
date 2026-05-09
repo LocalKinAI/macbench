@@ -1,0 +1,6 @@
+{
+  "id": "249-settings-show-battery-percent",
+  "category": "settings",
+  "difficulty": "T1",
+  "prompt": "Show the battery percentage next to the menu bar battery icon"
+}

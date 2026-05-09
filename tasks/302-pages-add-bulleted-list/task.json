@@ -1,0 +1,7 @@
+{
+  "id": "302-pages-add-bulleted-list",
+  "category": "pages",
+  "difficulty": "T2",
+  "prompt": "Add a bulleted list with 3 items ('Apple', 'Banana', 'Cherry') to the Pages document",
+  "status": "stub"
+}

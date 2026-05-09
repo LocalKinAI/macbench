@@ -1,0 +1,6 @@
+{
+  "id": "052-finder-toggle-sidebar",
+  "category": "finder",
+  "difficulty": "T1",
+  "prompt": "Toggle the Finder sidebar visibility (View menu > Hide Sidebar / Show Sidebar)"
+}

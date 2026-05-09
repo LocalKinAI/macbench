@@ -1,0 +1,7 @@
+{
+  "id": "136-mail-reply-all",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Reply-all to a multi-recipient message in the Inbox with body 'KinBench 136 reply-all'. Save as draft.",
+  "status": "stub"
+}

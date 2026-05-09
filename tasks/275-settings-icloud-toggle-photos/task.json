@@ -1,0 +1,7 @@
+{
+  "id": "275-settings-icloud-toggle-photos",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Toggle iCloud Photos sync (System Settings \u003e [Apple ID] \u003e iCloud \u003e Photos)",
+  "status": "stub"
+}

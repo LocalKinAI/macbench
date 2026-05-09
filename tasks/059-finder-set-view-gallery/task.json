@@ -1,0 +1,6 @@
+{
+  "id": "059-finder-set-view-gallery",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Switch the active Finder window to Gallery view (Cmd+4)"
+}

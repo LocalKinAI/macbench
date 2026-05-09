@@ -1,0 +1,8 @@
+{
+  "id": "163-mail-cleanup-promotions",
+  "category": "mail",
+  "difficulty": "T3",
+  "prompt": "Move all messages in the Inbox whose subject contains 'promo' or 'sale' to a folder called 'kinbench-promos'",
+  "timeout_sec": 240,
+  "status": "stub"
+}

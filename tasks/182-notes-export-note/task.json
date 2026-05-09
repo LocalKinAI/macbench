@@ -1,0 +1,6 @@
+{
+  "id": "182-notes-export-note",
+  "category": "notes",
+  "difficulty": "T2",
+  "prompt": "Export the note 'KinBench Export 182' as PDF to ~/Desktop/kinbench/182-note.pdf"
+}

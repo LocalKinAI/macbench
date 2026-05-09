@@ -1,0 +1,6 @@
+{
+  "id": "111-safari-pin-multiple-tabs",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "In a single Safari window, pin three tabs: apple.com, github.com, en.wikipedia.org"
+}

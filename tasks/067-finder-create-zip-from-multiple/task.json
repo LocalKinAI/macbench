@@ -1,0 +1,6 @@
+{
+  "id": "067-finder-create-zip-from-multiple",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Compress the 5 files in ~/Desktop/kinbench/067-files/ into a single archive at ~/Desktop/kinbench/067-archive.zip"
+}

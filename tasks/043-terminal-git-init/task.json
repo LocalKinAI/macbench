@@ -1,0 +1,7 @@
+{
+  "id": "043-terminal-git-init",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "Open Terminal and create a new directory at ~/Desktop/kinbench/043-repo, cd into it, and initialize an empty git repository (git init)",
+  "timeout_sec": 120
+}

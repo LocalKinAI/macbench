@@ -1,0 +1,6 @@
+{
+  "id": "175-notes-create-folder",
+  "category": "notes",
+  "difficulty": "T2",
+  "prompt": "Create a new folder named 'kinbench-folder' in the Notes app sidebar"
+}

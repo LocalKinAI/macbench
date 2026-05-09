@@ -1,0 +1,7 @@
+{
+  "id": "127-mail-flag-red",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "Apply the red flag to the most recent message in the Inbox",
+  "status": "stub"
+}

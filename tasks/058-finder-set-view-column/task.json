@@ -1,0 +1,6 @@
+{
+  "id": "058-finder-set-view-column",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Switch the active Finder window to Column view (Cmd+3)"
+}

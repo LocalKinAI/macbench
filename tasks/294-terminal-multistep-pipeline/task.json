@@ -1,0 +1,7 @@
+{
+  "id": "294-terminal-multistep-pipeline",
+  "category": "terminal",
+  "difficulty": "T3",
+  "prompt": "Use a Terminal pipeline (ls + sort + head) to find the 5 largest files in ~/Documents and write their names to ~/Desktop/kinbench/294-top5.txt",
+  "timeout_sec": 180
+}

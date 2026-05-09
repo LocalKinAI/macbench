@@ -1,0 +1,8 @@
+{
+  "id": "186-notes-search-then-export",
+  "category": "notes",
+  "difficulty": "T3",
+  "prompt": "Search Notes for 'kinbench-186' and export each matching note as a separate PDF to ~/Desktop/kinbench/186-exports/",
+  "timeout_sec": 300,
+  "status": "stub"
+}

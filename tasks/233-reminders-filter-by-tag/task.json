@@ -1,0 +1,7 @@
+{
+  "id": "233-reminders-filter-by-tag",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "Filter Reminders to show only items tagged with #kinbench",
+  "status": "stub"
+}

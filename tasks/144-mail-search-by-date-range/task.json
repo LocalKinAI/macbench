@@ -1,0 +1,7 @@
+{
+  "id": "144-mail-search-by-date-range",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Search Mail for messages received this week. Write the count to ~/Desktop/kinbench/144-count.txt",
+  "status": "stub"
+}

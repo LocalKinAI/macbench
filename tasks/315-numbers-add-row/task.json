@@ -1,0 +1,7 @@
+{
+  "id": "315-numbers-add-row",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "Insert a new row above row 3 in the open Numbers spreadsheet",
+  "status": "stub"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "344-music-export-playlist",
+  "category": "music",
+  "difficulty": "T3",
+  "prompt": "Write the names of all tracks in the playlist 'KinBench Mix 344' to a text file at ~/Desktop/kinbench/344-tracks.txt (one track title per line)"
+}

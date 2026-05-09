@@ -1,0 +1,7 @@
+{
+  "id": "341-music-search-library",
+  "category": "music",
+  "difficulty": "T2",
+  "prompt": "Search the Music library for 'Beatles' (or any artist with multiple matches)",
+  "status": "stub"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "158-mail-bulk-archive-by-sender",
+  "category": "mail",
+  "difficulty": "T3",
+  "prompt": "Archive every Inbox message from a specific sender (5+ messages)",
+  "timeout_sec": 240,
+  "status": "stub"
+}

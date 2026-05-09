@@ -1,0 +1,7 @@
+{
+  "id": "148-mail-rename-mailbox",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Rename a custom mailbox from its current name to 'kinbench-renamed'",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "286-terminal-set-tab-color",
+  "category": "terminal",
+  "difficulty": "T2",
+  "prompt": "Set the active Terminal tab's color to red (Window menu \u003e Tab \u003e Color)",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "036-notes-delete",
+  "category": "notes",
+  "difficulty": "T2",
+  "prompt": "Delete the note titled 'KinBench Test 036 (delete me)' in the Notes app",
+  "timeout_sec": 90
+}

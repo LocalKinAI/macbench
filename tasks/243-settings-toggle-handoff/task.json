@@ -1,0 +1,7 @@
+{
+  "id": "243-settings-toggle-handoff",
+  "category": "settings",
+  "difficulty": "T1",
+  "prompt": "Toggle Handoff (System Settings \u003e General \u003e AirDrop \u0026 Handoff \u003e Allow Handoff between this Mac and your iCloud devices)",
+  "status": "stub"
+}

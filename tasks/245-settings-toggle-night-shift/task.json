@@ -1,0 +1,7 @@
+{
+  "id": "245-settings-toggle-night-shift",
+  "category": "settings",
+  "difficulty": "T1",
+  "prompt": "Enable Night Shift right now (System Settings \u003e Displays \u003e Night Shift \u003e Manual: Turn On Until Tomorrow)",
+  "status": "stub"
+}

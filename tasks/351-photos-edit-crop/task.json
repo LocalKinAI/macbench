@@ -1,0 +1,8 @@
+{
+  "id": "351-photos-edit-crop",
+  "category": "photos",
+  "difficulty": "T2",
+  "prompt": "Crop a specific photo to a square aspect ratio (Edit mode \u003e Crop \u003e Square)",
+  "timeout_sec": 240,
+  "status": "stub"
+}

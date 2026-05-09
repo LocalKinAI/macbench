@@ -1,0 +1,7 @@
+{
+  "id": "230-reminders-attach-image",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "Attach the image ~/Desktop/kinbench/230-img.jpg to the reminder 'KinBench Image 230'",
+  "status": "stub"
+}

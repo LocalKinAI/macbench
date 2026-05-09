@@ -1,0 +1,7 @@
+{
+  "id": "152-mail-block-sender",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Add a specific sender to Mail's blocked senders list (Settings \u003e Junk Mail \u003e Blocked)",
+  "status": "stub"
+}

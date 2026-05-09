@@ -1,0 +1,7 @@
+{
+  "id": "273-settings-screen-saver-pick",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Pick a different screen saver in System Settings \u003e Screen Saver (any non-current option)",
+  "status": "stub"
+}

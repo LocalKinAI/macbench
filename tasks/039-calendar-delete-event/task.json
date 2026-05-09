@@ -1,0 +1,7 @@
+{
+  "id": "039-calendar-delete-event",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Delete the event titled 'KinBench Cancel' from Calendar (it's scheduled for tomorrow afternoon)",
+  "timeout_sec": 120
+}

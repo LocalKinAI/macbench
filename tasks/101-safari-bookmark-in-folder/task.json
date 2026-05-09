@@ -1,0 +1,7 @@
+{
+  "id": "101-safari-bookmark-in-folder",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Bookmark the current page into a specific bookmarks folder named 'KinBench' (create the folder if it doesn't exist)",
+  "status": "stub"
+}

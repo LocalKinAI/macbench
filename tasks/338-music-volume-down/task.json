@@ -1,0 +1,7 @@
+{
+  "id": "338-music-volume-down",
+  "category": "music",
+  "difficulty": "T1",
+  "prompt": "Lower the Music app's playback volume by 10% (or by 3 menu-bar volume key presses)",
+  "status": "stub"
+}

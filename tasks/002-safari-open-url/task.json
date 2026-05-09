@@ -1,0 +1,7 @@
+{
+  "id": "002-safari-open-url",
+  "category": "safari",
+  "difficulty": "T1",
+  "prompt": "Open Safari and navigate to https://www.apple.com/macos/",
+  "timeout_sec": 90
+}

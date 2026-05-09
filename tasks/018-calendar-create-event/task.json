@@ -1,0 +1,7 @@
+{
+  "id": "018-calendar-create-event",
+  "category": "calendar",
+  "difficulty": "T1",
+  "prompt": "Create a calendar event titled 'KinBench Lunch' for tomorrow at 12:30 PM (default duration is fine)",
+  "timeout_sec": 120
+}

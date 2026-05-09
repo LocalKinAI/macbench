@@ -1,0 +1,7 @@
+{
+  "id": "177-notes-create-link-between-notes",
+  "category": "notes",
+  "difficulty": "T2",
+  "prompt": "In the note 'KinBench Source 177', add a wiki-style link to the note 'KinBench Target 177' (use \u003e\u003e or @)",
+  "status": "stub"
+}

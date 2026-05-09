@@ -1,0 +1,7 @@
+{
+  "id": "128-mail-flag-blue",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "Apply the blue flag (specifically blue, not red) to a specific message",
+  "status": "stub"
+}

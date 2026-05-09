@@ -1,0 +1,7 @@
+{
+  "id": "226-reminders-create-with-location",
+  "category": "reminders",
+  "difficulty": "T2",
+  "prompt": "Create a reminder titled 'KinBench Location 226' with a location-based trigger ('Apple Park, Cupertino' or any address — the geofence binding is what matters, not actual triggering)",
+  "status": "stub"
+}

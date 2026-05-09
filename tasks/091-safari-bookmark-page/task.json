@@ -1,0 +1,7 @@
+{
+  "id": "091-safari-bookmark-page",
+  "category": "safari",
+  "difficulty": "T1",
+  "prompt": "Bookmark the current Safari front page (Cmd+D, accept default name + folder)",
+  "status": "stub"
+}

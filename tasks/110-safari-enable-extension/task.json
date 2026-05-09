@@ -1,0 +1,7 @@
+{
+  "id": "110-safari-enable-extension",
+  "category": "safari",
+  "difficulty": "T2",
+  "prompt": "Enable the first installed Safari extension in Settings \u003e Extensions (or report 'no extensions installed' if list is empty)",
+  "status": "stub"
+}

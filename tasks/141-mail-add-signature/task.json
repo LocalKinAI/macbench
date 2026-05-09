@@ -1,0 +1,7 @@
+{
+  "id": "141-mail-add-signature",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Compose a draft and apply a specific Mail signature (use any signature configured in your Mail settings). Subject: 'KinBench 141'.",
+  "status": "stub"
+}

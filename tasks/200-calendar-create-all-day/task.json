@@ -1,0 +1,6 @@
+{
+  "id": "200-calendar-create-all-day",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Create an all-day event titled 'KinBench All-Day 200' for tomorrow"
+}

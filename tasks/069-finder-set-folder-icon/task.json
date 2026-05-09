@@ -1,0 +1,7 @@
+{
+  "id": "069-finder-set-folder-icon",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Change the icon of the folder ~/Desktop/kinbench/069-folder/ to a custom image (paste from clipboard via Get Info)",
+  "status": "stub"
+}

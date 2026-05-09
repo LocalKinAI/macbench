@@ -1,0 +1,7 @@
+{
+  "id": "346-photos-favorite",
+  "category": "photos",
+  "difficulty": "T1",
+  "prompt": "Mark a specific photo (the most recent one in the library) as Favorite (heart it)",
+  "status": "stub"
+}

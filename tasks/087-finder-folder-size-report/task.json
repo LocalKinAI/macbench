@@ -1,0 +1,6 @@
+{
+  "id": "087-finder-folder-size-report",
+  "category": "finder",
+  "difficulty": "T3",
+  "prompt": "Compute the total size of each top-level folder in ~/Desktop/kinbench/087-tree/ and write a report (one line per folder, format 'NAME SIZE_BYTES') to ~/Desktop/kinbench/087-sizes.txt"
+}

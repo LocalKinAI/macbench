@@ -1,0 +1,6 @@
+{
+  "id": "085-finder-rename-from-clipboard-list",
+  "category": "finder",
+  "difficulty": "T3",
+  "prompt": "The clipboard contains 3 lines, one new name per line. Rename the 3 files in ~/Desktop/kinbench/085-rename/ in alphabetical order, applying the clipboard names in order"
+}

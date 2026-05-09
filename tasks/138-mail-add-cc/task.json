@@ -1,0 +1,7 @@
+{
+  "id": "138-mail-add-cc",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Compose a draft email to test@example.com, with cc: cc@example.com. Subject: 'KinBench 138'. Save as draft.",
+  "status": "stub"
+}

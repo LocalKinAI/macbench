@@ -1,0 +1,7 @@
+{
+  "id": "321-numbers-merge-cells",
+  "category": "numbers",
+  "difficulty": "T2",
+  "prompt": "Merge cells A1 and B1 in the active Numbers table",
+  "status": "stub"
+}

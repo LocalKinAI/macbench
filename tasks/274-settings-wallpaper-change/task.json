@@ -1,0 +1,7 @@
+{
+  "id": "274-settings-wallpaper-change",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Change the desktop wallpaper to a different image in System Settings \u003e Wallpaper",
+  "status": "stub"
+}

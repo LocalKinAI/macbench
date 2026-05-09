@@ -1,0 +1,8 @@
+{
+  "id": "160-mail-search-then-flag",
+  "category": "mail",
+  "difficulty": "T3",
+  "prompt": "Search Mail for messages with subject containing 'kinbench-160', flag every match with the red flag",
+  "timeout_sec": 180,
+  "status": "stub"
+}

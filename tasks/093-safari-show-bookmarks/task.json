@@ -1,0 +1,7 @@
+{
+  "id": "093-safari-show-bookmarks",
+  "category": "safari",
+  "difficulty": "T1",
+  "prompt": "Open Safari's bookmarks view (Cmd+Option+B)",
+  "status": "stub"
+}

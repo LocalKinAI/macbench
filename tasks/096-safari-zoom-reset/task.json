@@ -1,0 +1,7 @@
+{
+  "id": "096-safari-zoom-reset",
+  "category": "safari",
+  "difficulty": "T1",
+  "prompt": "Reset Safari's zoom on the current page to 100% (Cmd+0)",
+  "status": "stub"
+}

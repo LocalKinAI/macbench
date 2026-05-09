@@ -1,0 +1,7 @@
+{
+  "id": "006-finder-create-folder",
+  "category": "finder",
+  "difficulty": "T1",
+  "prompt": "Create a new folder named '006-myfolder' in ~/Desktop/kinbench/",
+  "timeout_sec": 60
+}

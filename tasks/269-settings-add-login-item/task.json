@@ -1,0 +1,6 @@
+{
+  "id": "269-settings-add-login-item",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Add an app to login items (System Settings > General > Login Items > Open at Login > '+' > pick TextEdit)"
+}

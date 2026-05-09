@@ -1,0 +1,7 @@
+{
+  "id": "010-finder-batch-rename",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "There are three files in ~/Desktop/kinbench/010-batch/ that all start with 'prefix-' (prefix-A.txt, prefix-B.txt, prefix-C.txt). Rename all of them so they start with 'renamed-' instead (so prefix-A.txt → renamed-A.txt, etc).",
+  "timeout_sec": 120
+}

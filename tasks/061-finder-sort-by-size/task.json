@@ -1,0 +1,7 @@
+{
+  "id": "061-finder-sort-by-size",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Sort the contents of ~/Documents by File Size (descending)",
+  "status": "stub"
+}

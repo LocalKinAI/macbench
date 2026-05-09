@@ -1,0 +1,7 @@
+{
+  "id": "206-calendar-respond-invitation",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Respond 'Accept' to a pending calendar invitation",
+  "status": "stub"
+}

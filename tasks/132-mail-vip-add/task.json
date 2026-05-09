@@ -1,0 +1,7 @@
+{
+  "id": "132-mail-vip-add",
+  "category": "mail",
+  "difficulty": "T1",
+  "prompt": "Add the sender of the most recent Inbox message to the VIP list",
+  "status": "stub"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "336-music-play-pause",
+  "category": "music",
+  "difficulty": "T1",
+  "prompt": "Play (or pause if currently playing) the current track in Music"
+}

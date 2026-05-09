@@ -1,0 +1,6 @@
+{
+  "id": "197-calendar-create-recurring",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Create a recurring weekly event 'KinBench Weekly 197' starting tomorrow at 10 AM, repeating every Monday"
+}

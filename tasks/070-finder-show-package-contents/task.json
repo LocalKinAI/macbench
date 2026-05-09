@@ -1,0 +1,7 @@
+{
+  "id": "070-finder-show-package-contents",
+  "category": "finder",
+  "difficulty": "T2",
+  "prompt": "Right-click TextEdit.app and choose Show Package Contents to inspect its bundle structure",
+  "status": "stub"
+}

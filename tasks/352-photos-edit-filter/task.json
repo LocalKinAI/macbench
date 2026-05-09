@@ -1,0 +1,7 @@
+{
+  "id": "352-photos-edit-filter",
+  "category": "photos",
+  "difficulty": "T2",
+  "prompt": "Apply the 'Vivid' filter to a specific photo (Edit mode \u003e Filters \u003e Vivid)",
+  "status": "stub"
+}

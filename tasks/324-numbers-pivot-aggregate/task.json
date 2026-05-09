@@ -1,0 +1,8 @@
+{
+  "id": "324-numbers-pivot-aggregate",
+  "category": "numbers",
+  "difficulty": "T3",
+  "prompt": "Given a Numbers table with 'Category' (column A) and 'Amount' (column B), create a summary table that totals the Amount per Category in a separate sheet",
+  "timeout_sec": 300,
+  "status": "stub"
+}

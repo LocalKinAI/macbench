@@ -1,0 +1,8 @@
+{
+  "id": "326-keynote-create-blank",
+  "category": "keynote",
+  "difficulty": "T1",
+  "prompt": "Create a new blank Keynote presentation (File \u003e New) and save to ~/Desktop/kinbench/326-deck.key",
+  "timeout_sec": 240,
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "244-settings-toggle-stage-manager",
+  "category": "settings",
+  "difficulty": "T1",
+  "prompt": "Toggle Stage Manager via Control Center",
+  "status": "stub"
+}

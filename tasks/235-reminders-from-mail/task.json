@@ -1,0 +1,8 @@
+{
+  "id": "235-reminders-from-mail",
+  "category": "reminders",
+  "difficulty": "T3",
+  "prompt": "Find a Mail message in the Inbox containing action items (e.g. 'Please do X, Y, Z'), create a reminder for each action item",
+  "timeout_sec": 300,
+  "status": "stub"
+}

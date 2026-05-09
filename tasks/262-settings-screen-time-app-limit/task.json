@@ -1,0 +1,7 @@
+{
+  "id": "262-settings-screen-time-app-limit",
+  "category": "settings",
+  "difficulty": "T2",
+  "prompt": "Set an App Limit of 1 hour/day for Safari (System Settings \u003e Screen Time \u003e App Limits)",
+  "status": "stub"
+}

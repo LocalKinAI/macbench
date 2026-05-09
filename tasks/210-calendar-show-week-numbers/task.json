@@ -1,0 +1,7 @@
+{
+  "id": "210-calendar-show-week-numbers",
+  "category": "calendar",
+  "difficulty": "T2",
+  "prompt": "Toggle the display of week numbers in Calendar (Settings \u003e General)",
+  "status": "stub"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "124-safari-tab-management-cleanup",
+  "category": "safari",
+  "difficulty": "T3",
+  "prompt": "The Safari window has 5 tabs open. Close every tab except the ones showing apple.com and github.com (leaving exactly 2 tabs open)",
+  "status": "stub"
+}

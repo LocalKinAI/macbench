@@ -1,0 +1,7 @@
+{
+  "id": "313-numbers-fill-color",
+  "category": "numbers",
+  "difficulty": "T1",
+  "prompt": "Set the background color of cell A1 to yellow",
+  "status": "stub"
+}

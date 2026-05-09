@@ -1,0 +1,7 @@
+{
+  "id": "142-mail-search-by-sender",
+  "category": "mail",
+  "difficulty": "T2",
+  "prompt": "Use Mail's search to find all messages from a specific sender. Write the count to ~/Desktop/kinbench/142-count.txt",
+  "status": "stub"
+}

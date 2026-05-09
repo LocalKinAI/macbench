@@ -1,0 +1,7 @@
+{
+  "id": "299-pages-add-image",
+  "category": "pages",
+  "difficulty": "T1",
+  "prompt": "Insert the image ~/Desktop/kinbench/299-photo.jpg into the open Pages document",
+  "status": "stub"
+}
