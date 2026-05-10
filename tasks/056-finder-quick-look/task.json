@@ -2,6 +2,6 @@
   "id": "056-finder-quick-look",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Open Quick Look (spacebar) on a specific file in Finder",
-  "status": "stub"
+  "prompt": "Quick Look the file ~/Desktop/kinbench/056-target.txt: open Finder, navigate to or select the file, press spacebar to invoke Quick Look (qlmanage). After triggering Quick Look, write 'quicklook-triggered' to ~/Desktop/kinbench/056-confirm.txt as proof — the eval cannot detect the transient Quick Look overlay window directly.",
+  "timeout_sec": 90
 }

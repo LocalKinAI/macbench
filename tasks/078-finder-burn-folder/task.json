@@ -2,6 +2,6 @@
   "id": "078-finder-burn-folder",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Create a Burn Folder named 'KinBench Burn' on the Desktop",
-  "status": "stub"
+  "prompt": "Create a macOS Burn Folder named 'KinBench Burn' on the Desktop. The on-disk artifact is a directory at ~/Desktop/KinBench\\ Burn.fpbf (the .fpbf extension is what makes Finder treat it as a burn folder). Note: modern macOS (2024+) removed 'New Burn Folder' from Finder's File menu since optical drives are deprecated, so the AppleScript / UI paths no longer work — create the directory directly with `mkdir`.",
+  "timeout_sec": 60
 }

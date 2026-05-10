@@ -13,9 +13,10 @@ Autonomous Agents* — concept DOI [`10.5281/zenodo.20094244`](https://doi.org/1
 
 ```
 369 task slots defined        ← matches OSWorld's task count exactly
-160 implemented (v0.1.1)       ← runnable today (+10 stubs filled 2026-05-10)
-209 stubbed (v0.1.1)           ← real prompts + categories; no setup.sh / eval.sh yet
+171 implemented (v0.1.2)       ← runnable today (+11 finder stubs filled 2026-05-10)
+198 stubbed (v0.1.2)           ← real prompts + categories; no setup.sh / eval.sh yet
                                  → filled in progressively v0.2 → v1.0
+                                 (notes 31/31 ✓ finder 50/50 ✓ remaining: mail, settings, etc.)
 
 15 categories            Finder · Safari · Mail · Notes · Calendar ·
                          Reminders · Settings · Terminal · Pages ·

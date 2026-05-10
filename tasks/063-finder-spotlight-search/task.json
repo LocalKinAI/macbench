@@ -2,6 +2,6 @@
   "id": "063-finder-spotlight-search",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Use Spotlight (Cmd+Space) to find a file named 'kinbench-target.txt' and reveal it in Finder",
-  "status": "stub"
+  "prompt": "There is a file named 'kinbench-spotlight-063.txt' somewhere under ~/Desktop/kinbench/. Find it (use Spotlight Cmd+Space, or `mdfind`, or `find` — whatever is fastest), then write its absolute path to ~/Desktop/kinbench/063-found-path.txt.",
+  "timeout_sec": 90
 }

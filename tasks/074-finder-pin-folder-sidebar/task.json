@@ -2,6 +2,6 @@
   "id": "074-finder-pin-folder-sidebar",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Pin the folder ~/Documents/kinbench-pinned/ to the Finder sidebar",
-  "status": "stub"
+  "prompt": "Pin the folder ~/Desktop/kinbench/074-pinned/ to the Finder sidebar (drag to Favorites, or right-click → 'Add to Sidebar'). Then write the absolute folder path to ~/Desktop/kinbench/074-pinned-confirm.txt — the sidebar plist itself is TCC-protected so the eval needs the confirmation file.",
+  "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "061-finder-sort-by-size",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Sort the contents of ~/Documents by File Size (descending)",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/ in Finder and switch its sort order to 'Size' (View → Sort By → Size, or Cmd+Ctrl+5). The Finder defaults key FXPreferredGroupBy will record this. Set it via UI or via 'defaults write com.apple.finder FXPreferredGroupBy \"Size\"' followed by 'killall Finder'.",
+  "timeout_sec": 90
 }

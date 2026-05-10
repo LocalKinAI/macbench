@@ -5,6 +5,66 @@ All notable changes to macbench are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - 2026-05-10 (later) — Finder category fully implemented (50/50)
+
+### Added — 11 stub Finder tasks now fully implemented
+
+The finder category went from 39 implemented + 11 stubs to **50 fully
+implemented**. Total benchmark implemented: **160 → 171** of 369.
+Newly written task.json + setup.sh + eval.sh for:
+
+- `055-finder-add-to-favorites` (T1)
+- `056-finder-quick-look` (T2)
+- `060-finder-sort-by-date` (T2)
+- `061-finder-sort-by-size` (T2)
+- `062-finder-search-current-folder` (T2)
+- `063-finder-spotlight-search` (T2)
+- `069-finder-set-folder-icon` (T2)
+- `070-finder-show-package-contents` (T2)
+- `072-finder-recent-items` (T2)
+- `074-finder-pin-folder-sidebar` (T2)
+- `078-finder-burn-folder` (T2)
+
+Eval strategies fall into three buckets:
+
+1. **Programmatically observable (8 tasks):** 060/061 sort writes
+   `defaults` plist (`FXPreferredGroupBy`); 062/063 search writes a
+   results file the eval reads; 069 sets `kHasCustomIcon` Finder
+   flag (queryable via `GetFileInfo -aC`) or drops an `Icon\r` file
+   in the folder; 070 reads bundle listing into a file; 072 records
+   opened-path; 078 creates a `.fpbf` directory bundle.
+2. **Confirmation-file soft-pass (2 tasks):** 055/074 sidebar
+   favorites — the SFL3 plist at
+   `~/Library/Application Support/com.apple.sharedfilelist/` is
+   TCC-protected and not readable from a non-Full-Disk-Access shell.
+   Agent writes a confirmation file with the path; eval verifies it.
+   (Same pattern as 166-notes-lock-note.)
+3. **Action-only soft-pass (1 task):** 056 Quick Look — the QL
+   overlay window is transient (qlmanage process is short-lived)
+   and not directly observable. Eval requires a confirmation file.
+
+Note on 078-finder-burn-folder: macOS 14+ removed "New Burn Folder"
+from Finder's File menu (optical drives are deprecated). The task
+prompt now explicitly directs the agent to `mkdir` the `.fpbf`
+directory bundle directly.
+
+Reference verifier confirmed 11/11 PASS in 7 seconds:
+
+```
+$ tools/reference_verifier_finder.sh
+═══════════════════════════════════════════════
+PASS:   11 / 11
+FAIL:   0 / 11
+TIME:   7s
+═══════════════════════════════════════════════
+```
+
+### Added — `tools/reference_verifier_finder.sh`
+
+Companion to `tools/reference_verifier.sh` (notes). Runs the 11
+new Finder tasks with canonical shell / osascript solutions
+instead of an agent. ~7 seconds for all 11.
+
 ## [Unreleased] - 2026-05-10 — Notes category fully implemented + reference verifier + 5 eval bug fixes
 
 ### Added — 10 stub Notes tasks now fully implemented
