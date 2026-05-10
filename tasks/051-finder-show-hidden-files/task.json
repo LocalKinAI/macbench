@@ -2,5 +2,5 @@
   "id": "051-finder-show-hidden-files",
   "category": "finder",
   "difficulty": "T1",
-  "prompt": "Toggle hidden files visibility in Finder (Cmd+Shift+.). The defaults key AppleShowAllFiles flips."
+  "prompt": "Make Finder show hidden (dotfile) entries. The eval reads `defaults read com.apple.finder AppleShowAllFiles` expecting 1/true. Use cerebellum 'finder show_hidden true', or `defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder`, or Cmd+Shift+. with a Finder window focused."
 }

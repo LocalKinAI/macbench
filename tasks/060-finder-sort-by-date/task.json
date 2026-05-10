@@ -2,6 +2,6 @@
   "id": "060-finder-sort-by-date",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Open ~/Desktop/kinbench/ in Finder and switch its sort order to 'Date Modified' (View → Sort By → Date Modified, or Cmd+Ctrl+2). The Finder defaults key FXPreferredGroupBy will record this. Set it via UI or via 'defaults write com.apple.finder FXPreferredGroupBy \"Date Modified\"' followed by 'killall Finder'.",
+  "prompt": "Set Finder's default sort to a date-based key (Date Modified is the canonical choice). The eval reads `defaults read com.apple.finder FXPreferredGroupBy` expecting a date-flavored value. Use cerebellum 'finder set_sort date', or `defaults write com.apple.finder FXPreferredGroupBy 'Date Modified' && killall Finder`, or View → Sort By → Date Modified in Finder.",
   "timeout_sec": 90
 }

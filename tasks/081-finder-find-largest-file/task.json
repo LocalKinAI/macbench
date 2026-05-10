@@ -2,6 +2,6 @@
   "id": "081-finder-find-largest-file",
   "category": "finder",
   "difficulty": "T3",
-  "prompt": "Find the largest file in ~/Documents/ (recursive search) and write its full path + size in bytes to ~/Desktop/kinbench/081-largest.txt",
-  "timeout_sec": 240
+  "prompt": "Find the largest file in ~/Desktop/kinbench/081-tree/ (recursive search) and write its full path + size in bytes to ~/Desktop/kinbench/081-largest.txt. Setup planted a tree containing one ~1MB file alongside several smaller ones; identify the largest correctly.",
+  "timeout_sec": 120
 }

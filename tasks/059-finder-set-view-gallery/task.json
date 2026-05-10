@@ -2,5 +2,5 @@
   "id": "059-finder-set-view-gallery",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Switch the active Finder window to Gallery view (Cmd+4)"
+  "prompt": "Switch Finder's default view to Gallery. Any path works (the eval reads `defaults read com.apple.finder FXPreferredViewStyle` expecting 'glyv'): cerebellum 'finder set_view gallery', or `defaults write com.apple.finder FXPreferredViewStyle glyv && killall Finder`, or Cmd+4 in a Finder window."
 }

@@ -12,4 +12,4 @@ tell application "Finder"
     set label index of f to 2
 end tell
 APPLE
-echo "→ $TARGET_FILE prepared"
+echo "→ $F prepared"

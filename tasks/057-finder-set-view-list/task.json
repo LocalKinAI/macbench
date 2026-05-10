@@ -2,5 +2,5 @@
   "id": "057-finder-set-view-list",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Switch the active Finder window to List view (Cmd+2)"
+  "prompt": "Switch Finder's default view to List. Any path works (the eval reads `defaults read com.apple.finder FXPreferredViewStyle` expecting 'Nlsv'): cerebellum 'finder set_view list', or `defaults write com.apple.finder FXPreferredViewStyle Nlsv && killall Finder`, or open a Finder window and press Cmd+2."
 }

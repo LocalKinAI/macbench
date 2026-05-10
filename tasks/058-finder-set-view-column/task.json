@@ -2,5 +2,5 @@
   "id": "058-finder-set-view-column",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Switch the active Finder window to Column view (Cmd+3)"
+  "prompt": "Switch Finder's default view to Column. Any path works (the eval reads `defaults read com.apple.finder FXPreferredViewStyle` expecting 'clmv'): cerebellum 'finder set_view column', or `defaults write com.apple.finder FXPreferredViewStyle clmv && killall Finder`, or Cmd+3 in a Finder window."
 }
