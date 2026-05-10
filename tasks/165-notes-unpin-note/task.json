@@ -2,6 +2,6 @@
   "id": "165-notes-unpin-note",
   "category": "notes",
   "difficulty": "T1",
-  "prompt": "Unpin a previously-pinned note titled 'KinBench Unpin 165'",
-  "status": "stub"
+  "prompt": "Unpin the note titled 'KinBench Unpin 165' in the Notes app (it is currently pinned)",
+  "timeout_sec": 90
 }

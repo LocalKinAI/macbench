@@ -2,6 +2,6 @@
   "id": "183-notes-undo-multiple-edits",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "In the note 'KinBench Undo 183', press Cmd+Z 5 times to undo the last 5 edits",
-  "status": "stub"
+  "prompt": "Open the note titled 'KinBench Undo 183' in Notes. Its body currently says 'kinbench-original-line'. Append the text 'KINBENCH-EXTRA-TEXT-183' to the end of the note, then press Cmd+Z to undo, returning the body to its original state ('kinbench-original-line' only, no extra text).",
+  "timeout_sec": 90
 }

@@ -337,7 +337,11 @@ func runTask(t Task, agentBin, agentArgsTmpl string, defaultTimeout time.Duratio
 
 	// 1. setup
 	if hasFile(t.dir, "setup.sh") {
-		if out, err := runScript(t.dir, "setup.sh", 60*time.Second); err != nil {
+		// 120s, not 60s. Cold-start AppleScript against Notes/Calendar/Reminders
+		// after PID-snapshot isolation can routinely take 30-60s for iCloud
+		// account verification before the first command returns. 60s was below
+		// that ceiling; 120s clears it without inviting infinite hangs.
+		if out, err := runScript(t.dir, "setup.sh", 120*time.Second); err != nil {
 			r.Phase = "setup"
 			r.ErrMsg = err.Error()
 			r.EvalOut = tail(out, 500)

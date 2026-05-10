@@ -2,7 +2,6 @@
   "id": "186-notes-search-then-export",
   "category": "notes",
   "difficulty": "T3",
-  "prompt": "Search Notes for 'kinbench-186' and export each matching note as a separate PDF to ~/Desktop/kinbench/186-exports/",
-  "timeout_sec": 300,
-  "status": "stub"
+  "prompt": "There are 4 notes in Notes; only one of them contains the unique phrase 'PINEAPPLE-MARKER-186' in its body. Find that note (e.g. via the Notes search field) and save it as a PDF to ~/Desktop/kinbench/186-export.pdf (File → Export as PDF, or use Print → Save as PDF).",
+  "timeout_sec": 240
 }

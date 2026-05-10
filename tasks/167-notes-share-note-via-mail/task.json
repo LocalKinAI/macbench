@@ -2,6 +2,6 @@
   "id": "167-notes-share-note-via-mail",
   "category": "notes",
   "difficulty": "T1",
-  "prompt": "Share the note 'KinBench Share 167' via Mail (Share button). Save the resulting email as a draft.",
-  "status": "stub"
+  "prompt": "Share the note titled 'KinBench Share 167' via Mail (use the Share button → Mail, or copy the note body and paste into a new Mail draft). Save it as a draft with subject 'KinBench Share 167' — do not send.",
+  "timeout_sec": 120
 }

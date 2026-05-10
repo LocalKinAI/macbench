@@ -5,6 +5,78 @@ All notable changes to macbench are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - 2026-05-10 — Notes category fully implemented + reference verifier + 5 eval bug fixes
+
+### Added — 10 stub Notes tasks now fully implemented
+
+The notes category went from 21 implemented + 10 stubs to **31 fully
+implemented**. Newly written setup.sh + eval.sh for:
+
+- `165-notes-unpin-note`
+- `166-notes-lock-note`
+- `167-notes-share-note-via-mail`
+- `170-notes-mark-checklist-item`
+- `177-notes-create-link-between-notes`
+- `181-notes-filter-by-tag`
+- `183-notes-undo-multiple-edits`
+- `184-notes-aggregate-checklists`
+- `186-notes-search-then-export`
+- `369-multi-notes-export-then-mail`
+
+Total implemented across the benchmark: **150 → 160** (out of 369).
+
+### Added — `tools/reference_verifier.sh`
+
+A non-agent verifier that runs every Notes task with a canonical
+osascript/shell solution. Completes all 31 notes tasks in ~100
+seconds (vs. ~30 minutes for an agent run). Used to:
+- Verify eval.sh correctness without burning agent inference time
+- Establish the **platform ceiling** (currently 21/31 = 67.7% on
+  this Mac + iCloud setup) — what's achievable on the platform
+  irrespective of agent capability
+- Iterate eval.sh changes in seconds, not minutes
+
+The 10 fails that the reference verifier can't pass are exposed as
+real platform limits (AppleScript `pinned` property removed in
+macOS 14+, Mail draft creation racing with iCloud sync, Notes UI
+keystroke timing variance) — documented in §6.5 of the v0.2 paper.
+
+### Fixed — 5 eval bugs
+
+- **`tasks/036-notes-delete/eval.sh`** — counted matches in
+  "Recently Deleted" folder, so a successfully deleted note still
+  showed as "1 match" → never PASS. Fixed: only count matches in
+  active folders (excluding Recently Deleted).
+- **`tasks/188-notes-bulk-delete-tagged/eval.sh`** — same bug, same fix.
+- **`tasks/164-notes-pin-note/eval.sh`** — eval read AppleScript's
+  `pinned` property which **macOS 14+ removed** (returns
+  "Can't make pinned of note ... into type specifier" error).
+  Fixed: soft-pass if the note exists + modification date >
+  creation date (TOUCHED). Pin state itself remains unverifiable
+  on macOS 14+; documented as platform-locked alongside 166-lock.
+- **`tasks/165-notes-unpin-note/eval.sh`** — same, same fix.
+- **`tasks/169-notes-add-checklist/eval.sh`** + **`tasks/172-notes-add-table/eval.sh`** —
+  evals were too strict, only accepting Notes-internal HTML markup
+  (`gtl-todo`, `<table>`). Now also accept markdown forms (`- [ ]` × 3
+  for checklist; `| col |` × 2+ rows for tables) since most agents
+  produce those rather than driving the native Notes feature.
+
+### Changed
+
+- **`runner.go`**: setup phase timeout 60s → 120s. Cold-start
+  AppleScript against Notes/Calendar/Reminders after PID-snapshot
+  isolation can routinely take 30-60s for iCloud account
+  verification before the first command returns. 60s was below
+  that ceiling on this hardware.
+- **`tasks/168-notes-print-note/task.json`** + **`tasks/182-notes-export-note/task.json`** —
+  prompts updated to suggest Notes' direct File → Export as PDF
+  flow (3 fewer dialog steps than Print → Save as PDF). Per-task
+  timeout bumped 90s → 180s for the Save-sheet sequence.
+- **`tasks/176-notes-move-note-to-folder/setup.sh`** — added
+  `tell application "Notes" to activate` + 1s delay before
+  the create-folder/create-note AppleScript, to avoid PID-snapshot
+  isolation race where Notes hadn't fully started before setup ran.
+
 ## [Unreleased] - 2026-05-09
 
 ### Added

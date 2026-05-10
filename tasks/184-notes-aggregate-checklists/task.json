@@ -2,7 +2,6 @@
   "id": "184-notes-aggregate-checklists",
   "category": "notes",
   "difficulty": "T3",
-  "prompt": "Find all notes whose names start with 'KinBench Checklist Source' and aggregate their unchecked checklist items into a master note 'KinBench Aggregate 184'",
-  "timeout_sec": 240,
-  "status": "stub"
+  "prompt": "There are three source notes in Notes whose titles start with 'KinBench Source 184' (alpha, bravo, charlie). Each body has lines beginning with '✓' (done) or '○' (pending). Read all three, then create a NEW note titled 'KinBench Aggregate 184' whose body lists ONLY the items prefixed with '✓' (the done items) from all three sources, one per line, preserving the item text after the '✓ '.",
+  "timeout_sec": 240
 }

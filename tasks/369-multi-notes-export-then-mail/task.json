@@ -2,7 +2,6 @@
   "id": "369-multi-notes-export-then-mail",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Export the Note titled 'KinBench Export 369' as PDF, save to ~/Desktop/kinbench/369-note.pdf, attach to a Mail draft with subject 'KinBench 369'",
-  "timeout_sec": 360,
-  "status": "stub"
+  "prompt": "Two-step task crossing Notes and Mail. (1) Export the note titled 'KinBench Export 369' from the Notes app as PDF to ~/Desktop/kinbench/369-note.pdf (File → Export as PDF, or Print → Save as PDF). (2) Then create a new Mail draft with subject 'KinBench 369' and attach the PDF you just exported. Save as draft — do not send.",
+  "timeout_sec": 360
 }

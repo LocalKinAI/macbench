@@ -2,6 +2,6 @@
   "id": "181-notes-filter-by-tag",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Filter the Notes view to show only notes tagged with #kinbench",
-  "status": "stub"
+  "prompt": "There are 3 notes in Notes whose titles start with 'KinBench Tag181'. Two of them contain the tag #kinbench-181 in the body and one does not. Find the two that have the tag and write their full titles (one per line) to the file ~/Desktop/kinbench/181-tagged-titles.txt.",
+  "timeout_sec": 120
 }

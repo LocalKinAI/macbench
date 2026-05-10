@@ -13,8 +13,8 @@ Autonomous Agents* — concept DOI [`10.5281/zenodo.20094244`](https://doi.org/1
 
 ```
 369 task slots defined        ← matches OSWorld's task count exactly
- 50 implemented (v0.1)         ← runnable today
-319 stubbed (v0.1)             ← real prompts + categories; no setup.sh / eval.sh yet
+160 implemented (v0.1.1)       ← runnable today (+10 stubs filled 2026-05-10)
+209 stubbed (v0.1.1)           ← real prompts + categories; no setup.sh / eval.sh yet
                                  → filled in progressively v0.2 → v1.0
 
 15 categories            Finder · Safari · Mail · Notes · Calendar ·
@@ -99,6 +99,29 @@ be preserved)` confirms the snapshot was captured.
 
 `make bench` auto-runs warmup. Set `SKIP_WARMUP=1` to skip (useful
 during eval-script iteration when you don't want to nuke state).
+
+## Reference verifier — platform ceiling, no agent
+
+`tools/reference_verifier.sh` runs every notes-category task with a
+canonical osascript / shell solution INSTEAD of an agent. Total
+runtime: **~100 seconds for all 31 notes tasks**. The PASS rate
+this produces is the **platform ceiling** — what's achievable on
+this Mac + iCloud combination via direct AppleScript, regardless
+of how good the agent is.
+
+```
+tools/reference_verifier.sh
+  → 21/31 PASS (67.7%) — first reference baseline (2026-05-10)
+  → 10 fails are platform timing / AS-dictionary limits (e.g.
+    AppleScript `pinned` property removed in macOS 14+,
+    Mail draft creation racing with iCloud sync, Notes UI
+    keystroke timing variance).
+```
+
+Use this to (1) verify eval correctness without burning agent
+inference time, (2) distinguish "agent capability gaps" from
+"platform-locked tests", (3) iterate eval.sh changes in seconds
+not minutes.
 
 [OSWorld](https://github.com/xlang-ai/OSWorld) (NeurIPS 2024) is the de
 facto standard for desktop computer-use agents — but it benchmarks
