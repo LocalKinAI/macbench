@@ -2,6 +2,6 @@
   "id": "195-calendar-print-month",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Save the current Calendar month view as a PDF to ~/Desktop/kinbench/195-month.pdf. Fast path: `cerebellum 'calendar print_month_pdf /Users/<you>/Desktop/kinbench/195-month.pdf'` \u2014 the dispatcher handles Cmd+P + PDF dropdown + Save dialog automatically.",
+  "prompt": "Save the current Calendar month view as a PDF to ~/Desktop/kinbench/195-month.pdf. Fast path: `cerebellum 'calendar print_month_pdf ~/Desktop/kinbench/195-month.pdf'` \u2014 dispatcher uses textutil to render the month grid as PDF in <1s (falls back to Calendar's Cmd+P flow if textutil is unavailable).",
   "timeout_sec": 90
 }
