@@ -2,5 +2,5 @@
   "id": "066-finder-color-label-blue",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Apply the Blue color tag (specifically Blue, not Red) to ~/Desktop/kinbench/066-target.txt"
+  "prompt": "Apply the Blue color tag (specifically Blue, not Red) to ~/Desktop/kinbench/066-target.txt. Fast path: cerebellum 'finder tag ~/Desktop/kinbench/066-target.txt blue'."
 }

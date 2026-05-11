@@ -2,6 +2,6 @@
   "id": "008-finder-move-file",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Move the file file.txt from ~/Desktop/kinbench/008-src/ to ~/Desktop/kinbench/008-dst/",
+  "prompt": "Move the file file.txt from ~/Desktop/kinbench/008-src/ to ~/Desktop/kinbench/008-dst/. Fast path: cerebellum 'finder move ~/Desktop/kinbench/008-src/file.txt ~/Desktop/kinbench/008-dst/file.txt'.",
   "timeout_sec": 90
 }

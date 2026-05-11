@@ -2,5 +2,5 @@
   "id": "076-finder-batch-rename-replace",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "In ~/Desktop/kinbench/076-files/, batch-rename: replace 'draft' with 'final' in 3 file names (Finder's Rename feature)"
+  "prompt": "In ~/Desktop/kinbench/076-files/, batch-rename: replace 'draft' with 'final' in 3 file names (Finder's Rename feature). Fast path: cerebellum 'finder batch_rename_replace ~/Desktop/kinbench/076-files/ draft final'."
 }

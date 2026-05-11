@@ -2,5 +2,5 @@
   "id": "075-finder-rename-extension",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Rename ~/Desktop/kinbench/075-doc.txt to 075-doc.md (changing the extension; keep contents)"
+  "prompt": "Rename ~/Desktop/kinbench/075-doc.txt to 075-doc.md (changing the extension; keep contents). Fast path: cerebellum 'finder rename_extension ~/Desktop/kinbench/075-doc.txt md'."
 }

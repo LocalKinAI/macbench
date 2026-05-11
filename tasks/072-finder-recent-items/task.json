@@ -2,6 +2,6 @@
   "id": "072-finder-recent-items",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Apple menu → Recent Items contains the file ~/Desktop/kinbench/072-recent-target.txt. Open it from that menu (or via 'open ~/Desktop/kinbench/072-recent-target.txt'). After opening, write the absolute path to ~/Desktop/kinbench/072-opened.txt as proof.",
+  "prompt": "Apple menu → Recent Items contains the file ~/Desktop/kinbench/072-recent-target.txt. Open it from that menu (or via 'open ~/Desktop/kinbench/072-recent-target.txt'). After opening, write the absolute path to ~/Desktop/kinbench/072-opened.txt as proof. Fast path: cerebellum 'finder recent_open ~/Desktop/kinbench/072-recent-target.txt' (then write the proof file).",
   "timeout_sec": 90
 }

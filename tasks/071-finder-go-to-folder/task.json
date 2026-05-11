@@ -2,5 +2,5 @@
   "id": "071-finder-go-to-folder",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Use Cmd+Shift+G ('Go to Folder') in Finder to navigate to /tmp"
+  "prompt": "Use Cmd+Shift+G ('Go to Folder') in Finder to navigate to /tmp. Fast path: cerebellum 'finder go_to_folder /tmp'."
 }

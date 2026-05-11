@@ -2,6 +2,6 @@
   "id": "001-finder-rename",
   "category": "finder",
   "difficulty": "T1",
-  "prompt": "Rename the file at ~/Desktop/kinbench/001-input.txt to 001-output.txt (keep it in the same folder)",
+  "prompt": "Rename the file at ~/Desktop/kinbench/001-input.txt to 001-output.txt (keep it in the same folder). Fast path: cerebellum 'finder rename ~/Desktop/kinbench/001-input.txt ~/Desktop/kinbench/001-output.txt'.",
   "timeout_sec": 60
 }

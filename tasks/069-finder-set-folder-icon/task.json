@@ -2,6 +2,6 @@
   "id": "069-finder-set-folder-icon",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Set a custom icon on the folder ~/Desktop/kinbench/069-folder/. The simplest path: copy any image into the folder named 'Icon\\r' (the literal CR-suffixed filename), set its 'invisible' attribute, then run `SetFile -a C` on the folder so Finder marks it as having a custom icon. Or use the GUI: select an image, Cmd+C; select the folder → Get Info → click the icon at top-left → Cmd+V.",
+  "prompt": "Set a custom icon on the folder ~/Desktop/kinbench/069-folder/. The simplest path: copy any image into the folder named 'Icon\\r' (the literal CR-suffixed filename), set its 'invisible' attribute, then run `SetFile -a C` on the folder so Finder marks it as having a custom icon. Or use the GUI: select an image, Cmd+C; select the folder → Get Info → click the icon at top-left → Cmd+V. Fast path: cerebellum 'finder set_folder_icon ~/Desktop/kinbench/069-folder/ ~/Desktop/kinbench/069-icon.png'.",
   "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "006-finder-create-folder",
   "category": "finder",
   "difficulty": "T1",
-  "prompt": "Create a new folder named '006-myfolder' in ~/Desktop/kinbench/",
+  "prompt": "Create a new folder named '006-myfolder' in ~/Desktop/kinbench/. Fast path: cerebellum 'finder mkdir ~/Desktop/kinbench/006-myfolder'.",
   "timeout_sec": 60
 }

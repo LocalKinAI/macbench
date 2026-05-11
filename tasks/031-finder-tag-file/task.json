@@ -2,6 +2,6 @@
   "id": "031-finder-tag-file",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "In Finder, find the file ~/Desktop/kinbench/031-tag-me.txt and apply the Red color tag to it (right-click on the file → Tags → click the red dot)",
+  "prompt": "In Finder, find the file ~/Desktop/kinbench/031-tag-me.txt and apply the Red color tag to it (right-click on the file → Tags → click the red dot). Fast path: cerebellum 'finder tag ~/Desktop/kinbench/031-tag-me.txt red'.",
   "timeout_sec": 90
 }

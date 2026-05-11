@@ -2,6 +2,6 @@
   "id": "009-finder-duplicate-file",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Duplicate the file at ~/Desktop/kinbench/009-source.txt — leave both the original and the duplicate in the same folder",
+  "prompt": "Duplicate the file at ~/Desktop/kinbench/009-source.txt — leave both the original and the duplicate in the same folder. Fast path: cerebellum 'finder copy ~/Desktop/kinbench/009-source.txt ~/Desktop/kinbench/009-source\\ copy.txt'.",
   "timeout_sec": 90
 }

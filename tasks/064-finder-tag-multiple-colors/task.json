@@ -2,5 +2,5 @@
   "id": "064-finder-tag-multiple-colors",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Apply both the Yellow and Green color tags to the file ~/Desktop/kinbench/064-multi-tag.txt"
+  "prompt": "Apply both the Yellow and Green color tags to the file ~/Desktop/kinbench/064-multi-tag.txt. Fast path: cerebellum 'finder tag ~/Desktop/kinbench/064-multi-tag.txt yellow green'."
 }

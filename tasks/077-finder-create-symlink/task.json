@@ -2,5 +2,5 @@
   "id": "077-finder-create-symlink",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Create a symbolic link at ~/Desktop/kinbench/077-link pointing to ~/Desktop/kinbench/077-target.txt"
+  "prompt": "Create a symbolic link at ~/Desktop/kinbench/077-link pointing to ~/Desktop/kinbench/077-target.txt. Fast path: cerebellum 'finder create_symlink ~/Desktop/kinbench/077-target.txt ~/Desktop/kinbench/077-link'."
 }

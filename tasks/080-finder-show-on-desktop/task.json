@@ -2,5 +2,5 @@
   "id": "080-finder-show-on-desktop",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "In Finder Preferences, enable 'Show these items on the desktop: Hard disks'"
+  "prompt": "In Finder Preferences, enable 'Show these items on the desktop: Hard disks'. Fast path: cerebellum 'finder show_on_desktop hard_disks'."
 }

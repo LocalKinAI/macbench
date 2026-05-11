@@ -2,6 +2,6 @@
   "id": "083-finder-organize-by-type",
   "category": "finder",
   "difficulty": "T3",
-  "prompt": "Organize the loose files in ~/Desktop/kinbench/083-mixed/ into subfolders by type: Images/ (jpg, png, heic), Documents/ (pdf, txt, md), Other/ (everything else)",
+  "prompt": "Organize the loose files in ~/Desktop/kinbench/083-mixed/ into subfolders by type: Images/ (jpg, png, heic), Documents/ (pdf, txt, md), Other/ (everything else). Fast path: cerebellum 'finder organize_by_type ~/Desktop/kinbench/083-mixed/'.",
   "timeout_sec": 90
 }

@@ -2,5 +2,5 @@
   "id": "053-finder-toggle-statusbar",
   "category": "finder",
   "difficulty": "T1",
-  "prompt": "Toggle the Finder status bar (View menu > Show / Hide Status Bar)"
+  "prompt": "Toggle the Finder status bar (View menu > Show / Hide Status Bar). Fast path: cerebellum 'finder toggle_statusbar'."
 }

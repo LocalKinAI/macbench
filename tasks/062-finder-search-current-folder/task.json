@@ -2,6 +2,6 @@
   "id": "062-finder-search-current-folder",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Find every file in ~/Desktop/kinbench/ whose name contains 'kinbench-search-062' and write each matching path (one per line) to ~/Desktop/kinbench/062-search-results.txt. You can use Finder's Cmd+F search field or shell tools — whichever is faster. The eval verifies the result file's contents.",
+  "prompt": "Find every file in ~/Desktop/kinbench/ whose name contains 'kinbench-search-062' and write each matching path (one per line) to ~/Desktop/kinbench/062-search-results.txt. You can use Finder's Cmd+F search field or shell tools — whichever is faster. The eval verifies the result file's contents. Fast path: cerebellum 'finder search ~/Desktop/kinbench/ kinbench-search-062 ~/Desktop/kinbench/062-search-results.txt'.",
   "timeout_sec": 90
 }

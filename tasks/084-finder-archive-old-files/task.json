@@ -2,6 +2,6 @@
   "id": "084-finder-archive-old-files",
   "category": "finder",
   "difficulty": "T3",
-  "prompt": "Move all files in ~/Desktop/kinbench/084-source/ that are older than 30 days to ~/Desktop/kinbench/084-archive/",
+  "prompt": "Move all files in ~/Desktop/kinbench/084-source/ that are older than 30 days to ~/Desktop/kinbench/084-archive/. Fast path: cerebellum 'finder archive_old ~/Desktop/kinbench/084-source/ ~/Desktop/kinbench/084-archive/ 30'.",
   "timeout_sec": 90
 }

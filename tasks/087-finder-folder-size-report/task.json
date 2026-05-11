@@ -2,5 +2,5 @@
   "id": "087-finder-folder-size-report",
   "category": "finder",
   "difficulty": "T3",
-  "prompt": "Compute the total size of each top-level folder in ~/Desktop/kinbench/087-tree/ and write a report (one line per folder, format 'NAME SIZE_BYTES') to ~/Desktop/kinbench/087-sizes.txt"
+  "prompt": "Compute the total size of each top-level folder in ~/Desktop/kinbench/087-tree/ and write a report (one line per folder, format 'NAME SIZE_BYTES') to ~/Desktop/kinbench/087-sizes.txt. Fast path: cerebellum 'finder folder_size ~/Desktop/kinbench/087-tree/ ~/Desktop/kinbench/087-sizes.txt'."
 }

@@ -2,6 +2,6 @@
   "id": "086-finder-recursive-rename-extension",
   "category": "finder",
   "difficulty": "T3",
-  "prompt": "Recursively rename all .heic files in ~/Desktop/kinbench/086-photos/ (and subfolders) to .jpg (keeping content + filename stem)",
+  "prompt": "Recursively rename all .heic files in ~/Desktop/kinbench/086-photos/ (and subfolders) to .jpg (keeping content + filename stem). Fast path: cerebellum 'finder recursive_rename_extension ~/Desktop/kinbench/086-photos/ heic jpg'.",
   "timeout_sec": 90
 }

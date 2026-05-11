@@ -2,6 +2,6 @@
   "id": "007-finder-trash-file",
   "category": "finder",
   "difficulty": "T1",
-  "prompt": "Move the file ~/Desktop/kinbench/007-doomed.txt to the Trash",
+  "prompt": "Move the file ~/Desktop/kinbench/007-doomed.txt to the Trash. Fast path: cerebellum 'finder trash ~/Desktop/kinbench/007-doomed.txt'.",
   "timeout_sec": 60
 }

@@ -2,6 +2,6 @@
   "id": "005-finder-zip",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "There are three files in ~/Desktop/kinbench/005-archive/ (a.txt, b.txt, c.txt). Compress them into a single zip archive named ~/Desktop/kinbench/005-archive.zip",
+  "prompt": "There are three files in ~/Desktop/kinbench/005-archive/ (a.txt, b.txt, c.txt). Compress them into a single zip archive named ~/Desktop/kinbench/005-archive.zip. Fast path: cerebellum 'finder zip ~/Desktop/kinbench/005-archive.zip ~/Desktop/kinbench/005-archive/a.txt ~/Desktop/kinbench/005-archive/b.txt ~/Desktop/kinbench/005-archive/c.txt'.",
   "timeout_sec": 90
 }

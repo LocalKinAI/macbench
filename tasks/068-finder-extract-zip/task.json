@@ -2,5 +2,5 @@
   "id": "068-finder-extract-zip",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "Extract the archive ~/Desktop/kinbench/068-bundle.zip into ~/Desktop/kinbench/068-extracted/"
+  "prompt": "Extract the archive ~/Desktop/kinbench/068-bundle.zip into ~/Desktop/kinbench/068-extracted/. Fast path: cerebellum 'finder extract_zip ~/Desktop/kinbench/068-bundle.zip ~/Desktop/kinbench/068-extracted/'."
 }

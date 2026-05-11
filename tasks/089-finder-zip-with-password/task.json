@@ -2,5 +2,5 @@
   "id": "089-finder-zip-with-password",
   "category": "finder",
   "difficulty": "T3",
-  "prompt": "Create a password-protected zip archive of ~/Desktop/kinbench/089-secret/ at ~/Desktop/kinbench/089-secret.zip (password: 'kinbench')"
+  "prompt": "Create a password-protected zip archive of ~/Desktop/kinbench/089-secret/ at ~/Desktop/kinbench/089-secret.zip (password: 'kinbench'). Fast path: cerebellum 'finder zip_with_password ~/Desktop/kinbench/089-secret.zip kinbench ~/Desktop/kinbench/089-secret/'."
 }

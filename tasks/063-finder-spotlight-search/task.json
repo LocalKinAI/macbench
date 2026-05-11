@@ -2,6 +2,6 @@
   "id": "063-finder-spotlight-search",
   "category": "finder",
   "difficulty": "T2",
-  "prompt": "There is a file named 'kinbench-spotlight-063.txt' somewhere under ~/Desktop/kinbench/. Find it (use Spotlight Cmd+Space, or `mdfind`, or `find` — whatever is fastest), then write its absolute path to ~/Desktop/kinbench/063-found-path.txt.",
+  "prompt": "There is a file named 'kinbench-spotlight-063.txt' somewhere under ~/Desktop/kinbench/. Find it (use Spotlight Cmd+Space, or `mdfind`, or `find` — whatever is fastest), then write its absolute path to ~/Desktop/kinbench/063-found-path.txt. Fast path: cerebellum 'finder find_in_dir ~/Desktop/kinbench/ kinbench-spotlight-063 ~/Desktop/kinbench/063-found-path.txt'.",
   "timeout_sec": 90
 }
