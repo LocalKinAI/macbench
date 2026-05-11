@@ -2,5 +2,5 @@
   "id": "197-calendar-create-recurring",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Create a recurring weekly event 'KinBench Weekly 197' starting tomorrow at 10 AM, repeating every Monday"
+  "prompt": "Create a recurring weekly event 'KinBench Weekly 197' starting tomorrow at 10 AM, repeating every Monday. Fast path: cerebellum 'calendar create_recurring Home \"KinBench Weekly 197\" \"$(date -v+1d +%Y-%m-%d) 10:00\" \"$(date -v+1d +%Y-%m-%d) 11:00\" \"FREQ=WEEKLY\"'."
 }

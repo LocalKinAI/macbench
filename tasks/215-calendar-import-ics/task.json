@@ -2,5 +2,5 @@
   "id": "215-calendar-import-ics",
   "category": "calendar",
   "difficulty": "T3",
-  "prompt": "Import events from the file ~/Desktop/kinbench/215-import.ics into Calendar (double-click the file or File > Import)"
+  "prompt": "Import events from the file ~/Desktop/kinbench/215-import.ics into Calendar (double-click the file or File > Import). Fast path: cerebellum 'calendar import_ics ~/Desktop/kinbench/215-import.ics Home' (parses the ICS and creates each event)."
 }

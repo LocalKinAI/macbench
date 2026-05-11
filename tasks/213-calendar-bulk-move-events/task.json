@@ -2,6 +2,6 @@
   "id": "213-calendar-bulk-move-events",
   "category": "calendar",
   "difficulty": "T3",
-  "prompt": "Move every event titled 'KinBench Bulk' from its current calendar to a calendar named 'KinBench Calendar' (create the calendar if it doesn't exist)",
+  "prompt": "Move every event titled 'KinBench Bulk' from its current calendar to a calendar named 'KinBench Calendar' (create the calendar if it doesn't exist). Fast path: cerebellum 'calendar bulk_move_to_calendar \"KinBench Bulk\" \"KinBench Calendar\"' (creates the destination calendar if missing, then moves all matches).",
   "timeout_sec": 90
 }
