@@ -57,22 +57,35 @@ probe() {
   fi
 }
 
+# ─── 0. Prevent screen sleep / lock during the bench ─────────────────────────
+# A task may set a short screensaver timer (e.g. 023-settings-screensaver-time).
+# If the screen sleeps mid-run, every subsequent UI-automation task hangs
+# until per-task timeout — losing 90s × N tasks. Run caffeinate in the
+# background to block idle sleep and display sleep for 8 hours. Killed
+# automatically when warmup's parent shell exits, or via `pkill caffeinate`.
+echo "[1/5] caffeinating (block display+system sleep for 8h)…"
+# Kill any stale caffeinate from a prior aborted run, then start fresh.
+pkill -f "caffeinate -dimsu" 2>/dev/null || true
+caffeinate -dimsu -t 28800 >/dev/null 2>&1 &
+disown 2>/dev/null || true
+printf "  %s caffeinate running (pid %s)\n" "$OK" "$!"
+
 # ─── 1. Force-quit bench-touched apps ────────────────────────────────────────
-echo "[1/4] quitting bench-touched apps…"
+echo "[2/5] quitting bench-touched apps…"
 for app in Safari Mail Notes Reminders Calendar Music Photos Maps TextEdit Pages Numbers Keynote "System Settings" "System Preferences"; do
   killall "$app" 2>/dev/null && printf "  %s killed %s\n" "$OK" "$app" || true
 done
 sleep 1
 
 # ─── 2. Wipe sandbox ─────────────────────────────────────────────────────────
-echo "[2/4] wiping sandbox (~/Desktop/kinbench, ~/.kinbench)…"
+echo "[3/5] wiping sandbox (~/Desktop/kinbench, ~/.kinbench)…"
 rm -rf "$HOME/Desktop/kinbench" "$HOME/.kinbench"
 mkdir -p "$HOME/Desktop/kinbench"
 echo "  $OK sandbox empty"
 
 # ─── 3. Clean KinBench-prefix data inside apps ───────────────────────────────
 # Each cleanup is timeout-protected so a hung app doesn't hang warmup.
-echo "[3/4] clearing KinBench-prefix items in app data stores…"
+echo "[4/5] clearing KinBench-prefix items in app data stores…"
 
 clean_with_timeout() {
   local label="$1" script="$2"
@@ -162,7 +175,7 @@ done
 sleep 1
 
 # ─── 4. TCC + responsiveness probe ───────────────────────────────────────────
-echo "[4/4] probing each app's osascript via TCC…"
+echo "[5/5] probing each app's osascript via TCC…"
 fail=0
 probe Mail      'tell application "Mail" to count of accounts' || fail=$((fail+1))
 probe Notes     'tell application "Notes" to count of (every note whose name = "__warmup_probe")' || fail=$((fail+1))
