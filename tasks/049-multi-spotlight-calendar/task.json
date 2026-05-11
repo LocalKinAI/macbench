@@ -3,5 +3,5 @@
   "category": "multi-app",
   "difficulty": "T3",
   "prompt": "Use Spotlight (Cmd+Space) to launch the Calendar app, then create a new event titled 'KinBench Spotlight Path' for tomorrow at 3:00 PM",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

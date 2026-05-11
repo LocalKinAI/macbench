@@ -3,5 +3,5 @@
   "category": "photos",
   "difficulty": "T1",
   "prompt": "Open the Get Info panel for a specific photo in Photos (Cmd+I). Verify by writing the file ~/Desktop/kinbench/347-confirm.txt with the photo name (Photos AS dict has no readable info-panel state, so this is a soft-pass).",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

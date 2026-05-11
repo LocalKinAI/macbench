@@ -3,5 +3,5 @@
   "category": "numbers",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/316-sheet.numbers in Numbers. Insert a new (blank) column before column B. (Click the column B header > Add Column Before, or Table menu > Add Column Before.) Save. When done, write ~/Desktop/kinbench/316-col-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

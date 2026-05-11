@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T2",
   "prompt": "Open google.com in Safari, type 'macOS computer use' into the search input, and press Return so a search results page loads.",
-  "timeout_sec": 150
+  "timeout_sec": 60
 }

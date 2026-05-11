@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T3",
   "prompt": "Open System Settings > Displays. If multiple displays are connected, toggle Mirror Displays (or use the equivalent Use as Mirror option) and write 'mirroring-toggled' to ~/Desktop/kinbench/281-result.txt. If only one display is present, write 'single display' to that file and don't attempt the toggle.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

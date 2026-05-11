@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T2",
   "prompt": "In Mail, use the search bar (or Mailbox > Search) to find all messages from sender 'kinbench@example.com'. Write the count of matching messages as a single integer (just the number, no extra text) to ~/Desktop/kinbench/142-count.txt. If no messages match, '0' is a valid answer.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

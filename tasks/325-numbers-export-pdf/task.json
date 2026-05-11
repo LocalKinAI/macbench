@@ -2,6 +2,6 @@
   "id": "325-numbers-export-pdf",
   "category": "numbers",
   "difficulty": "T3",
-  "prompt": "Open ~/Desktop/kinbench/325-sheet.numbers in Numbers. Export it as PDF to ~/Desktop/kinbench/325-sheet.pdf (File > Export To > PDF…). You may use the helper: cerebellum 'numbers save_as_pdf ~/Desktop/kinbench/325-sheet.numbers ~/Desktop/kinbench/325-sheet.pdf'.",
-  "timeout_sec": 240
+  "prompt": "Open ~/Desktop/kinbench/325-sheet.numbers in Numbers. Export it as PDF to ~/Desktop/kinbench/325-sheet.pdf (File > Export To > PDF\u2026). You may use the helper: cerebellum 'numbers save_as_pdf ~/Desktop/kinbench/325-sheet.numbers ~/Desktop/kinbench/325-sheet.pdf'.",
+  "timeout_sec": 90
 }

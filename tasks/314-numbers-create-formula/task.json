@@ -3,5 +3,5 @@
   "category": "numbers",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/314-sheet.numbers in Numbers. Cells A1 through A5 contain numbers. In cell A6, enter the formula =SUM(A1:A5) and press Enter. Save. The sum should equal 150 (10+20+30+40+50). When done, write ~/Desktop/kinbench/314-formula-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

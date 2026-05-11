@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "In System Settings > Lock Screen (or Desktop & Screen Saver), change the 'Start Screen Saver after' value to 5 minutes (or any non-current value if 5 isn't available)",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

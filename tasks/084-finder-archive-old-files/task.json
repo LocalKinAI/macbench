@@ -3,5 +3,5 @@
   "category": "finder",
   "difficulty": "T3",
   "prompt": "Move all files in ~/Desktop/kinbench/084-source/ that are older than 30 days to ~/Desktop/kinbench/084-archive/",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

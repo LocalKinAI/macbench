@@ -3,5 +3,5 @@
   "category": "terminal",
   "difficulty": "T2",
   "prompt": "Split the front Terminal window into two stacked panes (Shell > Split Window or Cmd+D). Then write 'split-done' to ~/Desktop/kinbench/288-confirm.txt.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

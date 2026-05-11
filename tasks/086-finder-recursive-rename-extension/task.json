@@ -3,5 +3,5 @@
   "category": "finder",
   "difficulty": "T3",
   "prompt": "Recursively rename all .heic files in ~/Desktop/kinbench/086-photos/ (and subfolders) to .jpg (keeping content + filename stem)",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

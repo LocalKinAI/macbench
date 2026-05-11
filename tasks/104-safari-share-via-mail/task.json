@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T2",
   "prompt": "Safari is open on https://www.apple.com. Use the Share button (or File > Share > Mail this Page) to share the page via Mail. Set the subject to 'KinBench Share 104' so we can find the draft. Save the draft (do not send).",
-  "timeout_sec": 180
+  "timeout_sec": 60
 }

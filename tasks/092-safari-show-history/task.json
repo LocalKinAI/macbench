@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T1",
   "prompt": "Open Safari's full History view (Cmd+Y or History menu > Show All History). The history page has its own URL ('history://') and is the front document when open; after triggering it, also write the file ~/Desktop/kinbench/092-history-confirm.txt containing 'history view open' to confirm completion.",
-  "timeout_sec": 90
+  "timeout_sec": 60
 }

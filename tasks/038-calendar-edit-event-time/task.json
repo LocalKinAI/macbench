@@ -3,5 +3,5 @@
   "category": "calendar",
   "difficulty": "T2",
   "prompt": "There's an event titled 'KinBench Reschedule' tomorrow at 10:00 AM. Open it in Calendar and change the start time to 11:00 AM (keep the same date, same duration).",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

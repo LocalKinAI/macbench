@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T3",
   "prompt": "In Mail, find every inbox message from a specific sender (e.g. 'bulkkinbench@example.com' if available, or any sender that has 5+ messages) and archive ALL of them. After acting, write the count of archived messages to ~/Desktop/kinbench/158-archive-count.txt. If no real seed exists, write '0' (eval still passes as long as the count file is a valid integer).",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

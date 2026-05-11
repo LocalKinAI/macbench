@@ -2,6 +2,6 @@
   "id": "139-mail-add-bcc",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "In Mail, compose a NEW draft email — do NOT send. Subject: 'KinBench 139'. To: test@example.com. Bcc: bcc@example.com. Body: 'KinBench 139 bcc test'. Fast path: `cerebellum 'mail draft_with_bcc \"KinBench 139\" test@example.com bcc@example.com \"KinBench 139 bcc test\"'`.",
-  "timeout_sec": 120
+  "prompt": "In Mail, compose a NEW draft email \u2014 do NOT send. Subject: 'KinBench 139'. To: test@example.com. Bcc: bcc@example.com. Body: 'KinBench 139 bcc test'. Fast path: `cerebellum 'mail draft_with_bcc \"KinBench 139\" test@example.com bcc@example.com \"KinBench 139 bcc test\"'`.",
+  "timeout_sec": 90
 }

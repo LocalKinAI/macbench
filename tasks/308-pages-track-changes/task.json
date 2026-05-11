@@ -3,5 +3,5 @@
   "category": "pages",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/308-doc.pages in Pages. Enable Track Changes from the Edit menu (Edit > Track Changes). Save. When done, write ~/Desktop/kinbench/308-track-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

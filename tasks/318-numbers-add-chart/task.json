@@ -3,5 +3,5 @@
   "category": "numbers",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/318-sheet.numbers in Numbers. The sheet has data in A1:B10. Select that range, then insert a 2D bar chart from it (Insert menu > Chart > 2D > Bar). Save. When done, write ~/Desktop/kinbench/318-chart-confirm.txt containing 'done'.",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

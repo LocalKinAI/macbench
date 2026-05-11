@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T2",
   "prompt": "In Mail, search for messages that have attachments (Mail search supports 'Attachments: Yes' or 'has:attachment' filter). Write the count of matching messages as a single integer to ~/Desktop/kinbench/145-count.txt. '0' is acceptable.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

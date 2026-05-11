@@ -3,5 +3,5 @@
   "category": "music",
   "difficulty": "T2",
   "prompt": "Play any album from the library. Use `cerebellum 'music play_album \"<album-name>\"'` (pick an album you discover with `cerebellum 'music search_track \"\" ~/Desktop/kinbench/342-search.txt'` or browse the library).",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "Enable the macOS firewall. System Settings > Network > Firewall > toggle on. CLI alternative requires sudo: `sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on`. Without sudo, the agent must use the UI. The eval reads `defaults read /Library/Preferences/com.apple.alf globalstate` (readable without sudo) and accepts globalstate >= 1, or soft-passes if the Firewall pane was opened.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

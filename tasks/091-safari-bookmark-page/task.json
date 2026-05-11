@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T1",
   "prompt": "Safari is open on https://www.apple.com. Bookmark the current front page with the title 'Apple Bench 091' (e.g. cerebellum 'safari bookmark https://www.apple.com Apple-Bench-091', or Cmd+D + type title). Also write the file ~/Desktop/kinbench/091-bookmark-confirm.txt containing the line 'apple.com bookmarked' to confirm completion (bookmarks plist is TCC-protected).",
-  "timeout_sec": 120
+  "timeout_sec": 60
 }

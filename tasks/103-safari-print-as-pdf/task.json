@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T2",
   "prompt": "Save the current Safari page as a PDF to ~/Desktop/kinbench/103-page.pdf (File > Export as PDF)",
-  "timeout_sec": 180
+  "timeout_sec": 60
 }

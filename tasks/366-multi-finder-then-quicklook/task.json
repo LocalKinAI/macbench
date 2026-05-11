@@ -3,5 +3,5 @@
   "category": "multi-app",
   "difficulty": "T3",
   "prompt": "Use Finder to locate the PDF that setup planted at ~/Desktop/kinbench/366-doc.pdf, open it in Preview (Quick Look or double-click), then capture a screenshot of the screen while Preview is in front and save it to ~/Desktop/kinbench/366-shot.png.",
-  "timeout_sec": 300
+  "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "170-notes-mark-checklist-item",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Open the note titled 'KinBench Mark 170' in Notes. The body has three lines: 'task one', 'task two', 'task three'. Convert them into a Notes checklist (Format → Checklist or Cmd+Shift+L), then mark the second item ('task two') as done.",
-  "timeout_sec": 120
+  "prompt": "Open the note titled 'KinBench Mark 170' in Notes. The body has three lines: 'task one', 'task two', 'task three'. Convert them into a Notes checklist (Format \u2192 Checklist or Cmd+Shift+L), then mark the second item ('task two') as done.",
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "multi-app",
   "difficulty": "T3",
   "prompt": "Setup will plant a Contacts entry named 'KinBench Apple 367' with email kinbench-apple@example.com. Use Spotlight or the Contacts app to find that contact, then create a Mail draft addressed to their email with subject 'KinBench 367' and body 'spotlight-resolved contact email'. Save as draft.",
-  "timeout_sec": 300
+  "timeout_sec": 90
 }

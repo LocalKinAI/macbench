@@ -2,6 +2,6 @@
   "id": "268-settings-default-mail",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Change the default email client. Mail app > Settings > General > 'Default email reader' > pick a different option if available. (If only Mail is installed, this task is platform-blocked — report it.) The eval reads the LaunchServices mailto handler and expects it changed; soft-passes if Mail Settings was opened.",
-  "timeout_sec": 120
+  "prompt": "Change the default email client. Mail app > Settings > General > 'Default email reader' > pick a different option if available. (If only Mail is installed, this task is platform-blocked \u2014 report it.) The eval reads the LaunchServices mailto handler and expects it changed; soft-passes if Mail Settings was opened.",
+  "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "212-calendar-merge-duplicate-events",
   "category": "calendar",
   "difficulty": "T3",
-  "prompt": "Calendar has 3 events all titled 'KinBench Dup 212' at the same date/time. Delete the duplicates so that exactly 1 'KinBench Dup 212' event remains. Hint: use cerebellum 'calendar find_events_with_summary KinBench Dup 212 /tmp/dups.txt' to inspect, then delete with cerebellum 'calendar delete_event * KinBench Dup 212' for ALL of them (note: that wipes all — better to use AppleScript to delete N-1 of them).",
-  "timeout_sec": 240
+  "prompt": "Calendar has 3 events all titled 'KinBench Dup 212' at the same date/time. Delete the duplicates so that exactly 1 'KinBench Dup 212' event remains. Hint: use cerebellum 'calendar find_events_with_summary KinBench Dup 212 /tmp/dups.txt' to inspect, then delete with cerebellum 'calendar delete_event * KinBench Dup 212' for ALL of them (note: that wipes all \u2014 better to use AppleScript to delete N-1 of them).",
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "music",
   "difficulty": "T2",
   "prompt": "Add any song from the library to the playlist 'KinBench Mix 340'. Use `cerebellum 'music add_to_playlist \"KinBench Mix 340\" \"<some-track-name>\"'`.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

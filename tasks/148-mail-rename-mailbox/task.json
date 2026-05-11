@@ -2,6 +2,6 @@
   "id": "148-mail-rename-mailbox",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "In Mail, find the mailbox named 'kinbench-rename-src' (created by setup) and rename it to 'kinbench-renamed'. Fast path: `cerebellum 'mail get_accounts /tmp/148.txt'` then `cerebellum 'mail rename_folder \"<account>\" kinbench-rename-src kinbench-renamed'`. If you cannot rename via AppleScript (some IMAP backends block it), instead delete 'kinbench-rename-src' and create a new mailbox 'kinbench-renamed' — the eval just checks that 'kinbench-renamed' exists and 'kinbench-rename-src' does not.",
-  "timeout_sec": 180
+  "prompt": "In Mail, find the mailbox named 'kinbench-rename-src' (created by setup) and rename it to 'kinbench-renamed'. Fast path: `cerebellum 'mail get_accounts /tmp/148.txt'` then `cerebellum 'mail rename_folder \"<account>\" kinbench-rename-src kinbench-renamed'`. If you cannot rename via AppleScript (some IMAP backends block it), instead delete 'kinbench-rename-src' and create a new mailbox 'kinbench-renamed' \u2014 the eval just checks that 'kinbench-renamed' exists and 'kinbench-rename-src' does not.",
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "Enable Screen Time Downtime. System Settings > Screen Time > Downtime > 'Turn On' and set a schedule. Fast path: `cerebellum 'settings open com.apple.preference.screentime'`. Screen Time state is sandboxed under com.apple.ScreenTimeAgent and not freely readable; the eval soft-passes if the Screen Time pane was opened (process running) and there's a recent change to ScreenTimeAgent prefs.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

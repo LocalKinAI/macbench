@@ -3,5 +3,5 @@
   "category": "pages",
   "difficulty": "T2",
   "prompt": "Open Pages, create a new blank document, type 'Hello world from kinbench' as the body, and save the document to ~/Desktop/kinbench/027-doc.pages",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

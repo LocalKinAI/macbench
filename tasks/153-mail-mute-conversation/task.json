@@ -2,6 +2,6 @@
   "id": "153-mail-mute-conversation",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "In Mail, mute a conversation/thread (Message menu > Mute, or right-click > Mute). Pick any inbox conversation, or one whose subject contains 'KinBench 153' if such a seed exists. After acting, write 'muted' to ~/Desktop/kinbench/153-mute-confirm.txt — the eval's paper trail because muted state isn't reliably queryable via AppleScript.",
-  "timeout_sec": 150
+  "prompt": "In Mail, mute a conversation/thread (Message menu > Mute, or right-click > Mute). Pick any inbox conversation, or one whose subject contains 'KinBench 153' if such a seed exists. After acting, write 'muted' to ~/Desktop/kinbench/153-mute-confirm.txt \u2014 the eval's paper trail because muted state isn't reliably queryable via AppleScript.",
+  "timeout_sec": 90
 }

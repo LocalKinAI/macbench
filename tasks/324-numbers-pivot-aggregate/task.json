@@ -3,5 +3,5 @@
   "category": "numbers",
   "difficulty": "T3",
   "prompt": "Open ~/Desktop/kinbench/324-sheet.numbers in Numbers. Sheet 1 has a table with 'Category' in column A and 'Amount' in column B. Create a new sheet (called 'Summary' or similar) that contains a table totalling Amount per Category. You may use a pivot table (Organize > Pivot), or write category names manually with SUMIF formulas. Save. When done, write ~/Desktop/kinbench/324-pivot-confirm.txt containing 'done'.",
-  "timeout_sec": 300
+  "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "132-mail-vip-add",
   "category": "mail",
   "difficulty": "T1",
-  "prompt": "In Mail, add a sender to the VIP list. Use the sender of any visible Inbox message — click the sender name > 'Add to VIPs' (or Message menu > Add Sender to VIPs). After acting, also write the sender's email address (or 'vip-added' if you don't have a real sender) to ~/Desktop/kinbench/132-vip-confirm.txt — this is the eval's paper trail because the VIP plist (~/Library/Mail/V*/MailData/VIPs.plist) is TCC-protected.",
-  "timeout_sec": 120
+  "prompt": "In Mail, add a sender to the VIP list. Use the sender of any visible Inbox message \u2014 click the sender name > 'Add to VIPs' (or Message menu > Add Sender to VIPs). After acting, also write the sender's email address (or 'vip-added' if you don't have a real sender) to ~/Desktop/kinbench/132-vip-confirm.txt \u2014 this is the eval's paper trail because the VIP plist (~/Library/Mail/V*/MailData/VIPs.plist) is TCC-protected.",
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "numbers",
   "difficulty": "T1",
   "prompt": "Open ~/Desktop/kinbench/313-sheet.numbers in Numbers. Click cell A1, then set its background fill color to yellow (Format sidebar > Cell > Fill > Color Fill > Yellow). Save. When done, write ~/Desktop/kinbench/313-fill-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

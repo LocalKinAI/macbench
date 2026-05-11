@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T2",
   "prompt": "Safari is open on https://zh.wikipedia.org/wiki/macOS (Chinese Wikipedia, macOS article). Use the translate button in the URL bar (or the View menu > Translate to English) to translate the page to English. If translation isn't available on this system, instead write 'translation not available' to ~/Desktop/kinbench/118-translate-confirm.txt. If you do translate, write 'translated to English' to that same file.",
-  "timeout_sec": 180
+  "timeout_sec": 60
 }

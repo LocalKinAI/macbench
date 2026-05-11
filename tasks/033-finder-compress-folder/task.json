@@ -3,5 +3,5 @@
   "category": "finder",
   "difficulty": "T2",
   "prompt": "Compress the entire folder ~/Desktop/kinbench/033-folder/ (with all its contents and nested subfolders) into a single archive at ~/Desktop/kinbench/033-folder.zip",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

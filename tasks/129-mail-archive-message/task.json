@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T1",
   "prompt": "In Mail, find an inbox message with subject containing 'KinBench 129' and move it to the Archive mailbox. After acting, also write 'archived' to ~/Desktop/kinbench/129-archive-confirm.txt. Fast path: `cerebellum 'mail archive_by_subject \"KinBench 129\"'` then write the confirm file.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

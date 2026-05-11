@@ -3,5 +3,5 @@
   "category": "pages",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/302-doc.pages in Pages. Add a bulleted list with three items: 'Apple', 'Banana', 'Cherry'. (Format > Bullets & Lists, or simply type and let Pages convert.) Save. When done, write ~/Desktop/kinbench/302-bullets-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

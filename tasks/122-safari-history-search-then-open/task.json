@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T3",
   "prompt": "Safari has https://www.apple.com in its history (from a prior visit during setup). Open History > Show All History (Cmd+Y), type 'apple' into the search field, then double-click the first matching entry so it opens in Safari. The end state: Safari's front document URL should contain 'apple.com'.",
-  "timeout_sec": 180
+  "timeout_sec": 60
 }

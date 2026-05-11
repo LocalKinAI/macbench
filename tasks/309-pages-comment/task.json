@@ -3,5 +3,5 @@
   "category": "pages",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/309-doc.pages in Pages. Select the first paragraph in the body and add a comment containing the text 'KinBench 309 comment' (Insert menu > Comment). Save. When done, write ~/Desktop/kinbench/309-comment-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

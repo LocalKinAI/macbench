@@ -3,5 +3,5 @@
   "category": "numbers",
   "difficulty": "T3",
   "prompt": "Open the CSV file ~/Desktop/kinbench/323-data.csv in Numbers (File > Open, or drag onto Numbers). Numbers will create a new spreadsheet. Save the resulting spreadsheet to ~/Desktop/kinbench/323-imported.numbers. When done, write ~/Desktop/kinbench/323-csv-confirm.txt containing 'done'.",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

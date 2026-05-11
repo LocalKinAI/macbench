@@ -2,6 +2,6 @@
   "id": "361-multi-photo-from-camera-to-mail",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Acquire a JPEG photo via the camera (Photo Booth or imagesnap) and save it to ~/Desktop/kinbench/361-photo.jpg. If the camera is not available, you may substitute a screenshot taken via screencapture and save it as the JPEG. Then create a Mail draft with subject 'KinBench 361' and attach the photo. Save as draft — do not send.",
-  "timeout_sec": 360
+  "prompt": "Acquire a JPEG photo via the camera (Photo Booth or imagesnap) and save it to ~/Desktop/kinbench/361-photo.jpg. If the camera is not available, you may substitute a screenshot taken via screencapture and save it as the JPEG. Then create a Mail draft with subject 'KinBench 361' and attach the photo. Save as draft \u2014 do not send.",
+  "timeout_sec": 90
 }

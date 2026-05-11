@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "Enable 'Three-Finger Drag' for the trackpad. System Settings > Accessibility > Pointer Control > Trackpad Options > toggle 'Use trackpad for dragging' on, and pick 'Three-Finger Drag' style. Fast path: `defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true && defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true`. The eval reads TrackpadThreeFingerDrag and expects 1.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T2",
   "prompt": "Change Safari's default search engine to DuckDuckGo (Safari menu > Settings > Search > Search engine > DuckDuckGo).",
-  "timeout_sec": 150
+  "timeout_sec": 60
 }

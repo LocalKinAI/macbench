@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T1",
   "prompt": "Open Safari and use Google to search for the phrase 'macOS computer use benchmark'",
-  "timeout_sec": 90
+  "timeout_sec": 60
 }

@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "Toggle iCloud Drive sync. System Settings > [Apple ID] > iCloud > iCloud Drive > toggle 'Sync this Mac'. iCloud state is sandboxed; the eval soft-passes if the iCloud pane was opened (System Settings running). If not signed in to iCloud, report as platform-blocked.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

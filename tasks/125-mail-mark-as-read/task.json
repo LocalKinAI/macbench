@@ -2,6 +2,6 @@
   "id": "125-mail-mark-as-read",
   "category": "mail",
   "difficulty": "T1",
-  "prompt": "In Mail, find the message in the Inbox with subject containing 'KinBench 125' and mark it as READ. After acting, also write the string 'marked-read' to ~/Desktop/kinbench/125-read-confirm.txt — this is the eval's paper trail because the Mail inbox state isn't always queryable from a sandboxed eval. Fast path: `cerebellum 'mail mark_read \"KinBench 125\"'` then `echo marked-read > ~/Desktop/kinbench/125-read-confirm.txt`.",
-  "timeout_sec": 120
+  "prompt": "In Mail, find the message in the Inbox with subject containing 'KinBench 125' and mark it as READ. After acting, also write the string 'marked-read' to ~/Desktop/kinbench/125-read-confirm.txt \u2014 this is the eval's paper trail because the Mail inbox state isn't always queryable from a sandboxed eval. Fast path: `cerebellum 'mail mark_read \"KinBench 125\"'` then `echo marked-read > ~/Desktop/kinbench/125-read-confirm.txt`.",
+  "timeout_sec": 90
 }

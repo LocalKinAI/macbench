@@ -3,5 +3,5 @@
   "category": "pages",
   "difficulty": "T1",
   "prompt": "Open ~/Desktop/kinbench/298-doc.pages in Pages. Find the phrase 'KinBench 298' in the document body, select it, and make it bold (Cmd+B). Save the file. You may use the helper: cerebellum 'pages bold_selection' after selecting the text. When done, write the file ~/Desktop/kinbench/298-bold-confirm.txt containing the word 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

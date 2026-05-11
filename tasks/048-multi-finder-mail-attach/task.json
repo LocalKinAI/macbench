@@ -2,6 +2,6 @@
   "id": "048-multi-finder-mail-attach",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Find the file ~/Desktop/kinbench/048-attach.txt in Finder, then open Mail and create a new draft email with subject 'KinBench 048' that has that file attached. Don't send it — leave it as a draft.",
-  "timeout_sec": 240
+  "prompt": "Find the file ~/Desktop/kinbench/048-attach.txt in Finder, then open Mail and create a new draft email with subject 'KinBench 048' that has that file attached. Don't send it \u2014 leave it as a draft.",
+  "timeout_sec": 90
 }

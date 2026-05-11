@@ -3,5 +3,5 @@
   "category": "photos",
   "difficulty": "T1",
   "prompt": "Mark a specific photo (recent one in the library) as Favorite. Use `cerebellum 'photos recent 1 /tmp/346-recent.txt'` to learn its name, then `cerebellum 'photos set_favorite \"<name>\"'`.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

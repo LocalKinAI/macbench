@@ -3,5 +3,5 @@
   "category": "photos",
   "difficulty": "T3",
   "prompt": "Find the first 3 recent photos and mark each as Favorite. Use `cerebellum 'photos recent 3 ~/Desktop/kinbench/354-recent.txt'`, then for each name in that file call `cerebellum 'photos set_favorite \"<name>\"'`.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "terminal",
   "difficulty": "T2",
   "prompt": "Tint the active Terminal tab so its background colour is visibly reddish. Use Shell > Edit Title > Tab Bar Color, Window menu, or change the active profile to one with a red/warm background. Then write 'tab-colored' to ~/Desktop/kinbench/286-confirm.txt.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

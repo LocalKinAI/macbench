@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T1",
   "prompt": "In Mail, find an inbox message with subject containing 'KinBench 128' and apply the BLUE flag specifically (flag index 4 in Mail's AppleScript dictionary). After acting, also write 'flagged-blue' to ~/Desktop/kinbench/128-flag-confirm.txt. Fast path: `cerebellum 'mail set_flag \"KinBench 128\" 4'` then write the confirm file.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T2",
   "prompt": "In Mail, create a new rule (Mail > Settings > Rules > Add Rule) named 'kinbench-rule' that flags messages whose Subject contains 'kinbench-rule'. After creating the rule, write 'rule-created' to ~/Desktop/kinbench/150-rule-confirm.txt. The Mail rules plist (~/Library/Mail/V*/MailData/SyncedRules.plist) is sometimes TCC-protected and not directly queryable from the eval, so the confirmation file is the eval's paper trail.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

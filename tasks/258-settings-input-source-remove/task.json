@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "Remove a non-default input source. System Settings > Keyboard > Input Sources > Edit > select a non-primary source > '-'. Setup adds a temporary input source (British English) so the eval can detect a real removal. The eval reads com.apple.HIToolbox AppleEnabledInputSources and expects the count to have decreased.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

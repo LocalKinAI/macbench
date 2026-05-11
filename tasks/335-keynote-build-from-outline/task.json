@@ -3,5 +3,5 @@
   "category": "keynote",
   "difficulty": "T3",
   "prompt": "Read the markdown outline at ~/Desktop/kinbench/335-outline.md. Each '#' heading becomes a slide title; the bullet lines beneath it become that slide's body bullets. Build a 5-slide Keynote presentation matching the outline and save it to ~/Desktop/kinbench/335-deck.key. When done, write ~/Desktop/kinbench/335-outline-confirm.txt containing 'done'.",
-  "timeout_sec": 360
+  "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "112-safari-mute-tab",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Safari has a tab open on a page that auto-plays audio (https://www.soundhelix.com/examples). Mute that tab — right-click the tab and choose Mute Tab, or click the speaker icon. Then write 'tab muted' to ~/Desktop/kinbench/112-mute-confirm.txt (browser audio state isn't reliably queryable from shell).",
-  "timeout_sec": 120
+  "prompt": "Safari has a tab open on a page that auto-plays audio (https://www.soundhelix.com/examples). Mute that tab \u2014 right-click the tab and choose Mute Tab, or click the speaker icon. Then write 'tab muted' to ~/Desktop/kinbench/112-mute-confirm.txt (browser audio state isn't reliably queryable from shell).",
+  "timeout_sec": 60
 }

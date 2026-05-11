@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T2",
   "prompt": "In Mail, create a new mailbox named 'KinBench 146' (if not present) and move an inbox message into it. If you cannot find a seed inbox message, just creating the mailbox 'KinBench 146' is sufficient. Also write 'moved-to-folder' to ~/Desktop/kinbench/146-move-confirm.txt. Fast path: `cerebellum 'mail move_to_folder \"KinBench 146\" \"KinBench 146\"'` (subject and folder both 'KinBench 146') then write the confirm file.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "calendar",
   "difficulty": "T2",
   "prompt": "The event titled 'KinBench Move 203' currently lives in one calendar. There is at least one other writable calendar on the system. Move the event so that it lives in a DIFFERENT calendar from where it currently is. (Hint: in Calendar.app, open the event Info inspector, click the colored calendar pill and pick a different calendar; or use AppleScript to copy properties into a new event in another calendar and delete the original.)",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T3",
   "prompt": "Open Safari and navigate to https://duckduckgo.com, fill in the search box with the query 'kinbench', submit the search, then click the first organic (non-ad) result. Finally write the URL of the page you landed on to ~/Desktop/kinbench/120-landing.txt.",
-  "timeout_sec": 240
+  "timeout_sec": 60
 }

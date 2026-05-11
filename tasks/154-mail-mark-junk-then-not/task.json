@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T2",
   "prompt": "In Mail, take any inbox message (or one whose subject contains 'KinBench 154') and (a) mark it as Junk, then (b) immediately mark it as Not Junk (reverse the action). After completing BOTH steps, write 'junked-then-unjunked' to ~/Desktop/kinbench/154-junk-confirm.txt. The eval relies on the confirmation file because junk-status isn't reliably queryable.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

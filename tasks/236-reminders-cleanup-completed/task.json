@@ -3,5 +3,5 @@
   "category": "reminders",
   "difficulty": "T3",
   "prompt": "Delete every completed reminder in the Reminders app (across all lists)",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

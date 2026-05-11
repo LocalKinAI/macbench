@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "Pick a different screen saver. System Settings > Screen Saver > scroll and select any non-current screen saver. Fast path: `cerebellum 'settings open com.apple.ScreenSaver-Settings.extension'`. The eval reads `defaults -currentHost read com.apple.screensaver moduleDict` and expects the moduleName to have changed since setup.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

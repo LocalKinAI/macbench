@@ -3,5 +3,5 @@
   "category": "notes",
   "difficulty": "T3",
   "prompt": "Delete every note in Notes that has the #kinbench-archive tag",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

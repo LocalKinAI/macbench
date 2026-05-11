@@ -3,5 +3,5 @@
   "category": "pages",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/304-doc.pages in Pages. Select all text (Cmd+A) and set the line spacing to 1.5 (use the Format sidebar > Text > Spacing > 1.5 lines, or Format > Text > Spacing). Save. When done, write ~/Desktop/kinbench/304-spacing-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

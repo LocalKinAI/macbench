@@ -3,5 +3,5 @@
   "category": "keynote",
   "difficulty": "T1",
   "prompt": "Open ~/Desktop/kinbench/327-deck.key in Keynote (which starts with one slide). Add a new slide (Slide menu > New Slide, or Cmd+Shift+N). Save. When done, write ~/Desktop/kinbench/327-slide-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

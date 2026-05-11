@@ -3,5 +3,5 @@
   "category": "maps",
   "difficulty": "T3",
   "prompt": "Open the Maps app and plan a driving route with at least two stops, going from 'Apple Park, Cupertino' to 'Stanford University, Stanford CA' to 'Half Moon Bay, CA'. Once Maps shows the multi-leg route, write the three location names (one per line) to ~/Desktop/kinbench/360-route.txt to confirm.",
-  "timeout_sec": 300
+  "timeout_sec": 90
 }

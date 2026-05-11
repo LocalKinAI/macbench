@@ -3,5 +3,5 @@
   "category": "calendar",
   "difficulty": "T2",
   "prompt": "Simulating an invitation decline: the event 'KinBench Invite 207' exists in your Calendar. Mark this event as 'Declined' by setting its description (notes) field to exactly the word 'DECLINED'. (Real iCalendar invitations can't be planted without an external sender, so this proxy field is used for verification.)",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

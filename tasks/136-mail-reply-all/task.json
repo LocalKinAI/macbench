@@ -2,6 +2,6 @@
   "id": "136-mail-reply-all",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "In Mail, create a reply-all DRAFT to a multi-recipient message (subject containing 'KinBench 136') with body 'KinBench 136 reply-all'. Do NOT send — save as draft. If no seed inbox message exists, create a fallback NEW draft with subject 'Re: KinBench 136' and body 'KinBench 136 reply-all' with To: a@example.com and Cc: b@example.com,c@example.com. Fast path for fallback: `cerebellum 'mail draft_with_cc \"Re: KinBench 136\" a@example.com \"b@example.com, c@example.com\" \"KinBench 136 reply-all\"'`.",
-  "timeout_sec": 120
+  "prompt": "In Mail, create a reply-all DRAFT to a multi-recipient message (subject containing 'KinBench 136') with body 'KinBench 136 reply-all'. Do NOT send \u2014 save as draft. If no seed inbox message exists, create a fallback NEW draft with subject 'Re: KinBench 136' and body 'KinBench 136 reply-all' with To: a@example.com and Cc: b@example.com,c@example.com. Fast path for fallback: `cerebellum 'mail draft_with_cc \"Re: KinBench 136\" a@example.com \"b@example.com, c@example.com\" \"KinBench 136 reply-all\"'`.",
+  "timeout_sec": 90
 }

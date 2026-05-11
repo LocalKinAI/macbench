@@ -3,5 +3,5 @@
   "category": "pages",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/307-doc.pages in Pages. Run spell-check on the document: Edit menu > Spelling and Grammar > Check Document Now. (The document contains a deliberate misspelling.) After running the check, write ~/Desktop/kinbench/307-spellcheck-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

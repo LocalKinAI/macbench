@@ -3,5 +3,5 @@
   "category": "pages",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/305-doc.pages in Pages. Place the cursor at the end of the body text, then insert a page break (Insert menu > Page Break, or Fn+Cmd+Return / Cmd+Return). Save. When done, write ~/Desktop/kinbench/305-pagebreak-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

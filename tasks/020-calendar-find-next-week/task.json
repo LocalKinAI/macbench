@@ -3,5 +3,5 @@
   "category": "calendar",
   "difficulty": "T2",
   "prompt": "There's an event titled 'KinBench Weekly Sync' next week in the Calendar. Find which day of the week it falls on and write the day name (Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday) to ~/Desktop/kinbench/020-day.txt",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

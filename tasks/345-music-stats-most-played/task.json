@@ -3,5 +3,5 @@
   "category": "music",
   "difficulty": "T3",
   "prompt": "Find the most-played song in the Music library (highest play count) and write its title and artist to ~/Desktop/kinbench/345-top.txt. Use `cerebellum 'music most_played ~/Desktop/kinbench/345-top.txt'`.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "multi-app",
   "difficulty": "T3",
   "prompt": "If the Music app is currently playing, pause it (spacebar in Music or the menu bar/Now Playing widget). Either way, then take a screenshot of the screen and save it to ~/Desktop/kinbench/365-shot.png.",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

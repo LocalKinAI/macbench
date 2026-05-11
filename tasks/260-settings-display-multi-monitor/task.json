@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "Open System Settings > Displays. If multiple displays are connected, navigate to the Arrange view; if only one display is present, that's fine. Either way, write either 'single display' or 'multi-monitor: <N>' (where N is the display count) to ~/Desktop/kinbench/260-displays.txt.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

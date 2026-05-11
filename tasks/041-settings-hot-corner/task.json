@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "Open System Settings > Desktop & Dock and set the bottom-right Hot Corner to 'Mission Control'",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

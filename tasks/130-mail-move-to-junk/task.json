@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T1",
   "prompt": "In Mail, find an inbox message with subject containing 'KinBench 130' and mark it as Junk (Message > Move to Junk). After acting, also write 'junked' to ~/Desktop/kinbench/130-junk-confirm.txt (eval paper trail).",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

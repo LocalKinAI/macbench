@@ -2,6 +2,6 @@
   "id": "358-maps-save-favorite",
   "category": "maps",
   "difficulty": "T2",
-  "prompt": "Save 'Apple Park, Cupertino' to Favorites in Maps. Maps has no AS dictionary for favorites — open the location via `cerebellum 'maps bookmark \"Apple Park, Cupertino\" 37.3349 -122.0090'`, then write ~/Desktop/kinbench/358-confirm.txt to confirm.",
-  "timeout_sec": 120
+  "prompt": "Save 'Apple Park, Cupertino' to Favorites in Maps. Maps has no AS dictionary for favorites \u2014 open the location via `cerebellum 'maps bookmark \"Apple Park, Cupertino\" 37.3349 -122.0090'`, then write ~/Desktop/kinbench/358-confirm.txt to confirm.",
+  "timeout_sec": 90
 }

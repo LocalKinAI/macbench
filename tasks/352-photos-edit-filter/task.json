@@ -3,5 +3,5 @@
   "category": "photos",
   "difficulty": "T2",
   "prompt": "Apply the 'Vivid' filter to a specific photo (Edit mode > Filters > Vivid). Photos AS dict doesn't expose Edit/Filter; do via UI/keystroke and write ~/Desktop/kinbench/352-confirm.txt with the photo name to confirm.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

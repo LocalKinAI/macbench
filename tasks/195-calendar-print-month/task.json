@@ -3,5 +3,5 @@
   "category": "calendar",
   "difficulty": "T1",
   "prompt": "Open Calendar.app, switch to Month view (Cmd+3), then print/export the current month view as a PDF to ~/Desktop/kinbench/195-month.pdf. You can use File > Print (Cmd+P) and choose 'Save as PDF' from the PDF dropdown, or any other technique that creates a real PDF at that path.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T1",
   "prompt": "Open Safari's Reading List sidebar (Bookmarks menu > Show Reading List Sidebar, or Cmd+Shift+L). After it's visible, write the file ~/Desktop/kinbench/094-reading-list-confirm.txt with the text 'reading list shown'.",
-  "timeout_sec": 90
+  "timeout_sec": 60
 }

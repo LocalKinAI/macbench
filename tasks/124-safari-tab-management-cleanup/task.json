@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T3",
   "prompt": "Safari's front window has 5 tabs (apple.com, github.com, wikipedia.org, mozilla.org, example.com). Close every tab EXCEPT apple.com and github.com, leaving exactly 2 tabs open. Order doesn't matter, but only those two URLs should remain.",
-  "timeout_sec": 180
+  "timeout_sec": 60
 }

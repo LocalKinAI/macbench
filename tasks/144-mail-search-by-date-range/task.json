@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T2",
   "prompt": "In Mail, search for messages received this week (last 7 days). Write the count of matches as a single integer to ~/Desktop/kinbench/144-count.txt. '0' is acceptable.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

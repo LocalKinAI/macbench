@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T2",
   "prompt": "A Tab Group named 'KinBench Research' already exists. Safari is open on https://en.wikipedia.org. Move the current front tab into the 'KinBench Research' Tab Group (right-click the tab > Move to Tab Group > KinBench Research). Then write 'wikipedia moved to: KinBench Research' to ~/Desktop/kinbench/115-tabgroup-move-confirm.txt.",
-  "timeout_sec": 180
+  "timeout_sec": 60
 }

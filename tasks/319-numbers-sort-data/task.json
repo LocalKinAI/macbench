@@ -3,5 +3,5 @@
   "category": "numbers",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/319-sheet.numbers in Numbers. Sort the rows of the active table by column A in ascending order (Organize sidebar > Sort > Sort entire table > Add a column > Column A > Ascending; or click the column A header dropdown > Sort Ascending). Save. When done, write ~/Desktop/kinbench/319-sort-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

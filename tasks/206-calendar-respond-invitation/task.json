@@ -3,5 +3,5 @@
   "category": "calendar",
   "difficulty": "T2",
   "prompt": "Simulating an invitation acceptance: the event 'KinBench Invite 206' exists in your Calendar. Mark this event as 'Accepted' by setting its description (notes) field to exactly the word 'ACCEPTED'. (Real iCalendar invitations can't be planted without an external sender, so this proxy field is used for verification.)",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

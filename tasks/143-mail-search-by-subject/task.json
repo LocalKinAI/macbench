@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T2",
   "prompt": "In Mail, search for messages whose subject contains 'receipt' (use the search bar). Write the count of matches as a single integer to ~/Desktop/kinbench/143-count.txt. '0' is acceptable if there are no matches. Fast path: `cerebellum 'mail search_inbox receipt /tmp/143.txt' && wc -l < /tmp/143.txt | tr -d ' ' > ~/Desktop/kinbench/143-count.txt`.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }

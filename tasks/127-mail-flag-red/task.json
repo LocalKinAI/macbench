@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T1",
   "prompt": "In Mail, find an inbox message with subject containing 'KinBench 127' and apply the RED flag (flag index 0 in Mail's AppleScript dictionary). After acting, also write 'flagged-red' to ~/Desktop/kinbench/127-flag-confirm.txt. Fast path: `cerebellum 'mail set_flag \"KinBench 127\" 0'` then write the confirm file.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

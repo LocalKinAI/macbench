@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T3",
   "prompt": "In System Settings > General > Login Items, in the 'Allow in the Background' list, disable every non-essential entry. Define essential = Apple-signed (Bundle Identifier starts with `com.apple.`). Setup adds a sentinel non-Apple entry that the agent must remove or disable. The eval lists Login Items via osascript and expects the sentinel to be gone (or all non-Apple entries to be gone).",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

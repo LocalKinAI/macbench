@@ -3,5 +3,5 @@
   "category": "terminal",
   "difficulty": "T3",
   "prompt": "Use ping (3 packets) and traceroute (max 5 hops) to diagnose connectivity to apple.com. Write a combined report to ~/Desktop/kinbench/297-diagnose.txt",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T3",
   "prompt": "In Mail, find every inbox message whose subject contains 'promo' OR 'sale', and move all of them to a mailbox folder named 'kinbench-promos' (create the folder if it doesn't exist). After acting, write the count of messages moved to ~/Desktop/kinbench/163-promo-count.txt (just the integer). If no matches exist, '0' is acceptable. Fast path: create folder via `cerebellum 'mail create_folder \"<account>\" kinbench-promos'`, then `cerebellum 'mail move_to_folder promo kinbench-promos'` and `cerebellum 'mail move_to_folder sale kinbench-promos'`.",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

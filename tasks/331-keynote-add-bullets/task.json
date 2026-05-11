@@ -3,5 +3,5 @@
   "category": "keynote",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/331-deck.key in Keynote. Add a content slide whose body contains three bullet points: 'First', 'Second', 'Third'. Save. When done, write ~/Desktop/kinbench/331-bullets-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

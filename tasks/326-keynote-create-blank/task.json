@@ -3,5 +3,5 @@
   "category": "keynote",
   "difficulty": "T1",
   "prompt": "Open Keynote and create a new blank presentation (File > New > pick any theme). Save the deck to ~/Desktop/kinbench/326-deck.key. You may use the helper: cerebellum 'keynote new ~/Desktop/kinbench/326-deck.key'.",
-  "timeout_sec": 240
+  "timeout_sec": 90
 }

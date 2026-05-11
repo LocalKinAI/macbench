@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T2",
   "prompt": "Open Safari Settings (Cmd+,) > Websites > Pop-up Windows. example.com is in the Currently Open Websites list. Set its per-site permission to 'Allow' (instead of Block / Block and Notify). Then write 'popups allowed for example.com' to ~/Desktop/kinbench/109-popups-confirm.txt.",
-  "timeout_sec": 180
+  "timeout_sec": 60
 }

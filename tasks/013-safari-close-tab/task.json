@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T2",
   "prompt": "Safari has three tabs open (apple.com, github.com, wikipedia.org). Close the GitHub tab specifically, leaving the other two open.",
-  "timeout_sec": 90
+  "timeout_sec": 60
 }

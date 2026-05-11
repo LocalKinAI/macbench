@@ -2,6 +2,6 @@
   "id": "140-mail-attach-file-to-draft",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "In Mail, compose a NEW draft email — do NOT send. Subject: 'KinBench 140'. Attach the file ~/Desktop/kinbench/140-attach.txt to the draft. Fast path: `cerebellum 'mail draft \"KinBench 140\" \"Attachment test\" \"$HOME/Desktop/kinbench/140-attach.txt\"'`.",
-  "timeout_sec": 150
+  "prompt": "In Mail, compose a NEW draft email \u2014 do NOT send. Subject: 'KinBench 140'. Attach the file ~/Desktop/kinbench/140-attach.txt to the draft. Fast path: `cerebellum 'mail draft \"KinBench 140\" \"Attachment test\" \"$HOME/Desktop/kinbench/140-attach.txt\"'`.",
+  "timeout_sec": 90
 }

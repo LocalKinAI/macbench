@@ -3,5 +3,5 @@
   "category": "calendar",
   "difficulty": "T1",
   "prompt": "Open Calendar.app and use View > Go to Date (Cmd+Shift+T) to navigate to March 15, 2027. Then write '2027-03-15' to ~/Desktop/kinbench/196-confirm.txt to confirm.",
-  "timeout_sec": 120
+  "timeout_sec": 90
 }

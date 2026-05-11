@@ -3,5 +3,5 @@
   "category": "multi-app",
   "difficulty": "T3",
   "prompt": "Capture a screenshot of the current screen and save it to ~/Desktop/kinbench/364-shot.png (use screencapture or Cmd+Shift+3). Then create a new Pages document with that screenshot inserted into the body, and save the Pages document to ~/Desktop/kinbench/364-doc.pages.",
-  "timeout_sec": 360
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "keynote",
   "difficulty": "T2",
   "prompt": "Open ~/Desktop/kinbench/328-deck.key in Keynote. Click the title placeholder on the first slide and type the title 'KinBench Keynote 328'. Save. When done, write ~/Desktop/kinbench/328-title-confirm.txt containing 'done'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

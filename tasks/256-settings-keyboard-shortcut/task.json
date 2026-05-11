@@ -3,5 +3,5 @@
   "category": "settings",
   "difficulty": "T2",
   "prompt": "Add a custom keyboard shortcut Cmd+Shift+K for the menu item 'About Safari' in Safari. UI path: System Settings > Keyboard > Keyboard Shortcuts > App Shortcuts > + > select Safari and type the menu title 'About Safari', then assign Cmd+Shift+K. Fast path: `defaults write com.apple.Safari NSUserKeyEquivalents -dict-add 'About Safari' '@$k'` (where `@` = Cmd, `$` = Shift). The eval reads com.apple.Safari NSUserKeyEquivalents and expects 'About Safari' to map to '@$k'.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

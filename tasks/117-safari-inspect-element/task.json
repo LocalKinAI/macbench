@@ -3,5 +3,5 @@
   "category": "safari",
   "difficulty": "T2",
   "prompt": "Safari is open on https://www.example.com with the Develop menu already enabled. Open the Web Inspector for the current page (Develop > Show Web Inspector, or Cmd+Option+I). Then write 'web inspector opened' to ~/Desktop/kinbench/117-inspector-confirm.txt.",
-  "timeout_sec": 120
+  "timeout_sec": 60
 }

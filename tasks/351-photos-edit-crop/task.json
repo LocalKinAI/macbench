@@ -3,5 +3,5 @@
   "category": "photos",
   "difficulty": "T2",
   "prompt": "Crop a specific photo to a square aspect ratio in Photos (Edit mode > Crop > Square). Photos AS dict doesn't expose Edit mode; do via UI/keystroke and write ~/Desktop/kinbench/351-confirm.txt with the photo name to confirm.",
-  "timeout_sec": 180
+  "timeout_sec": 90
 }

@@ -3,5 +3,5 @@
   "category": "mail",
   "difficulty": "T2",
   "prompt": "In Mail, delete the custom mailbox named 'kinbench-deleteme' (it is pre-created by the setup). Fast path: `cerebellum 'mail get_accounts /tmp/149.txt'` then `cerebellum 'mail delete_folder \"<account>\" kinbench-deleteme'`.",
-  "timeout_sec": 150
+  "timeout_sec": 90
 }
