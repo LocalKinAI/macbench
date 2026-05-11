@@ -2,6 +2,6 @@
   "id": "017-calendar-find-tomorrow",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "In Calendar, find the event titled 'KinBench Find Me' that's scheduled for tomorrow. Note the time it starts and write that time (in HH:MM 24-hour format) to ~/Desktop/kinbench/017-found-time.txt. Fast path: cerebellum 'calendar find_events_with_summary \"KinBench Find Me\" ~/Desktop/kinbench/017-found-time.txt' then format the HH:MM start time from the output.",
+  "prompt": "In Calendar, find the event titled 'KinBench Find Me' that's scheduled for tomorrow. Note the time it starts and write that time (in HH:MM 24-hour format) to ~/Desktop/kinbench/017-found-time.txt. Fast path: cerebellum 'calendar find_event_hhmm \"KinBench Find Me\" ~/Desktop/kinbench/017-found-time.txt' (writes only the HH:MM start time directly — no parsing needed).",
   "timeout_sec": 90
 }
