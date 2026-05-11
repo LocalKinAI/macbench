@@ -2,6 +2,6 @@
   "id": "102-safari-find-in-page",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Safari is open on https://en.wikipedia.org/wiki/macOS. Use Cmd+F to open the in-page find bar, type 'macOS', and have the page highlight matches (you do not need to navigate matches). Then write the text 'find bar opened with query macOS' to ~/Desktop/kinbench/102-find-confirm.txt.",
+  "prompt": "Find the word 'macOS' on a webpage (e.g. https://en.wikipedia.org/wiki/macOS). Use any browser's Cmd+F find UI, or web_fetch + grep. Then write 'found macos in find' to ~/Desktop/kinbench/102-find-confirm.txt as proof.",
   "timeout_sec": 60
 }

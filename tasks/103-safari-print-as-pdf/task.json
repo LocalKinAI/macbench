@@ -2,6 +2,6 @@
   "id": "103-safari-print-as-pdf",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Save the current Safari page as a PDF to ~/Desktop/kinbench/103-page.pdf (File > Export as PDF)",
+  "prompt": "Save https://www.apple.com/macos/ as a PDF to ~/Desktop/kinbench/103-page.pdf. Use any tool: cerebellum 'safari open_url ...' + UI Print/Export, browser_session, or fetch the page content via web_fetch and convert. Eval only checks the PDF file exists and is valid.",
   "timeout_sec": 60
 }

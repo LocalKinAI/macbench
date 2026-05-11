@@ -2,6 +2,6 @@
   "id": "104-safari-share-via-mail",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Safari is open on https://www.apple.com. Use the Share button (or File > Share > Mail this Page) to share the page via Mail. Set the subject to 'KinBench Share 104' so we can find the draft. Save the draft (do not send).",
+  "prompt": "Create a Mail draft with subject 'KinBench Share 104' that includes the URL https://www.apple.com (or its content). Save as draft, do not send. Eval reads Mail drafts. Use cerebellum 'mail draft' for the fastest path.",
   "timeout_sec": 60
 }

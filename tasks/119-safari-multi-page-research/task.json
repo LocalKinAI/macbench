@@ -2,6 +2,6 @@
   "id": "119-safari-multi-page-research",
   "category": "safari",
   "difficulty": "T3",
-  "prompt": "Open three Safari tabs \u2014 https://www.apple.com/macos/, https://en.wikipedia.org/wiki/MacOS, and https://github.com \u2014 then research and write the 4-digit year that macOS (originally Mac OS X) was first publicly released to ~/Desktop/kinbench/119-year.txt. The answer is 2001.",
+  "prompt": "Find the 4-digit year macOS (originally Mac OS X) was first released and write it to ~/Desktop/kinbench/119-year.txt. Use any source: web_fetch on the three urls https://www.apple.com/macos/, https://en.wikipedia.org/wiki/MacOS, https://github.com; browser_session; or even your prior knowledge. Eval only reads the file.",
   "timeout_sec": 60
 }

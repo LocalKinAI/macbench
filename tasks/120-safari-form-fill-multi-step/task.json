@@ -2,6 +2,6 @@
   "id": "120-safari-form-fill-multi-step",
   "category": "safari",
   "difficulty": "T3",
-  "prompt": "Open Safari and navigate to https://duckduckgo.com, fill in the search box with the query 'kinbench', submit the search, then click the first organic (non-ad) result. Finally write the URL of the page you landed on to ~/Desktop/kinbench/120-landing.txt.",
+  "prompt": "Search 'kinbench' on duckduckgo.com and write the URL of the first organic (non-ad) result to ~/Desktop/kinbench/120-landing.txt. browser_session is the cleanest tool for this multi-step web flow. Any browser works.",
   "timeout_sec": 60
 }
