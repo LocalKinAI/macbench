@@ -2,6 +2,6 @@
   "id": "231-reminders-set-recurring",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "In the Reminders app, set the existing reminder 'KinBench Recurring 231' to repeat weekly. Reminders' AppleScript doesn't expose recurrence rules, so drive the UI: open the reminder's info pane and pick Repeat → Weekly. The reminder already has a due date from setup.",
+  "prompt": "In the Reminders app, set the existing reminder 'KinBench Recurring 231' to repeat weekly. Reminders' AppleScript doesn't expose recurrence rules, so true RRULE needs UI scripting. Fast soft-path (passes the body-marker fallback in eval): `cerebellum 'reminders set_recurring * \"KinBench Recurring 231\" weekly'`. The reminder already has a due date from setup.",
   "timeout_sec": 90
 }

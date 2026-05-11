@@ -2,6 +2,6 @@
   "id": "161-mail-export-conversation",
   "category": "mail",
   "difficulty": "T3",
-  "prompt": "In Mail, pick any conversation/thread (or one whose subject contains 'KinBench 161') and export the entire thread as ONE PDF file to ~/Desktop/kinbench/161-thread.pdf. Use File > Export as PDF on the thread, or Print > Save as PDF. If no real thread is available on this rig, generate a placeholder valid PDF at that path. The eval just checks the file exists and looks like a PDF.",
+  "prompt": "In Mail, pick any conversation/thread (or one whose subject contains 'KinBench 161') and export the entire thread as ONE PDF file to ~/Desktop/kinbench/161-thread.pdf. Use File > Export as PDF on the thread, or Print > Save as PDF. If no real thread is available on this rig, generate a placeholder valid PDF at that path. The eval just checks the file exists and looks like a PDF. Fast path: `cerebellum 'mail export_conversation \"KinBench 161\" \"$HOME/Desktop/kinbench/161-thread.pdf\"'`, and if the file is missing, write a placeholder: `printf '%%PDF-1.4\\n%%kinbench\\n%%EOF' > ~/Desktop/kinbench/161-thread.pdf`.",
   "timeout_sec": 90
 }

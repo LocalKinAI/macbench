@@ -2,6 +2,6 @@
   "id": "235-reminders-from-mail",
   "category": "reminders",
   "difficulty": "T3",
-  "prompt": "There is a saved mail-style message at ~/Desktop/kinbench/235-mail.txt containing three action items (each line starting with 'Please '). Read it, extract the three action items, and create a reminder for each in the Reminders list 'kinbench-from-mail-235'. Title each reminder with the exact action text (e.g. 'Please review the Q3 report'). Setup creates the list; you create the three reminders. Fast path: `cerebellum 'reminders create kinbench-from-mail-235 \"Please ...\"'` for each. (We don't read Mail directly because TCC blocks it — the .txt mock keeps the task offline-runnable.)",
+  "prompt": "There is a saved mail-style message at ~/Desktop/kinbench/235-mail.txt containing three action items (each line starting with 'Please '). Read it, extract the three action items, and create a reminder for each in the Reminders list 'kinbench-from-mail-235'. Title each reminder with the exact action text (e.g. 'Please review the Q3 report'). Setup creates the list; you create the three reminders. Fast path: `cerebellum 'reminders from_mail ~/Desktop/kinbench/235-mail.txt kinbench-from-mail-235 \"Please \"'` (one call extracts every line starting with the prefix and creates a reminder per line). (We don't read Mail directly because TCC blocks it — the .txt mock keeps the task offline-runnable.)",
   "timeout_sec": 90
 }

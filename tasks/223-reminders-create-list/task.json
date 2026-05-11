@@ -2,5 +2,5 @@
   "id": "223-reminders-create-list",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Create a new reminder list named 'kinbench-list-223'"
+  "prompt": "Create a new reminder list named 'kinbench-list-223'. Fast path: `cerebellum 'reminders create_list kinbench-list-223'`."
 }

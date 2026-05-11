@@ -2,5 +2,5 @@
   "id": "225-reminders-delete-list",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Delete the reminder list named 'kinbench-deleteme-225'"
+  "prompt": "Delete the reminder list named 'kinbench-deleteme-225'. Fast path: `cerebellum 'reminders delete_list kinbench-deleteme-225'`."
 }

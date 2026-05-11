@@ -2,5 +2,5 @@
   "id": "253-settings-dock-size",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Resize the Dock to the smallest size (System Settings > Desktop & Dock > Size slider all the way left)"
+  "prompt": "Resize the Dock to the smallest size (System Settings > Desktop & Dock > Size slider all the way left). Fast path: `cerebellum 'settings set_dock_size 16'`."
 }

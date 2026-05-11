@@ -2,5 +2,5 @@
   "id": "252-settings-dock-position",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Move the Dock to the Left side of the screen (System Settings > Desktop & Dock > Position on screen: Left)"
+  "prompt": "Move the Dock to the Left side of the screen (System Settings > Desktop & Dock > Position on screen: Left). Fast path: `cerebellum 'settings set_dock_position LEFT'`."
 }

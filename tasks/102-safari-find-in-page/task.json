@@ -2,6 +2,6 @@
   "id": "102-safari-find-in-page",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Find the word 'macOS' on a webpage (e.g. https://en.wikipedia.org/wiki/macOS). Use any browser's Cmd+F find UI, or web_fetch + grep. Then write 'found macos in find' to ~/Desktop/kinbench/102-find-confirm.txt as proof.",
+  "prompt": "Find the word 'macOS' on a webpage (e.g. https://en.wikipedia.org/wiki/macOS). Use any browser's Cmd+F find UI, or web_fetch + grep, or cerebellum 'safari find_in_page macOS' then cerebellum 'safari confirm ~/Desktop/kinbench/102-find-confirm.txt \"found macos in find\"'. Then write 'found macos in find' to ~/Desktop/kinbench/102-find-confirm.txt as proof.",
   "timeout_sec": 60
 }

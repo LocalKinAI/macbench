@@ -2,6 +2,6 @@
   "id": "254-settings-mission-control-spaces",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Create a new Space in Mission Control. Press Ctrl+Up to enter Mission Control, then click the '+' button at the top right. Fast path: run `osascript -e 'tell application \"Mission Control\" to launch'` then click +. The eval reads com.apple.spaces SpacesDisplayConfiguration and expects the total space count to have increased since setup.",
+  "prompt": "Create a new Space in Mission Control. Press Ctrl+Up to enter Mission Control, then click the '+' button at the top right. Fast path: `cerebellum 'settings create_space'` (launches Mission Control and clicks the + button). The eval reads com.apple.spaces SpacesDisplayConfiguration and expects the total space count to have increased since setup.",
   "timeout_sec": 90
 }

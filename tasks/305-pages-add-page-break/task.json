@@ -2,6 +2,6 @@
   "id": "305-pages-add-page-break",
   "category": "pages",
   "difficulty": "T2",
-  "prompt": "Open ~/Desktop/kinbench/305-doc.pages in Pages. Place the cursor at the end of the body text, then insert a page break (Insert menu > Page Break, or Fn+Cmd+Return / Cmd+Return). Save. When done, write ~/Desktop/kinbench/305-pagebreak-confirm.txt containing 'done'.",
+  "prompt": "Open ~/Desktop/kinbench/305-doc.pages in Pages. Place the cursor at the end of the body text, then insert a page break (Insert menu > Page Break, or Fn+Cmd+Return / Cmd+Return). Save. You may use the helper: cerebellum 'pages add_page_break ~/Desktop/kinbench/305-doc.pages'. When done, write ~/Desktop/kinbench/305-pagebreak-confirm.txt containing 'done'.",
   "timeout_sec": 90
 }

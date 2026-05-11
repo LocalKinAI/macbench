@@ -2,6 +2,6 @@
   "id": "043-terminal-git-init",
   "category": "terminal",
   "difficulty": "T2",
-  "prompt": "Open Terminal and create a new directory at ~/Desktop/kinbench/043-repo, cd into it, and initialize an empty git repository (git init)",
+  "prompt": "Open Terminal and create a new directory at ~/Desktop/kinbench/043-repo, cd into it, and initialize an empty git repository (git init). Fast path: cerebellum 'terminal git_init ~/Desktop/kinbench/043-repo'.",
   "timeout_sec": 90
 }

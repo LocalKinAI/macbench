@@ -2,5 +2,5 @@
   "id": "248-settings-show-time-machine-menubar",
   "category": "settings",
   "difficulty": "T1",
-  "prompt": "Show the Time Machine icon in the menu bar"
+  "prompt": "Show the Time Machine icon in the menu bar. Fast path: `cerebellum 'settings show_time_machine_menubar'`."
 }

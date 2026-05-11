@@ -2,6 +2,6 @@
   "id": "104-safari-share-via-mail",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Create a Mail draft with subject 'KinBench Share 104' that includes the URL https://www.apple.com (or its content). Save as draft, do not send. Eval reads Mail drafts. Use cerebellum 'mail draft' for the fastest path.",
+  "prompt": "Create a Mail draft with subject 'KinBench Share 104' that includes the URL https://www.apple.com (or its content). Save as draft, do not send. Eval reads Mail drafts. Fastest path: cerebellum 'safari share_via_mail https://www.apple.com \"KinBench Share 104\"' (or the equivalent cerebellum 'mail draft \"KinBench Share 104\" https://www.apple.com').",
   "timeout_sec": 60
 }

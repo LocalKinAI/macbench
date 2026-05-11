@@ -2,6 +2,6 @@
   "id": "354-photos-search-then-tag",
   "category": "photos",
   "difficulty": "T3",
-  "prompt": "Find the first 3 recent photos and mark each as Favorite. Use `cerebellum 'photos recent 3 ~/Desktop/kinbench/354-recent.txt'`, then for each name in that file call `cerebellum 'photos set_favorite \"<name>\"'`.",
+  "prompt": "Find the first 3 recent photos and mark each as Favorite. Use `cerebellum 'photos recent 3 ~/Desktop/kinbench/354-recent.txt'`, then for each name in that file call `cerebellum 'photos set_favorite \"<name>\"'`. Shortcut: `cerebellum 'photos search_then_tag \"\" ~/Desktop/kinbench/354-count.txt'` favorites everything matching a query in one call.",
   "timeout_sec": 90
 }

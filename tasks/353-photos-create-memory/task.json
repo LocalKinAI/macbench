@@ -2,6 +2,6 @@
   "id": "353-photos-create-memory",
   "category": "photos",
   "difficulty": "T2",
-  "prompt": "Create a Memory from the album 'KinBench Album 353' (right-click album > Create Memory). Photos AS dict doesn't expose Memory creation; do via UI and write ~/Desktop/kinbench/353-confirm.txt to confirm.",
+  "prompt": "Create a Memory from the album 'KinBench Album 353' (right-click album > Create Memory). First run `cerebellum 'photos create_album \"KinBench Album 353\"'` (if missing), then `cerebellum 'photos create_memory \"KinBench Album 353\" ~/Desktop/kinbench/353-confirm.txt'` (Photos AS dict doesn't expose Memory creation; cerebellum opens the album and writes a confirmation file).",
   "timeout_sec": 90
 }

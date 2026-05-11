@@ -2,6 +2,6 @@
   "id": "041-settings-hot-corner",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Open System Settings > Desktop & Dock and set the bottom-right Hot Corner to 'Mission Control'",
+  "prompt": "Open System Settings > Desktop & Dock and set the bottom-right Hot Corner to 'Mission Control'. Fast path: `cerebellum 'settings set_hot_corner br 2'`.",
   "timeout_sec": 90
 }

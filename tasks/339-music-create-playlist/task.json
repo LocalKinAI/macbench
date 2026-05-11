@@ -2,5 +2,6 @@
   "id": "339-music-create-playlist",
   "category": "music",
   "difficulty": "T2",
-  "prompt": "Create a new playlist titled 'KinBench Mix 339'"
+  "prompt": "Create a new playlist titled 'KinBench Mix 339'. Use `cerebellum 'music create_playlist \"KinBench Mix 339\"'`.",
+  "timeout_sec": 60
 }

@@ -2,6 +2,6 @@
   "id": "099-safari-fill-search-form",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Open google.com in Safari, type 'macOS computer use' into the search input, and press Return so a search results page loads.",
+  "prompt": "Open google.com in Safari, type 'macOS computer use' into the search input, and press Return so a search results page loads (fastest: cerebellum 'safari open_url https://www.google.com/search?q=macOS+computer+use').",
   "timeout_sec": 60
 }

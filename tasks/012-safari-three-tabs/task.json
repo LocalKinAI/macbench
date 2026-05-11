@@ -2,6 +2,6 @@
   "id": "012-safari-three-tabs",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Open Safari and create three tabs in a single window, navigating to each of these URLs: https://www.apple.com, https://github.com, https://en.wikipedia.org",
+  "prompt": "Open Safari and create three tabs in a single window, navigating to each of these URLs: https://www.apple.com, https://github.com, https://en.wikipedia.org (e.g. cerebellum 'safari open_url https://www.apple.com' then cerebellum 'safari new_tab https://github.com' then cerebellum 'safari new_tab https://en.wikipedia.org').",
   "timeout_sec": 60
 }

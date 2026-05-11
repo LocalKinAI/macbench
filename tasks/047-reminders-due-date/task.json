@@ -2,6 +2,6 @@
   "id": "047-reminders-due-date",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "There's a reminder titled 'KinBench Schedule' in the Reminders app. Set its due date to tomorrow at 5:00 PM (17:00).",
+  "prompt": "There's a reminder titled 'KinBench Schedule' in the Reminders app. Set its due date to tomorrow at 5:00 PM (17:00). Fast path: `cerebellum 'reminders set_due Reminders \"KinBench Schedule\" \"YYYY-MM-DD 17:00\"'` (substitute tomorrow's date).",
   "timeout_sec": 90
 }

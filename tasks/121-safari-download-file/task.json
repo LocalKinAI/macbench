@@ -2,6 +2,6 @@
   "id": "121-safari-download-file",
   "category": "safari",
   "difficulty": "T3",
-  "prompt": "Download https://www.gnu.org/licenses/gpl-3.0.txt to ~/Downloads/gpl-3.0.txt. Use curl, web_fetch, or any browser's Save As. Eval reads the file and checks GPL text is present.",
+  "prompt": "Download https://www.gnu.org/licenses/gpl-3.0.txt to ~/Downloads/gpl-3.0.txt. Use curl, web_fetch, or any browser's Save As, or cerebellum 'safari download https://www.gnu.org/licenses/gpl-3.0.txt ~/Downloads/gpl-3.0.txt' (curl under the hood). Eval reads the file and checks GPL text is present.",
   "timeout_sec": 60
 }

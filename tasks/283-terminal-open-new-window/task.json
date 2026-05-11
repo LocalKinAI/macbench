@@ -2,6 +2,6 @@
   "id": "283-terminal-open-new-window",
   "category": "terminal",
   "difficulty": "T1",
-  "prompt": "Open a new Terminal window (Cmd+N or via the File menu) and then write the text 'window-opened' to ~/Desktop/kinbench/283-confirm.txt to confirm the action completed.",
+  "prompt": "Open a new Terminal window (Cmd+N or via the File menu) and then write the text 'window-opened' to ~/Desktop/kinbench/283-confirm.txt to confirm the action completed. Fast path: cerebellum 'terminal open_new_window' followed by cerebellum 'terminal run \"mkdir -p ~/Desktop/kinbench && echo window-opened > ~/Desktop/kinbench/283-confirm.txt\"'.",
   "timeout_sec": 90
 }

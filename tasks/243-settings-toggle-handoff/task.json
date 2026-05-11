@@ -2,6 +2,6 @@
   "id": "243-settings-toggle-handoff",
   "category": "settings",
   "difficulty": "T1",
-  "prompt": "Toggle Handoff. System Settings > General > AirDrop & Handoff > 'Allow Handoff between this Mac and your iCloud devices' — click it once. Fast path: `defaults -currentHost write com.apple.coreservices.useractivityd ActivityAdvertisingAllowed -bool <new_value>` then `killall useractivityd`. The eval reads ActivityAdvertisingAllowed and expects it changed.",
+  "prompt": "Toggle Handoff. System Settings > General > AirDrop & Handoff > 'Allow Handoff between this Mac and your iCloud devices' — click it once. Fast path: `cerebellum 'settings toggle_handoff'` (writes ActivityAdvertisingAllowed and restarts useractivityd). The eval reads ActivityAdvertisingAllowed and expects it changed.",
   "timeout_sec": 90
 }

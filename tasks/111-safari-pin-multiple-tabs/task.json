@@ -2,5 +2,5 @@
   "id": "111-safari-pin-multiple-tabs",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "In a single Safari window, pin three tabs: apple.com, github.com, en.wikipedia.org"
+  "prompt": "In a single Safari window, pin three tabs: apple.com, github.com, en.wikipedia.org (fastest: cerebellum 'safari pin_multiple_tabs https://www.apple.com https://github.com https://en.wikipedia.org' which opens each as a new tab and pins it in turn)."
 }

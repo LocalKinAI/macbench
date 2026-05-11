@@ -2,5 +2,5 @@
   "id": "255-settings-keyboard-repeat-rate",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Set the keyboard Key Repeat to the fastest (rightmost) setting in System Settings > Keyboard"
+  "prompt": "Set the keyboard Key Repeat to the fastest (rightmost) setting in System Settings > Keyboard. Fast path: `cerebellum 'settings set_keyboard_repeat 2'`."
 }

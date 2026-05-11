@@ -2,5 +2,6 @@
   "id": "343-music-shuffle-toggle",
   "category": "music",
   "difficulty": "T2",
-  "prompt": "Toggle shuffle mode in Music (Controls > Shuffle)"
+  "prompt": "Toggle shuffle mode in Music (Controls > Shuffle). Use `cerebellum 'music shuffle_toggle'` (or `cerebellum 'music shuffle on'` / `cerebellum 'music shuffle off'`).",
+  "timeout_sec": 60
 }

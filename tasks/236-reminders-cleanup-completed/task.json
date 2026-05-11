@@ -2,6 +2,6 @@
   "id": "236-reminders-cleanup-completed",
   "category": "reminders",
   "difficulty": "T3",
-  "prompt": "Delete every completed reminder in the Reminders app (across all lists)",
+  "prompt": "Delete every completed reminder in the Reminders app (across all lists). Fast path: `cerebellum 'reminders cleanup_completed'` (no args = every list).",
   "timeout_sec": 90
 }

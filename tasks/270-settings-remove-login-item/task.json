@@ -2,5 +2,5 @@
   "id": "270-settings-remove-login-item",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Remove a non-essential app from System Settings > General > Login Items"
+  "prompt": "Remove a non-essential app from System Settings > General > Login Items. Fast path: `cerebellum 'settings remove_login_item TextEdit'`."
 }

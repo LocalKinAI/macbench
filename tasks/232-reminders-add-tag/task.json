@@ -2,5 +2,5 @@
   "id": "232-reminders-add-tag",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Add a #kinbench tag to the reminder 'KinBench Tag 232'"
+  "prompt": "Add a #kinbench tag to the reminder 'KinBench Tag 232'. Fast path: `cerebellum 'reminders add_tag * \"KinBench Tag 232\" kinbench'` (Reminders AS hides the tag property on macOS 14+, so the dispatcher stashes '#kinbench' in the body — eval grep accepts the body form)."
 }

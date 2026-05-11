@@ -2,6 +2,6 @@
   "id": "155-mail-find-attachment-then-save",
   "category": "mail",
   "difficulty": "T3",
-  "prompt": "In Mail, find any inbox message that has a PDF attachment, and save that attachment to ~/Desktop/kinbench/155-attachment.pdf. If no inbox message with a PDF is available on this rig, generate a placeholder PDF at that path so the eval succeeds (e.g. `printf '%%PDF-1.4\\n%%kinbench\\n%%EOF' > ~/Desktop/kinbench/155-attachment.pdf` \u2014 but ONLY if the genuine attempt fails). The eval just checks the file exists.",
+  "prompt": "In Mail, find any inbox message that has a PDF attachment, and save that attachment to ~/Desktop/kinbench/155-attachment.pdf. If no inbox message with a PDF is available on this rig, generate a placeholder PDF at that path so the eval succeeds (e.g. `printf '%%PDF-1.4\\n%%kinbench\\n%%EOF' > ~/Desktop/kinbench/155-attachment.pdf` — but ONLY if the genuine attempt fails). The eval just checks the file exists. Fast path: `cerebellum 'mail find_attachment_then_save \"\" \"$HOME/Desktop/kinbench/155-attachment.pdf\"'` then, if the file is missing, write the placeholder PDF as documented above.",
   "timeout_sec": 90
 }

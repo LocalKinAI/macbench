@@ -2,6 +2,6 @@
   "id": "247-settings-toggle-low-power",
   "category": "settings",
   "difficulty": "T1",
-  "prompt": "Enable Low Power Mode. System Settings > Battery > Low Power Mode > 'Always' or 'Only on Battery'. Setting via CLI requires sudo (`sudo pmset -a lowpowermode 1`); without sudo the agent must use the System Settings UI. The eval reads `pmset -g` and accepts either lowpowermode=1 or the Battery pane being open.",
+  "prompt": "Enable Low Power Mode. System Settings > Battery > Low Power Mode > 'Always' or 'Only on Battery'. Setting via CLI requires sudo (`sudo pmset -a lowpowermode 1`); without sudo the agent must use the System Settings UI. Fast path: `cerebellum 'settings toggle_low_power'` (tries sudo pmset; falls back to opening Battery pane). The eval reads `pmset -g` and accepts either lowpowermode=1 or the Battery pane being open.",
   "timeout_sec": 90
 }

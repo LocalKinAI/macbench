@@ -2,6 +2,6 @@
   "id": "357-maps-get-directions",
   "category": "maps",
   "difficulty": "T2",
-  "prompt": "Get driving directions from 'Current Location' to 'Apple Park, Cupertino'. Use `cerebellum 'maps directions \"Current Location\" \"Apple Park, Cupertino\"'`.",
+  "prompt": "Get driving directions from 'Current Location' to 'Apple Park, Cupertino'. Use `cerebellum 'maps get_directions \"Current Location\" \"Apple Park, Cupertino\"'` (alias: `maps directions`).",
   "timeout_sec": 90
 }

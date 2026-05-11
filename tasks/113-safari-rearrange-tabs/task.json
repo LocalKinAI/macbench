@@ -2,6 +2,6 @@
   "id": "113-safari-rearrange-tabs",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Safari has three tabs in this order: github.com, en.wikipedia.org, apple.com. Rearrange them so apple.com becomes the FIRST (leftmost) tab in the front window. You can drag the tab or use Window menu > Move Tab to New Window then drag back. Order verified via AppleScript reading tabs of front window.",
+  "prompt": "Safari has three tabs in this order: github.com, en.wikipedia.org, apple.com. Rearrange them so apple.com becomes the FIRST (leftmost) tab in the front window. You can drag the tab or use Window menu > Move Tab to New Window then drag back. Or cerebellum 'safari rearrange_tabs apple.com 1' (which closes all tabs and reopens with apple.com first, preserving the other URLs). Order verified via AppleScript reading tabs of front window.",
   "timeout_sec": 60
 }

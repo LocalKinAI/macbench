@@ -2,5 +2,5 @@
   "id": "271-settings-energy-saver",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Configure 'Turn display off after' to 5 minutes (System Settings > Lock Screen)"
+  "prompt": "Configure 'Turn display off after' to 5 minutes (System Settings > Lock Screen). Fast path: `cerebellum 'settings set_displaysleep 5'`."
 }

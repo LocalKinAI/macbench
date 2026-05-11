@@ -2,6 +2,6 @@
   "id": "308-pages-track-changes",
   "category": "pages",
   "difficulty": "T2",
-  "prompt": "Open ~/Desktop/kinbench/308-doc.pages in Pages. Enable Track Changes from the Edit menu (Edit > Track Changes). Save. When done, write ~/Desktop/kinbench/308-track-confirm.txt containing 'done'.",
+  "prompt": "Open ~/Desktop/kinbench/308-doc.pages in Pages. Enable Track Changes from the Edit menu (Edit > Track Changes). Save. You may use the helper: cerebellum 'pages track_changes ~/Desktop/kinbench/308-doc.pages on'. When done, write ~/Desktop/kinbench/308-track-confirm.txt containing 'done'.",
   "timeout_sec": 90
 }

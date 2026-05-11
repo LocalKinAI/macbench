@@ -2,6 +2,6 @@
   "id": "115-safari-tab-group-move-tab",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "A Tab Group named 'KinBench Research' already exists. Safari is open on https://en.wikipedia.org. Move the current front tab into the 'KinBench Research' Tab Group (right-click the tab > Move to Tab Group > KinBench Research). Then write 'wikipedia moved to: KinBench Research' to ~/Desktop/kinbench/115-tabgroup-move-confirm.txt.",
+  "prompt": "A Tab Group named 'KinBench Research' already exists. Safari is open on https://en.wikipedia.org. Move the current front tab into the 'KinBench Research' Tab Group (right-click the tab > Move to Tab Group > KinBench Research; or cerebellum 'safari tab_group_move_tab \"KinBench Research\" wikipedia ~/Desktop/kinbench/115-tabgroup-move-confirm.txt' which drives the Window menu and writes the confirm file). Then write 'wikipedia moved to: KinBench Research' to ~/Desktop/kinbench/115-tabgroup-move-confirm.txt.",
   "timeout_sec": 60
 }

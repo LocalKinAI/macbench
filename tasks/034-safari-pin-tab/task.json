@@ -2,6 +2,6 @@
   "id": "034-safari-pin-tab",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "In Safari, with apple.com loaded as the front tab, pin that tab (Window menu \u2192 Pin Tab, or right-click \u2192 Pin Tab)",
+  "prompt": "In Safari, with apple.com loaded as the front tab, pin that tab (Window menu \u2192 Pin Tab, or right-click \u2192 Pin Tab; or cerebellum 'safari pin_tab https://www.apple.com').",
   "timeout_sec": 60
 }

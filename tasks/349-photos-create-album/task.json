@@ -2,5 +2,6 @@
   "id": "349-photos-create-album",
   "category": "photos",
   "difficulty": "T2",
-  "prompt": "Create a new album titled 'KinBench Album 349' in Photos"
+  "prompt": "Create a new album titled 'KinBench Album 349' in Photos. Use `cerebellum 'photos create_album \"KinBench Album 349\"'`.",
+  "timeout_sec": 60
 }

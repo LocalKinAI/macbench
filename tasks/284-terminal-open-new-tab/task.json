@@ -2,6 +2,6 @@
   "id": "284-terminal-open-new-tab",
   "category": "terminal",
   "difficulty": "T1",
-  "prompt": "Open a new Terminal tab in the front Terminal window (Cmd+T or Shell > New Tab) and write the text 'tab-opened' to ~/Desktop/kinbench/284-confirm.txt to confirm.",
+  "prompt": "Open a new Terminal tab in the front Terminal window (Cmd+T or Shell > New Tab) and write the text 'tab-opened' to ~/Desktop/kinbench/284-confirm.txt to confirm. Fast path: cerebellum 'terminal open_new_tab' followed by cerebellum 'terminal run \"mkdir -p ~/Desktop/kinbench && echo tab-opened > ~/Desktop/kinbench/284-confirm.txt\"'.",
   "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "157-mail-forward-then-archive",
   "category": "mail",
   "difficulty": "T3",
-  "prompt": "Two-step: (a) forward an inbox message (or any visible message) to test@example.com \u2014 save as DRAFT, do NOT send. (b) Archive the original inbox message. If no seed message exists, fallback: create a NEW draft with subject 'Fwd: KinBench 157' to test@example.com, then write 'archived' to ~/Desktop/kinbench/157-archive-confirm.txt as the archive-step paper trail.",
+  "prompt": "Two-step: (a) forward an inbox message (or any visible message) to test@example.com — save as DRAFT, do NOT send. (b) Archive the original inbox message. If no seed message exists, fallback: create a NEW draft with subject 'Fwd: KinBench 157' to test@example.com, then write 'archived' to ~/Desktop/kinbench/157-archive-confirm.txt as the archive-step paper trail. Fast path: `cerebellum 'mail forward_then_archive \"KinBench 157\" test@example.com'` then `echo archived > ~/Desktop/kinbench/157-archive-confirm.txt`.",
   "timeout_sec": 90
 }

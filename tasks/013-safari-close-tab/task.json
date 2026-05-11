@@ -2,6 +2,6 @@
   "id": "013-safari-close-tab",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Safari has three tabs open (apple.com, github.com, wikipedia.org). Close the GitHub tab specifically, leaving the other two open.",
+  "prompt": "Safari has three tabs open (apple.com, github.com, wikipedia.org). Close the GitHub tab specifically, leaving the other two open (e.g. cerebellum 'safari close_tab_by_url github.com').",
   "timeout_sec": 60
 }

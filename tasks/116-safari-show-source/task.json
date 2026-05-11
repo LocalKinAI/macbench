@@ -2,6 +2,6 @@
   "id": "116-safari-show-source",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Save the HTML source of https://www.example.com to ~/Desktop/kinbench/116-source.html. Any tool works: curl, web_fetch, Safari View Source. Eval reads the file and checks for valid HTML.",
+  "prompt": "Save the HTML source of https://www.example.com to ~/Desktop/kinbench/116-source.html. Any tool works: curl, web_fetch, Safari View Source, or cerebellum 'safari show_source https://www.example.com ~/Desktop/kinbench/116-source.html' (which uses curl under the hood). Eval reads the file and checks for valid HTML.",
   "timeout_sec": 60
 }

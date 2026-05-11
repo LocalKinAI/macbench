@@ -2,6 +2,6 @@
   "id": "040-settings-volume",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Set the system output volume to 50% (use any method — menu bar volume slider, System Settings > Sound, or function keys)",
+  "prompt": "Set the system output volume to 50% (use any method — menu bar volume slider, System Settings > Sound, or function keys). Fast path: `cerebellum 'settings set_volume 50'`.",
   "timeout_sec": 90
 }

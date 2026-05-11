@@ -2,6 +2,6 @@
   "id": "285-terminal-clear-screen",
   "category": "terminal",
   "difficulty": "T1",
-  "prompt": "Clear the Terminal screen (Cmd+K, or run the 'clear' command, or send the ANSI reset). Then write the text 'screen-cleared' to ~/Desktop/kinbench/285-confirm.txt to confirm.",
+  "prompt": "Clear the Terminal screen (Cmd+K, or run the 'clear' command, or send the ANSI reset). Then write the text 'screen-cleared' to ~/Desktop/kinbench/285-confirm.txt to confirm. Fast path: cerebellum 'terminal clear_screen' followed by cerebellum 'terminal run \"mkdir -p ~/Desktop/kinbench && echo screen-cleared > ~/Desktop/kinbench/285-confirm.txt\"'.",
   "timeout_sec": 90
 }

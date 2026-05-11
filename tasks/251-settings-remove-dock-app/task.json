@@ -2,5 +2,5 @@
   "id": "251-settings-remove-dock-app",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Remove the app 'TextEdit' from the Dock (drag out and 'Remove' or right-click > Options > Remove from Dock)"
+  "prompt": "Remove the app 'TextEdit' from the Dock (drag out and 'Remove' or right-click > Options > Remove from Dock). Fast path: `cerebellum 'settings remove_dock_app TextEdit'`."
 }

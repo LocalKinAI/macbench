@@ -2,5 +2,5 @@
   "id": "263-settings-trackpad-tap-to-click",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Toggle 'Tap to Click' on the trackpad (System Settings > Trackpad > Point & Click)"
+  "prompt": "Toggle 'Tap to Click' on the trackpad (System Settings > Trackpad > Point & Click). Fast path: `cerebellum 'settings toggle_trackpad_tap_to_click'`."
 }

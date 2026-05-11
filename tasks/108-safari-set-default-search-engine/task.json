@@ -2,6 +2,6 @@
   "id": "108-safari-set-default-search-engine",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Change Safari's default search engine to DuckDuckGo (Safari menu > Settings > Search > Search engine > DuckDuckGo).",
+  "prompt": "Change Safari's default search engine to DuckDuckGo (Safari menu > Settings > Search > Search engine > DuckDuckGo; or cerebellum 'safari set_default_search_engine duckduckgo' which flips defaults com.apple.Safari SearchProviderIdentifier).",
   "timeout_sec": 60
 }

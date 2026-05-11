@@ -2,6 +2,6 @@
   "id": "046-reminders-complete",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "In the Reminders app, mark the reminder titled 'KinBench Mark Done' as completed (click its checkbox)",
+  "prompt": "In the Reminders app, mark the reminder titled 'KinBench Mark Done' as completed (click its checkbox). Fast path: `cerebellum 'reminders complete Reminders \"KinBench Mark Done\"'`.",
   "timeout_sec": 90
 }

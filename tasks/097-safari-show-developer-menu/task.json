@@ -2,5 +2,5 @@
   "id": "097-safari-show-developer-menu",
   "category": "safari",
   "difficulty": "T1",
-  "prompt": "Enable the Develop menu in Safari (Settings > Advanced > 'Show features for web developers')"
+  "prompt": "Enable the Develop menu in Safari (Settings > Advanced > 'Show features for web developers'; or cerebellum 'safari show_developer_menu' which flips defaults com.apple.Safari IncludeDevelopMenu YES)."
 }

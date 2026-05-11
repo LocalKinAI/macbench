@@ -2,6 +2,6 @@
   "id": "114-safari-tab-group-create",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Create a new Tab Group in Safari named 'KinBench Research'. Use File menu > New Empty Tab Group (or the sidebar's '+' next to Tab Groups). Then write 'tab group: KinBench Research' to ~/Desktop/kinbench/114-tabgroup-confirm.txt.",
+  "prompt": "Create a new Tab Group in Safari named 'KinBench Research'. Use File menu > New Empty Tab Group (or the sidebar's '+' next to Tab Groups; or cerebellum 'safari tab_group_create \"KinBench Research\" ~/Desktop/kinbench/114-tabgroup-confirm.txt' which drives the menu and writes the confirm file). Then write 'tab group: KinBench Research' to ~/Desktop/kinbench/114-tabgroup-confirm.txt.",
   "timeout_sec": 60
 }

@@ -2,6 +2,6 @@
   "id": "282-settings-revoke-screen-recording",
   "category": "settings",
   "difficulty": "T3",
-  "prompt": "Revoke Screen Recording permission for a non-essential app. System Settings > Privacy & Security > Screen Recording > find a non-essential app and toggle it off. Note: the TCC database is sandboxed and requires Full Disk Access plus user interaction (no programmatic 'sudo tccutil reset' alternative is allowed by macOS without UI). The eval soft-passes if the Screen Recording pane was opened.",
+  "prompt": "Revoke Screen Recording permission for a non-essential app. System Settings > Privacy & Security > Screen Recording > find a non-essential app and toggle it off. Note: the TCC database is sandboxed and requires Full Disk Access plus user interaction (no programmatic 'sudo tccutil reset' alternative is allowed by macOS without UI). Fast path: `cerebellum 'settings revoke_screen_recording com.example.app'` (tries tccutil reset; falls back to opening the pane). The eval soft-passes if the Screen Recording pane was opened.",
   "timeout_sec": 90
 }

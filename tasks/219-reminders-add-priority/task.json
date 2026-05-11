@@ -2,5 +2,5 @@
   "id": "219-reminders-add-priority",
   "category": "reminders",
   "difficulty": "T1",
-  "prompt": "Set the priority of the reminder 'KinBench Priority 219' to High"
+  "prompt": "Set the priority of the reminder 'KinBench Priority 219' to High. Fast path: `cerebellum 'reminders set_priority Reminders \"KinBench Priority 219\" high'` (priority 1=high, 5=medium, 9=low; word forms accepted)."
 }

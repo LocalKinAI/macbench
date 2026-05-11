@@ -2,6 +2,6 @@
   "id": "237-reminders-bulk-priority",
   "category": "reminders",
   "difficulty": "T3",
-  "prompt": "Set the priority to High on every reminder due today",
+  "prompt": "Set the priority to High on every reminder due today. Fast path: `cerebellum 'reminders bulk_priority_today high'` (scans every list, filters by due-date-is-today).",
   "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "124-safari-tab-management-cleanup",
   "category": "safari",
   "difficulty": "T3",
-  "prompt": "Safari's front window has 5 tabs (apple.com, github.com, wikipedia.org, mozilla.org, example.com). Close every tab EXCEPT apple.com and github.com, leaving exactly 2 tabs open. Order doesn't matter, but only those two URLs should remain.",
+  "prompt": "Safari's front window has 5 tabs (apple.com, github.com, wikipedia.org, mozilla.org, example.com). Close every tab EXCEPT apple.com and github.com, leaving exactly 2 tabs open. Order doesn't matter, but only those two URLs should remain (fastest: cerebellum 'safari close_except apple.com github.com').",
   "timeout_sec": 60
 }

@@ -2,6 +2,6 @@
   "id": "022-settings-mouse-tracking",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Open System Settings and change the mouse tracking speed (also called pointer speed / tracking speed) to a new value \u2014 anything different from current is fine",
+  "prompt": "Open System Settings and change the mouse tracking speed (also called pointer speed / tracking speed) to a new value \u2014 anything different from current is fine. Fast path: `cerebellum 'settings toggle_mouse_tracking'` or `cerebellum 'settings set_mouse_tracking 2.5'`.",
   "timeout_sec": 90
 }

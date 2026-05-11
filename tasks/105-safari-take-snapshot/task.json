@@ -2,5 +2,5 @@
   "id": "105-safari-take-snapshot",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Use Safari's File > Save As Web Archive feature to save the current page to ~/Desktop/kinbench/105-page.webarchive"
+  "prompt": "Use Safari's File > Save As Web Archive feature to save the current page to ~/Desktop/kinbench/105-page.webarchive (or cerebellum 'safari take_snapshot <URL> ~/Desktop/kinbench/105-page.webarchive' which drives Cmd+S + Web Archive format)."
 }

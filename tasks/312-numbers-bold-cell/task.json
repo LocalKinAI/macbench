@@ -2,6 +2,6 @@
   "id": "312-numbers-bold-cell",
   "category": "numbers",
   "difficulty": "T1",
-  "prompt": "Open ~/Desktop/kinbench/312-sheet.numbers in Numbers. Click cell A1, then make its content bold (Cmd+B). Save. When done, write ~/Desktop/kinbench/312-bold-confirm.txt containing 'done'.",
+  "prompt": "Open ~/Desktop/kinbench/312-sheet.numbers in Numbers. Click cell A1, then make its content bold (Cmd+B). Save. You may use the helper: cerebellum 'numbers bold_cell ~/Desktop/kinbench/312-sheet.numbers Sheet\\ 1 A1'. When done, write ~/Desktop/kinbench/312-bold-confirm.txt containing 'done'.",
   "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "130-mail-move-to-junk",
   "category": "mail",
   "difficulty": "T1",
-  "prompt": "In Mail, find an inbox message with subject containing 'KinBench 130' and mark it as Junk (Message > Move to Junk). After acting, also write 'junked' to ~/Desktop/kinbench/130-junk-confirm.txt (eval paper trail).",
+  "prompt": "In Mail, find an inbox message with subject containing 'KinBench 130' and mark it as Junk (Message > Move to Junk). After acting, also write 'junked' to ~/Desktop/kinbench/130-junk-confirm.txt (eval paper trail). Fast path: `cerebellum 'mail move_to_junk \"KinBench 130\"'` then `echo junked > ~/Desktop/kinbench/130-junk-confirm.txt`.",
   "timeout_sec": 90
 }

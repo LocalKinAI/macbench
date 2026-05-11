@@ -2,6 +2,6 @@
   "id": "352-photos-edit-filter",
   "category": "photos",
   "difficulty": "T2",
-  "prompt": "Apply the 'Vivid' filter to a specific photo (Edit mode > Filters > Vivid). Photos AS dict doesn't expose Edit/Filter; do via UI/keystroke and write ~/Desktop/kinbench/352-confirm.txt with the photo name to confirm.",
+  "prompt": "Apply the 'Vivid' filter to a specific photo (Edit mode > Filters > Vivid). Use `cerebellum 'photos recent 1 /tmp/352-recent.txt'` to learn the name, then `cerebellum 'photos edit_filter \"<name>\" Vivid ~/Desktop/kinbench/352-confirm.txt'` (Photos AS dict doesn't expose Edit/Filter; cerebellum drives UI keystroke and writes a confirmation file).",
   "timeout_sec": 90
 }

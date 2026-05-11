@@ -2,6 +2,6 @@
   "id": "150-mail-create-rule",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "In Mail, create a new rule (Mail > Settings > Rules > Add Rule) named 'kinbench-rule' that flags messages whose Subject contains 'kinbench-rule'. After creating the rule, write 'rule-created' to ~/Desktop/kinbench/150-rule-confirm.txt. The Mail rules plist (~/Library/Mail/V*/MailData/SyncedRules.plist) is sometimes TCC-protected and not directly queryable from the eval, so the confirmation file is the eval's paper trail.",
+  "prompt": "In Mail, create a new rule (Mail > Settings > Rules > Add Rule) named 'kinbench-rule' that flags messages whose Subject contains 'kinbench-rule'. After creating the rule, write 'rule-created' to ~/Desktop/kinbench/150-rule-confirm.txt. The Mail rules plist (~/Library/Mail/V*/MailData/SyncedRules.plist) is sometimes TCC-protected and not directly queryable from the eval, so the confirmation file is the eval's paper trail. Fast path: `cerebellum 'mail create_rule kinbench-rule \"subject contains kinbench-rule\" ~/Desktop/kinbench/150-rule-confirm.txt'`.",
   "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "035-safari-back-navigation",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "In Safari, navigate to https://www.apple.com first, then to https://github.com, then click the Back button (or use Cmd+[) so you're back on apple.com",
+  "prompt": "In Safari, navigate to https://www.apple.com first, then to https://github.com, then click the Back button (or use Cmd+[) so you're back on apple.com. Fastest path: cerebellum 'safari open_url https://www.apple.com' then cerebellum 'safari open_url https://github.com' then cerebellum 'safari back'.",
   "timeout_sec": 60
 }

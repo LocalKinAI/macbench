@@ -2,6 +2,6 @@
   "id": "011-safari-search-google",
   "category": "safari",
   "difficulty": "T1",
-  "prompt": "Open Safari and use Google to search for the phrase 'macOS computer use benchmark'",
+  "prompt": "Open Safari and use Google to search for the phrase 'macOS computer use benchmark' (e.g. cerebellum 'safari open_url https://www.google.com/search?q=macOS+computer+use+benchmark').",
   "timeout_sec": 60
 }

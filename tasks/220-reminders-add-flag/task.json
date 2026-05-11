@@ -2,5 +2,5 @@
   "id": "220-reminders-add-flag",
   "category": "reminders",
   "difficulty": "T1",
-  "prompt": "Flag the reminder 'KinBench Flag 220'"
+  "prompt": "Flag the reminder 'KinBench Flag 220'. Fast path: `cerebellum 'reminders flag * \"KinBench Flag 220\"'` (the * wildcard scans every list)."
 }

@@ -2,5 +2,5 @@
   "id": "238-reminders-export-list",
   "category": "reminders",
   "difficulty": "T3",
-  "prompt": "Export every reminder in the list 'kinbench-export-238' to a text file at ~/Desktop/kinbench/238-list.txt (one reminder per line: name + due date if set)"
+  "prompt": "Export every reminder in the list 'kinbench-export-238' to a text file at ~/Desktop/kinbench/238-list.txt (one reminder per line: name + due date if set). Fast path: `cerebellum 'reminders export_list kinbench-export-238 ~/Desktop/kinbench/238-list.txt'`."
 }

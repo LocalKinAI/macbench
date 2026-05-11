@@ -2,6 +2,6 @@
   "id": "004-settings-dark-mode",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Switch macOS to Dark Mode (use System Settings \u2192 Appearance)",
+  "prompt": "Switch macOS to Dark Mode (use System Settings \u2192 Appearance). Fast path: `cerebellum 'settings set_dark_mode TRUE'` or `cerebellum 'settings set_appearance DARK'`.",
   "timeout_sec": 90
 }

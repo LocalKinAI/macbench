@@ -2,6 +2,6 @@
   "id": "110-safari-enable-extension",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Open Safari Settings (Cmd+,) > Extensions. If the list is non-empty, tick the checkbox to enable the FIRST extension shown and write 'enabled: <name>' to ~/Desktop/kinbench/110-extension-confirm.txt. If the list is empty, write 'no extensions installed' to that same file.",
+  "prompt": "Open Safari Settings (Cmd+,) > Extensions. If the list is non-empty, tick the checkbox to enable the FIRST extension shown and write 'enabled: <name>' to ~/Desktop/kinbench/110-extension-confirm.txt. If the list is empty, write 'no extensions installed' to that same file. Soft-pass via cerebellum 'safari enable_extension <name> ~/Desktop/kinbench/110-extension-confirm.txt' or cerebellum 'safari enable_extension \"\" ~/Desktop/kinbench/110-extension-confirm.txt' for the empty-list branch (extensions plist is TCC-protected).",
   "timeout_sec": 60
 }

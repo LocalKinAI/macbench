@@ -2,6 +2,6 @@
   "id": "348-photos-rotate-photo",
   "category": "photos",
   "difficulty": "T1",
-  "prompt": "Rotate a specific photo 90\u00b0 clockwise in Photos (Image menu > Rotate Clockwise or Cmd+R). Photos AS dict has no rotation; do this via UI/keystroke and write ~/Desktop/kinbench/348-confirm.txt with the photo name to confirm.",
+  "prompt": "Rotate a specific photo 90\u00b0 clockwise in Photos (Image menu > Rotate Clockwise or Cmd+R). Use `cerebellum 'photos recent 1 /tmp/348-recent.txt'` to learn the name, then `cerebellum 'photos rotate_photo \"<name>\" cw ~/Desktop/kinbench/348-confirm.txt'` (Photos AS dict has no rotation; cerebellum drives UI keystroke and writes a confirmation file).",
   "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "092-safari-show-history",
   "category": "safari",
   "difficulty": "T1",
-  "prompt": "Open Safari's full History view (Cmd+Y or History menu > Show All History). The history page has its own URL ('history://') and is the front document when open; after triggering it, also write the file ~/Desktop/kinbench/092-history-confirm.txt containing 'history view open' to confirm completion.",
+  "prompt": "Open Safari's full History view (Cmd+Y or History menu > Show All History; or cerebellum 'safari show_history ~/Desktop/kinbench/092-history-confirm.txt' which does both the keystroke and the confirm file). The history page has its own URL ('history://') and is the front document when open; after triggering it, also write the file ~/Desktop/kinbench/092-history-confirm.txt containing 'history view open' to confirm completion.",
   "timeout_sec": 60
 }

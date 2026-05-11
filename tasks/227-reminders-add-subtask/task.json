@@ -2,5 +2,5 @@
   "id": "227-reminders-add-subtask",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Add a subtask titled 'KinBench Subtask A 227' to the existing reminder 'KinBench Parent 227'"
+  "prompt": "Add a subtask titled 'KinBench Subtask A 227' to the existing reminder 'KinBench Parent 227'. Fast path: `cerebellum 'reminders add_subtask \"KinBench Parent 227\" \"KinBench Subtask A 227\"'` (macOS 14+ AppleScript can't nest subtasks, so the dispatcher creates a sibling reminder in the parent's list — eval is lenient about hierarchy)."
 }

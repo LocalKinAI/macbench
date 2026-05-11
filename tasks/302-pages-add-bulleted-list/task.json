@@ -2,6 +2,6 @@
   "id": "302-pages-add-bulleted-list",
   "category": "pages",
   "difficulty": "T2",
-  "prompt": "Open ~/Desktop/kinbench/302-doc.pages in Pages. Add a bulleted list with three items: 'Apple', 'Banana', 'Cherry'. (Format > Bullets & Lists, or simply type and let Pages convert.) Save. When done, write ~/Desktop/kinbench/302-bullets-confirm.txt containing 'done'.",
+  "prompt": "Open ~/Desktop/kinbench/302-doc.pages in Pages. Add a bulleted list with three items: 'Apple', 'Banana', 'Cherry'. (Format > Bullets & Lists, or simply type and let Pages convert.) Save. You may use the helper: cerebellum 'pages add_bulleted_list ~/Desktop/kinbench/302-doc.pages Apple Banana Cherry'. When done, write ~/Desktop/kinbench/302-bullets-confirm.txt containing 'done'.",
   "timeout_sec": 90
 }

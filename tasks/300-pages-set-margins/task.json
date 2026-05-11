@@ -2,6 +2,6 @@
   "id": "300-pages-set-margins",
   "category": "pages",
   "difficulty": "T1",
-  "prompt": "Open ~/Desktop/kinbench/300-doc.pages in Pages. Open the Document inspector (View > Inspector > Document) and change the page margins (top, bottom, left, right) to 1 inch each. Save. When done, write ~/Desktop/kinbench/300-margins-confirm.txt containing 'done'.",
+  "prompt": "Open ~/Desktop/kinbench/300-doc.pages in Pages. Open the Document inspector (View > Inspector > Document) and change the page margins (top, bottom, left, right) to 1 inch each. Save. You may use the helper: cerebellum 'pages set_margins ~/Desktop/kinbench/300-doc.pages 1 1 1 1'. When done, write ~/Desktop/kinbench/300-margins-confirm.txt containing 'done'.",
   "timeout_sec": 90
 }

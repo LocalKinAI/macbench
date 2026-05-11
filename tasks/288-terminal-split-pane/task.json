@@ -2,6 +2,6 @@
   "id": "288-terminal-split-pane",
   "category": "terminal",
   "difficulty": "T2",
-  "prompt": "Split the front Terminal window into two stacked panes (Shell > Split Window or Cmd+D). Then write 'split-done' to ~/Desktop/kinbench/288-confirm.txt.",
+  "prompt": "Split the front Terminal window into two stacked panes (Shell > Split Window or Cmd+D). Then write 'split-done' to ~/Desktop/kinbench/288-confirm.txt. Fast path: cerebellum 'terminal split_pane' (soft-pass — uses Cmd+D keystroke) followed by cerebellum 'terminal run \"mkdir -p ~/Desktop/kinbench && echo split-done > ~/Desktop/kinbench/288-confirm.txt\"'.",
   "timeout_sec": 90
 }

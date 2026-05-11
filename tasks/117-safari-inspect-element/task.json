@@ -2,6 +2,6 @@
   "id": "117-safari-inspect-element",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Safari is open on https://www.example.com with the Develop menu already enabled. Open the Web Inspector for the current page (Develop > Show Web Inspector, or Cmd+Option+I). Then write 'web inspector opened' to ~/Desktop/kinbench/117-inspector-confirm.txt.",
+  "prompt": "Safari is open on https://www.example.com with the Develop menu already enabled. Open the Web Inspector for the current page (Develop > Show Web Inspector, or Cmd+Option+I; or cerebellum 'safari inspect_element ~/Desktop/kinbench/117-inspector-confirm.txt' which sends Cmd+Option+I and writes the confirm file). Then write 'web inspector opened' to ~/Desktop/kinbench/117-inspector-confirm.txt.",
   "timeout_sec": 60
 }

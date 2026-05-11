@@ -2,6 +2,6 @@
   "id": "347-photos-show-info",
   "category": "photos",
   "difficulty": "T1",
-  "prompt": "Open the Get Info panel for a specific photo in Photos (Cmd+I). Verify by writing the file ~/Desktop/kinbench/347-confirm.txt with the photo name (Photos AS dict has no readable info-panel state, so this is a soft-pass).",
+  "prompt": "Open the Get Info panel for a specific photo in Photos (Cmd+I). Use `cerebellum 'photos recent 1 /tmp/347-recent.txt'` to learn the name, then `cerebellum 'photos show_info \"<name>\" ~/Desktop/kinbench/347-confirm.txt'` (Photos AS dict has no readable info-panel state, so this is a soft-pass that opens Cmd+I and writes a confirmation file).",
   "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "160-mail-search-then-flag",
   "category": "mail",
   "difficulty": "T3",
-  "prompt": "In Mail, search for inbox messages whose subject contains 'kinbench-160' and apply the RED flag to every match. After acting, write the number of messages flagged to ~/Desktop/kinbench/160-flag-count.txt (just the integer). If no matches exist, '0' is acceptable. Fast path: `cerebellum 'mail set_flag \"kinbench-160\" 0'` then count via `cerebellum 'mail search_inbox kinbench-160 /tmp/160.txt' && wc -l < /tmp/160.txt | tr -d ' ' > ~/Desktop/kinbench/160-flag-count.txt`.",
+  "prompt": "In Mail, search for inbox messages whose subject contains 'kinbench-160' and apply the RED flag to every match. After acting, write the number of messages flagged to ~/Desktop/kinbench/160-flag-count.txt (just the integer). If no matches exist, '0' is acceptable. Fast path: `cerebellum 'mail search_then_flag kinbench-160 0 ~/Desktop/kinbench/160-flag-count.txt'`.",
   "timeout_sec": 90
 }

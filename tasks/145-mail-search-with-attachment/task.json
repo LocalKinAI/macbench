@@ -2,6 +2,6 @@
   "id": "145-mail-search-with-attachment",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "In Mail, search for messages that have attachments (Mail search supports 'Attachments: Yes' or 'has:attachment' filter). Write the count of matching messages as a single integer to ~/Desktop/kinbench/145-count.txt. '0' is acceptable.",
+  "prompt": "In Mail, search for messages that have attachments (Mail search supports 'Attachments: Yes' or 'has:attachment' filter). Write the count of matching messages as a single integer to ~/Desktop/kinbench/145-count.txt. '0' is acceptable. Fast path: `cerebellum 'mail find_with_attachment ~/Desktop/kinbench/145-count.txt'`.",
   "timeout_sec": 90
 }

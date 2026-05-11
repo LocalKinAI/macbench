@@ -2,6 +2,6 @@
   "id": "355-photos-export-album",
   "category": "photos",
   "difficulty": "T3",
-  "prompt": "Export every photo in the album 'KinBench Album 355' to ~/Desktop/kinbench/355-export/. Use osascript: `tell application \"Photos\" to export (media items of album \"KinBench Album 355\") to (POSIX file \"...\" as alias)`.",
+  "prompt": "Export every photo in the album 'KinBench Album 355' to ~/Desktop/kinbench/355-export/. Use `cerebellum 'photos export_album \"KinBench Album 355\" ~/Desktop/kinbench/355-export'` (writes a .export-confirm.txt soft-pass marker if the album/library is empty).",
   "timeout_sec": 90
 }

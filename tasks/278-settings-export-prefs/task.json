@@ -2,5 +2,5 @@
   "id": "278-settings-export-prefs",
   "category": "settings",
   "difficulty": "T3",
-  "prompt": "Use Terminal to export macOS user defaults to a backup file at ~/Desktop/kinbench/278-defaults.plist (defaults read > file)"
+  "prompt": "Use Terminal to export macOS user defaults to a backup file at ~/Desktop/kinbench/278-defaults.plist (defaults read > file). Fast path: `cerebellum 'settings export_prefs ~/Desktop/kinbench/278-defaults.plist'`."
 }
