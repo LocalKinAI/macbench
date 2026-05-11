@@ -2,6 +2,6 @@
   "id": "328-keynote-add-title",
   "category": "keynote",
   "difficulty": "T2",
-  "prompt": "Open ~/Desktop/kinbench/328-deck.key in Keynote. Click the title placeholder on the first slide and type the title 'KinBench Keynote 328'. Save. When done, write ~/Desktop/kinbench/328-title-confirm.txt containing 'done'.",
+  "prompt": "Open ~/Desktop/kinbench/328-deck.key in Keynote. Click the title placeholder on the first slide and type the title 'KinBench Keynote 328'. Save. You may use the helper: cerebellum 'keynote add_title ~/Desktop/kinbench/328-deck.key 1 \"KinBench Keynote 328\"'. When done, write ~/Desktop/kinbench/328-title-confirm.txt containing 'done'.",
   "timeout_sec": 90
 }

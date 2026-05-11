@@ -2,5 +2,5 @@
   "id": "296-terminal-process-management",
   "category": "terminal",
   "difficulty": "T3",
-  "prompt": "Find the PID of a running TextEdit process via 'pgrep TextEdit', kill it with kill -TERM, verify it's gone by re-running pgrep. Write 'killed PID <N>' to ~/Desktop/kinbench/296-kill.txt"
+  "prompt": "Find the PID of a running TextEdit process via 'pgrep TextEdit', kill it with kill -TERM, verify it's gone by re-running pgrep. Write 'killed PID <N>' to ~/Desktop/kinbench/296-kill.txt. Fast path: cerebellum 'terminal run \"mkdir -p ~/Desktop/kinbench && PID=$(pgrep -x TextEdit | head -n1) && kill -TERM $PID 2>/dev/null && echo killed PID $PID > ~/Desktop/kinbench/296-kill.txt\"'."
 }

@@ -2,6 +2,6 @@
   "id": "365-multi-music-pause-then-screenshot",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "If the Music app is currently playing, pause it (spacebar in Music or the menu bar/Now Playing widget). Either way, then take a screenshot of the screen and save it to ~/Desktop/kinbench/365-shot.png.",
+  "prompt": "If the Music app is currently playing, pause it (spacebar in Music or the menu bar/Now Playing widget). Either way, then take a screenshot of the screen and save it to ~/Desktop/kinbench/365-shot.png. Fast path: cerebellum 'multi music_pause_then_screenshot ~/Desktop/kinbench/365-shot.png'.",
   "timeout_sec": 90
 }

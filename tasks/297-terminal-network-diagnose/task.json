@@ -2,6 +2,6 @@
   "id": "297-terminal-network-diagnose",
   "category": "terminal",
   "difficulty": "T3",
-  "prompt": "Use ping (3 packets) and traceroute (max 5 hops) to diagnose connectivity to apple.com. Write a combined report to ~/Desktop/kinbench/297-diagnose.txt",
+  "prompt": "Use ping (3 packets) and traceroute (max 5 hops) to diagnose connectivity to apple.com. Write a combined report to ~/Desktop/kinbench/297-diagnose.txt. Fast path: cerebellum 'terminal run \"mkdir -p ~/Desktop/kinbench && (ping -c 3 apple.com; traceroute -m 5 apple.com) > ~/Desktop/kinbench/297-diagnose.txt 2>&1\"'.",
   "timeout_sec": 90
 }

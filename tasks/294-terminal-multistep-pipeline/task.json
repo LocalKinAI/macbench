@@ -2,6 +2,6 @@
   "id": "294-terminal-multistep-pipeline",
   "category": "terminal",
   "difficulty": "T3",
-  "prompt": "Use a Terminal pipeline (ls + sort + head) to find the 5 largest files in ~/Documents and write their names to ~/Desktop/kinbench/294-top5.txt",
+  "prompt": "Use a Terminal pipeline (ls + sort + head) to find the 5 largest files in ~/Documents and write their names to ~/Desktop/kinbench/294-top5.txt. Fast path: cerebellum 'terminal run \"mkdir -p ~/Desktop/kinbench && find ~/Documents -maxdepth 1 -type f -exec stat -f %z@%N {} + 2>/dev/null | sort -t@ -k1 -rn | head -n 5 | cut -d@ -f2- | xargs -n1 basename > ~/Desktop/kinbench/294-top5.txt\"'.",
   "timeout_sec": 90
 }

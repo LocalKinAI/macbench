@@ -2,6 +2,6 @@
   "id": "319-numbers-sort-data",
   "category": "numbers",
   "difficulty": "T2",
-  "prompt": "Open ~/Desktop/kinbench/319-sheet.numbers in Numbers. Sort the rows of the active table by column A in ascending order (Organize sidebar > Sort > Sort entire table > Add a column > Column A > Ascending; or click the column A header dropdown > Sort Ascending). Save. When done, write ~/Desktop/kinbench/319-sort-confirm.txt containing 'done'.",
+  "prompt": "Open ~/Desktop/kinbench/319-sheet.numbers in Numbers. Sort the rows of the active table by column A in ascending order (Organize sidebar > Sort > Sort entire table > Add a column > Column A > Ascending; or click the column A header dropdown > Sort Ascending). Save. You may use the helper: cerebellum 'numbers sort_data ~/Desktop/kinbench/319-sheet.numbers \"Sheet 1\" A1:Z100 A'. When done, write ~/Desktop/kinbench/319-sort-confirm.txt containing 'done'.",
   "timeout_sec": 90
 }

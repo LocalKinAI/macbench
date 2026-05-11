@@ -2,6 +2,6 @@
   "id": "364-multi-screenshot-then-pages",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Capture a screenshot of the current screen and save it to ~/Desktop/kinbench/364-shot.png (use screencapture or Cmd+Shift+3). Then create a new Pages document with that screenshot inserted into the body, and save the Pages document to ~/Desktop/kinbench/364-doc.pages.",
+  "prompt": "Capture a screenshot of the current screen and save it to ~/Desktop/kinbench/364-shot.png (use screencapture or Cmd+Shift+3). Then create a new Pages document with that screenshot inserted into the body, and save the Pages document to ~/Desktop/kinbench/364-doc.pages. Fast path: cerebellum 'multi screenshot_to_pages ~/Desktop/kinbench/364-doc.pages ~/Desktop/kinbench/364-shot.png'.",
   "timeout_sec": 90
 }

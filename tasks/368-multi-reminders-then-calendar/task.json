@@ -2,6 +2,6 @@
   "id": "368-multi-reminders-then-calendar",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Setup planted three reminders due today named 'KinBench 368 morning' (9:00), 'KinBench 368 noon' (12:00), 'KinBench 368 evening' (17:00) in the 'KinBench 368' list. List them in the Reminders app, then create three matching Calendar events tomorrow at the same times \u2014 events named exactly the same as the reminder names. Each event should be 30 minutes long.",
+  "prompt": "Setup planted three reminders due today named 'KinBench 368 morning' (9:00), 'KinBench 368 noon' (12:00), 'KinBench 368 evening' (17:00) in the 'KinBench 368' list. List them in the Reminders app, then create three matching Calendar events tomorrow at the same times \u2014 events named exactly the same as the reminder names. Each event should be 30 minutes long. Fast path: TOM=$(date -v+1d +%Y-%m-%d); for each reminder use cerebellum 'calendar create_event Home <name> \"$TOM 09:00\" \"$TOM 09:30\"' (etc for noon=12:00 and evening=17:00). The multi reminders_to_calendar composite stacks at fixed intervals, so explicit three calls match the spec better here.",
   "timeout_sec": 90
 }

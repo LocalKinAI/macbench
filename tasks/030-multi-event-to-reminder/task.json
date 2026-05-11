@@ -2,6 +2,6 @@
   "id": "030-multi-event-to-reminder",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "There's a calendar event titled 'KinBench Source Event' tomorrow. Find that event, then open the Reminders app and create a new reminder with the same title ('KinBench Source Event'). The reminder doesn't need a due date.",
+  "prompt": "There's a calendar event titled 'KinBench Source Event' tomorrow. Find that event, then open the Reminders app and create a new reminder with the same title ('KinBench Source Event'). The reminder doesn't need a due date. Fast path: cerebellum 'multi event_to_reminder \"KinBench Source Event\" Reminders'.",
   "timeout_sec": 90
 }

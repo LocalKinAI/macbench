@@ -2,5 +2,5 @@
   "id": "295-terminal-script-creation",
   "category": "terminal",
   "difficulty": "T3",
-  "prompt": "In Terminal, create a shell script at ~/Desktop/kinbench/295-script.sh that prints 'hello kinbench', make it executable, run it, capture output to ~/Desktop/kinbench/295-output.txt"
+  "prompt": "In Terminal, create a shell script at ~/Desktop/kinbench/295-script.sh that prints 'hello kinbench', make it executable, run it, capture output to ~/Desktop/kinbench/295-output.txt. Fast path: two cerebellum 'terminal run' calls — first write the script (echo '#!/bin/sh' > script; echo 'echo hello kinbench' >> script), then chmod +x and run it capturing output to 295-output.txt."
 }

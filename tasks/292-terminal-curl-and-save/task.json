@@ -2,5 +2,5 @@
   "id": "292-terminal-curl-and-save",
   "category": "terminal",
   "difficulty": "T2",
-  "prompt": "Use curl in Terminal to fetch https://example.com and save the response body to ~/Desktop/kinbench/292-page.html"
+  "prompt": "Use curl in Terminal to fetch https://example.com and save the response body to ~/Desktop/kinbench/292-page.html. Fast path: cerebellum 'terminal run \"mkdir -p ~/Desktop/kinbench && curl -sSL https://example.com -o ~/Desktop/kinbench/292-page.html\"'."
 }

@@ -2,6 +2,6 @@
   "id": "369-multi-notes-export-then-mail",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Two-step task crossing Notes and Mail. (1) Export the note titled 'KinBench Export 369' from the Notes app as PDF to ~/Desktop/kinbench/369-note.pdf (File \u2192 Export as PDF, or Print \u2192 Save as PDF). (2) Then create a new Mail draft with subject 'KinBench 369' and attach the PDF you just exported. Save as draft \u2014 do not send.",
+  "prompt": "Two-step task crossing Notes and Mail. (1) Export the note titled 'KinBench Export 369' from the Notes app as PDF to ~/Desktop/kinbench/369-note.pdf (File \u2192 Export as PDF, or Print \u2192 Save as PDF). (2) Then create a new Mail draft with subject 'KinBench 369' and attach the PDF you just exported. Save as draft \u2014 do not send. Fast path: cerebellum 'multi note_to_mail \"KinBench Export 369\" \"KinBench 369\" \"\" ~/Desktop/kinbench/369-note.pdf' (composite exports the note then attaches the PDF).",
   "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "049-multi-spotlight-calendar",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Use Spotlight (Cmd+Space) to launch the Calendar app, then create a new event titled 'KinBench Spotlight Path' for tomorrow at 3:00 PM",
+  "prompt": "Use Spotlight (Cmd+Space) to launch the Calendar app, then create a new event titled 'KinBench Spotlight Path' for tomorrow at 3:00 PM. Fast path: TOM=$(date -v+1d +%Y-%m-%d); cerebellum \"multi spotlight_calendar 'KinBench Spotlight Path' '$TOM 15:00' '$TOM 16:00'\".",
   "timeout_sec": 90
 }

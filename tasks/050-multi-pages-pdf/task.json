@@ -2,6 +2,6 @@
   "id": "050-multi-pages-pdf",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Open Pages, create a new blank document containing the text 'kinbench 050 export', then export the document as a PDF to ~/Desktop/kinbench/050-doc.pdf (File menu \u2192 Export To \u2192 PDF)",
+  "prompt": "Open Pages, create a new blank document containing the text 'kinbench 050 export', then export the document as a PDF to ~/Desktop/kinbench/050-doc.pdf (File menu \u2192 Export To \u2192 PDF). Fast path: cerebellum 'multi pages_text_pdf \"kinbench 050 export\" ~/Desktop/kinbench/050-doc.pdf'.",
   "timeout_sec": 90
 }

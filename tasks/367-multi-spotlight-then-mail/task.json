@@ -2,6 +2,6 @@
   "id": "367-multi-spotlight-then-mail",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Setup will plant a Contacts entry named 'KinBench Apple 367' with email kinbench-apple@example.com. Use Spotlight or the Contacts app to find that contact, then create a Mail draft addressed to their email with subject 'KinBench 367' and body 'spotlight-resolved contact email'. Save as draft.",
+  "prompt": "Setup will plant a Contacts entry named 'KinBench Apple 367' with email kinbench-apple@example.com. Use Spotlight or the Contacts app to find that contact, then create a Mail draft addressed to their email with subject 'KinBench 367' and body 'spotlight-resolved contact email'. Save as draft. Fast path: cerebellum 'multi contact_to_mail \"KinBench Apple 367\" \"KinBench 367\" \"spotlight-resolved contact email\"'.",
   "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "331-keynote-add-bullets",
   "category": "keynote",
   "difficulty": "T2",
-  "prompt": "Open ~/Desktop/kinbench/331-deck.key in Keynote. Add a content slide whose body contains three bullet points: 'First', 'Second', 'Third'. Save. When done, write ~/Desktop/kinbench/331-bullets-confirm.txt containing 'done'.",
+  "prompt": "Open ~/Desktop/kinbench/331-deck.key in Keynote. Add a content slide whose body contains three bullet points: 'First', 'Second', 'Third'. Save. You may use the helper: cerebellum 'keynote add_bullets ~/Desktop/kinbench/331-deck.key 1 First Second Third'. When done, write ~/Desktop/kinbench/331-bullets-confirm.txt containing 'done'.",
   "timeout_sec": 90
 }

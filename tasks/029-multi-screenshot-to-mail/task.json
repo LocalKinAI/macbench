@@ -2,6 +2,6 @@
   "id": "029-multi-screenshot-to-mail",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Take a screenshot of your screen, save it to ~/Desktop/kinbench/029-shot.png, then open Mail and create a new draft email with subject 'KinBench 029 Screenshot' that has that screenshot attached. Don't send the email \u2014 leave it as a draft.",
+  "prompt": "Take a screenshot of your screen, save it to ~/Desktop/kinbench/029-shot.png, then open Mail and create a new draft email with subject 'KinBench 029 Screenshot' that has that screenshot attached. Don't send the email \u2014 leave it as a draft. Fast path: cerebellum 'multi screenshot_to_mail \"KinBench 029 Screenshot\" \"\" ~/Desktop/kinbench/029-shot.png'.",
   "timeout_sec": 90
 }

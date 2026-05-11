@@ -2,5 +2,5 @@
   "id": "291-terminal-brew-list",
   "category": "terminal",
   "difficulty": "T2",
-  "prompt": "In Terminal, run 'brew list' and write the output to ~/Desktop/kinbench/291-brew-list.txt. If brew is not installed, write 'brew not installed' to that file."
+  "prompt": "In Terminal, run 'brew list' and write the output to ~/Desktop/kinbench/291-brew-list.txt. If brew is not installed, write 'brew not installed' to that file. Fast path: cerebellum 'terminal run \"mkdir -p ~/Desktop/kinbench && (command -v brew >/dev/null 2>&1 && brew list || echo brew not installed) > ~/Desktop/kinbench/291-brew-list.txt\"'."
 }

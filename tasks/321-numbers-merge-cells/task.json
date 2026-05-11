@@ -2,6 +2,6 @@
   "id": "321-numbers-merge-cells",
   "category": "numbers",
   "difficulty": "T2",
-  "prompt": "Open ~/Desktop/kinbench/321-sheet.numbers in Numbers. Select cells A1 and B1 together, then merge them (Table menu > Merge Cells, or right-click the selection > Merge Cells). Save. When done, write ~/Desktop/kinbench/321-merge-confirm.txt containing 'done'.",
+  "prompt": "Open ~/Desktop/kinbench/321-sheet.numbers in Numbers. Select cells A1 and B1 together, then merge them (Table menu > Merge Cells, or right-click the selection > Merge Cells). Save. You may use the helper: cerebellum 'numbers merge_cells ~/Desktop/kinbench/321-sheet.numbers \"Sheet 1\" A1:B1'. When done, write ~/Desktop/kinbench/321-merge-confirm.txt containing 'done'.",
   "timeout_sec": 90
 }
