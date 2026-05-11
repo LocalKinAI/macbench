@@ -2,5 +2,5 @@
   "id": "200-calendar-create-all-day",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Create an all-day event titled 'KinBench All-Day 200' for tomorrow"
+  "prompt": "Create an all-day event titled 'KinBench All-Day 200' for tomorrow. Fast path: `cerebellum 'calendar create_all_day TARGET_CAL \"KinBench All-Day 200\" \"YYYY-MM-DD\"'` (date only, no time)."
 }

@@ -2,6 +2,6 @@
   "id": "038-calendar-edit-event-time",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "There's an event titled 'KinBench Reschedule' tomorrow at 10:00 AM. Open it in Calendar and change the start time to 11:00 AM (keep the same date, same duration).",
+  "prompt": "There's an event titled 'KinBench Reschedule' tomorrow at 10:00 AM. Change its start time to 11:00 AM (same date, preserve duration). Fast path: `cerebellum 'calendar set_start_time KinBench TARGET_CAL \"KinBench Reschedule\" \"YYYY-MM-DD 11:00\"'` (the dispatcher automatically preserves duration). Replace TARGET_CAL with the actual calendar name from cerebellum 'calendar get_calendars'.",
   "timeout_sec": 90
 }

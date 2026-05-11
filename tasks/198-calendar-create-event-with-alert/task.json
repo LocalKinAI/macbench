@@ -2,5 +2,5 @@
   "id": "198-calendar-create-event-with-alert",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Create an event 'KinBench Alert 198' tomorrow at 3 PM with a 15-minute reminder alert"
+  "prompt": "Create an event 'KinBench Alert 198' tomorrow at 3 PM with a 15-minute reminder alert. Fast path: `cerebellum 'calendar create_with_alert TARGET_CAL \"KinBench Alert 198\" \"YYYY-MM-DD 15:00\" \"YYYY-MM-DD 16:00\" 15'` (5th arg = minutes before)."
 }

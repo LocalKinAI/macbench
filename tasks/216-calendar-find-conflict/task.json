@@ -2,6 +2,6 @@
   "id": "216-calendar-find-conflict",
   "category": "calendar",
   "difficulty": "T3",
-  "prompt": "Identify scheduling conflicts (overlapping events) in the next 7 days of Calendar. There is at least one known conflict between events whose summaries contain 'KinBench Conf' (e.g. 'KinBench Conf A' and 'KinBench Conf B' overlap). Write to ~/Desktop/kinbench/216-conflicts.txt one conflict per line in format 'HH:MM Event A vs Event B' (24-hour start time of either of the two events, followed by ' vs ' between summaries). Example: '10:30 KinBench Conf A vs KinBench Conf B'.",
+  "prompt": "Identify scheduling conflicts (overlapping events) in the next 7 days. Write each conflict pair on its own line to ~/Desktop/kinbench/216-conflicts.txt. Fast path: `cerebellum 'calendar find_conflict 7 ~/Desktop/kinbench/216-conflicts.txt'`.",
   "timeout_sec": 90
 }

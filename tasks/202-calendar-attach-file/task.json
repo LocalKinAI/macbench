@@ -2,5 +2,5 @@
   "id": "202-calendar-attach-file",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Attach the file ~/Desktop/kinbench/202-attach.txt to the existing calendar event 'KinBench Attach 202'"
+  "prompt": "Attach ~/Desktop/kinbench/202-attach.txt to the event 'KinBench Attach 202' (Calendar events accept URLs in their url property; use file://). Fast path: `cerebellum 'calendar set_url * \"KinBench Attach 202\" \"file:///Users/<you>/Desktop/kinbench/202-attach.txt\"'`."
 }

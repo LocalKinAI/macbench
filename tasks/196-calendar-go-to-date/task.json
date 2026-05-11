@@ -2,6 +2,6 @@
   "id": "196-calendar-go-to-date",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Open Calendar.app and use View > Go to Date (Cmd+Shift+T) to navigate to March 15, 2027. Then write '2027-03-15' to ~/Desktop/kinbench/196-confirm.txt to confirm.",
+  "prompt": "Open Calendar.app and navigate to March 15, 2027. Fast path: `cerebellum 'calendar go_to_date \"3/15/2027\"'`. Then write '2027-03-15' to ~/Desktop/kinbench/196-confirm.txt as confirmation.",
   "timeout_sec": 90
 }

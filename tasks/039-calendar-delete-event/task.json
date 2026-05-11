@@ -2,6 +2,6 @@
   "id": "039-calendar-delete-event",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Delete the event titled 'KinBench Cancel' from Calendar (it's scheduled for tomorrow afternoon)",
+  "prompt": "Delete the event titled 'KinBench Cancel' from Calendar (it's scheduled for tomorrow afternoon). Fast path: `cerebellum 'calendar delete_event * \"KinBench Cancel\"'` (the * wildcard scans all calendars, dispatcher sleeps for iCloud sync).",
   "timeout_sec": 90
 }

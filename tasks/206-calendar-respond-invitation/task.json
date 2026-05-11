@@ -2,6 +2,6 @@
   "id": "206-calendar-respond-invitation",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Simulating an invitation acceptance: the event 'KinBench Invite 206' exists in your Calendar. Mark this event as 'Accepted' by setting its description (notes) field to exactly the word 'ACCEPTED'. (Real iCalendar invitations can't be planted without an external sender, so this proxy field is used for verification.)",
+  "prompt": "Mark event 'KinBench Invite 206' as ACCEPTED \u2014 set its description field to the exact word 'ACCEPTED'. Fast path: `cerebellum 'calendar respond_yes * \"KinBench Invite 206\"'`.",
   "timeout_sec": 90
 }

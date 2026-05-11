@@ -2,6 +2,6 @@
   "id": "210-calendar-show-week-numbers",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Toggle the 'Show week numbers' setting in Calendar. Open Calendar > Settings (Cmd+,) > General tab, and check/toggle the 'Show week numbers' checkbox. The preference key is 'n' in com.apple.iCal.plist (ShowWeekNumbers). Verify it has been flipped from the setup state.",
+  "prompt": "Toggle the 'Show week numbers' preference in Calendar. Fast path: `cerebellum 'calendar set_week_numbers true'` (sets defaults plist key). Eval checks `defaults read com.apple.iCal n`.",
   "timeout_sec": 90
 }

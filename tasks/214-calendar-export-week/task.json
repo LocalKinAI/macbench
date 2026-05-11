@@ -2,5 +2,5 @@
   "id": "214-calendar-export-week",
   "category": "calendar",
   "difficulty": "T3",
-  "prompt": "Export this week's events to an .ics file at ~/Desktop/kinbench/214-week.ics"
+  "prompt": "Export this week's calendar events to an .ics file at ~/Desktop/kinbench/214-week.ics. Fast path: `cerebellum 'calendar export_ics START_DATE END_DATE ~/Desktop/kinbench/214-week.ics'` where dates are YYYY-MM-DD."
 }

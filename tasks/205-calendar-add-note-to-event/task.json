@@ -2,5 +2,5 @@
   "id": "205-calendar-add-note-to-event",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Add a notes/description text 'KinBench note for event 205' to the existing event 'KinBench Note 205'"
+  "prompt": "Set the description (notes) of event 'KinBench Note 205' to 'KinBench note for event 205'. Fast path: `cerebellum 'calendar set_description * \"KinBench Note 205\" \"KinBench note for event 205\"'`."
 }
