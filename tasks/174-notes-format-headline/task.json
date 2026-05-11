@@ -2,5 +2,5 @@
   "id": "174-notes-format-headline",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "In the note 'KinBench Heading 174', apply Heading style to the first line"
+  "prompt": "In the note 'KinBench Heading 174', apply Heading style to the first line. Fast path: cerebellum 'notes format \"KinBench Heading 174\" heading'."
 }

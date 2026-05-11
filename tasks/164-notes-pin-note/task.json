@@ -2,5 +2,5 @@
   "id": "164-notes-pin-note",
   "category": "notes",
   "difficulty": "T1",
-  "prompt": "Pin the note titled 'KinBench Pinned 164' to the top of the notes list"
+  "prompt": "Pin the note titled 'KinBench Pinned 164' to the top of the notes list. Fast path: cerebellum 'notes pin \"KinBench Pinned 164\"'."
 }

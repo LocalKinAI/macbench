@@ -2,6 +2,6 @@
   "id": "183-notes-undo-multiple-edits",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Open the note titled 'KinBench Undo 183' in Notes. Its body currently says 'kinbench-original-line'. Append the text 'KINBENCH-EXTRA-TEXT-183' to the end of the note, then press Cmd+Z to undo, returning the body to its original state ('kinbench-original-line' only, no extra text).",
+  "prompt": "Open the note titled 'KinBench Undo 183' in Notes. Its body currently says 'kinbench-original-line'. Append the text 'KINBENCH-EXTRA-TEXT-183' to the end of the note, then press Cmd+Z to undo, returning the body to its original state ('kinbench-original-line' only, no extra text). Fast path: cerebellum 'notes undo_to \"KinBench Undo 183\" kinbench-original-line'.",
   "timeout_sec": 90
 }

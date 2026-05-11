@@ -2,6 +2,6 @@
   "id": "182-notes-export-note",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Export the note 'KinBench Export 182' as PDF to ~/Desktop/kinbench/182-note.pdf. Use Notes' File \u2192 Export as PDF... menu item (simplest), or Print \u2192 Save as PDF if needed.",
+  "prompt": "Export the note 'KinBench Export 182' as PDF to ~/Desktop/kinbench/182-note.pdf. Use Notes' File \u2192 Export as PDF... menu item (simplest), or Print \u2192 Save as PDF if needed. Fast path: cerebellum 'notes export_pdf \"KinBench Export 182\" ~/Desktop/kinbench/182-note.pdf'.",
   "timeout_sec": 90
 }

@@ -2,5 +2,5 @@
   "id": "201-calendar-attach-url",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Add a URL (https://localkin.ai) to an existing calendar event titled 'KinBench URL 201'"
+  "prompt": "Add a URL (https://localkin.ai) to an existing calendar event titled 'KinBench URL 201'. Fast path: cerebellum 'calendar attach_url * \"KinBench URL 201\" https://localkin.ai'."
 }

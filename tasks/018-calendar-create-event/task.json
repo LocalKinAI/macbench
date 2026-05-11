@@ -2,6 +2,6 @@
   "id": "018-calendar-create-event",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Create a calendar event titled 'KinBench Lunch' for tomorrow at 12:30 PM (default duration is fine)",
+  "prompt": "Create a calendar event titled 'KinBench Lunch' for tomorrow at 12:30 PM (default duration is fine). Fast path: cerebellum 'calendar create_event Home \"KinBench Lunch\" \"<YYYY-MM-DD> 12:30\" \"<YYYY-MM-DD> 13:30\"' using tomorrow's date.",
   "timeout_sec": 90
 }

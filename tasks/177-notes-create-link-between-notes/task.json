@@ -2,6 +2,6 @@
   "id": "177-notes-create-link-between-notes",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Open the note titled 'KinBench Source 177' in Notes. Add a link from this note that points to (or mentions by exact title) the note 'KinBench Target 177'. You can use the >> link suggestion shortcut, the Add Link command (Cmd+K), or simply type the target's full title into the body so it can be found by search.",
+  "prompt": "Open the note titled 'KinBench Source 177' in Notes. Add a link from this note that points to (or mentions by exact title) the note 'KinBench Target 177'. You can use the >> link suggestion shortcut, the Add Link command (Cmd+K), or simply type the target's full title into the body so it can be found by search. Fast path: cerebellum 'notes create_link \"KinBench Source 177\" \"KinBench Target 177\"'.",
   "timeout_sec": 90
 }

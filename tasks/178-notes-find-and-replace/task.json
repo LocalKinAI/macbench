@@ -2,5 +2,5 @@
   "id": "178-notes-find-and-replace",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "In the note 'KinBench Replace 178', find 'version 1' and replace with 'version 2'"
+  "prompt": "In the note 'KinBench Replace 178', find 'version 1' and replace with 'version 2'. Fast path: cerebellum 'notes find_replace \"KinBench Replace 178\" \"version 1\" \"version 2\"'."
 }

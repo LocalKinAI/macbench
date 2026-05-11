@@ -2,6 +2,6 @@
   "id": "184-notes-aggregate-checklists",
   "category": "notes",
   "difficulty": "T3",
-  "prompt": "There are three source notes in Notes whose titles start with 'KinBench Source 184' (alpha, bravo, charlie). Each body has lines beginning with '\u2713' (done) or '\u25cb' (pending). Read all three, then create a NEW note titled 'KinBench Aggregate 184' whose body lists ONLY the items prefixed with '\u2713' (the done items) from all three sources, one per line, preserving the item text after the '\u2713 '.",
+  "prompt": "There are three source notes in Notes whose titles start with 'KinBench Source 184' (alpha, bravo, charlie). Each body has lines beginning with '\u2713' (done) or '\u25cb' (pending). Read all three, then create a NEW note titled 'KinBench Aggregate 184' whose body lists ONLY the items prefixed with '\u2713' (the done items) from all three sources, one per line, preserving the item text after the '\u2713 '. Fast path: cerebellum 'notes aggregate_done \"KinBench Source 184\" \"KinBench Aggregate 184\" \u2713'.",
   "timeout_sec": 90
 }

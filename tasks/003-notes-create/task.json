@@ -2,6 +2,6 @@
   "id": "003-notes-create",
   "category": "notes",
   "difficulty": "T1",
-  "prompt": "Create a new note in the Notes app titled 'KinBench Test 003' (any body content is fine)",
+  "prompt": "Create a new note in the Notes app titled 'KinBench Test 003' (any body content is fine). Fast path: cerebellum 'notes create \"KinBench Test 003\" \"any body\"'.",
   "timeout_sec": 90
 }

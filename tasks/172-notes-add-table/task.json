@@ -2,5 +2,5 @@
   "id": "172-notes-add-table",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Add a 3x3 table to the note 'KinBench Table 172' (Format > Table or Cmd+Option+T)"
+  "prompt": "Add a 3x3 table to the note 'KinBench Table 172' (Format > Table or Cmd+Option+T). Fast path: cerebellum 'notes add_table \"KinBench Table 172\"'."
 }

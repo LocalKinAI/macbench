@@ -2,6 +2,6 @@
   "id": "166-notes-lock-note",
   "category": "notes",
   "difficulty": "T1",
-  "prompt": "Open the note titled 'KinBench Lock 166' in Notes and lock it (File → Lock Note, or click the lock icon). A Notes password must already be configured in System Settings.",
+  "prompt": "Open the note titled 'KinBench Lock 166' in Notes and lock it (File → Lock Note, or click the lock icon). A Notes password must already be configured in System Settings. Fast path: cerebellum 'notes lock \"KinBench Lock 166\"'.",
   "timeout_sec": 90
 }

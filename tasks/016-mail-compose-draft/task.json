@@ -2,6 +2,6 @@
   "id": "016-mail-compose-draft",
   "category": "mail",
   "difficulty": "T1",
-  "prompt": "In Mail, create a new email draft with the subject 'KinBench 016 Test' and the body 'This is a test draft from kin-bench.' Don't send it \u2014 leave it as a draft.",
+  "prompt": "In Mail, create a new email draft with the subject 'KinBench 016 Test' and the body 'This is a test draft from kin-bench.' Don't send it \u2014 leave it as a draft. Fast path: cerebellum 'mail draft \"KinBench 016 Test\" \"This is a test draft from kin-bench.\"'.",
   "timeout_sec": 90
 }

@@ -2,5 +2,5 @@
   "id": "171-notes-add-image",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Insert the image ~/Desktop/kinbench/171-photo.jpg into the note 'KinBench Image 171'"
+  "prompt": "Insert the image ~/Desktop/kinbench/171-photo.jpg into the note 'KinBench Image 171'. Fast path: cerebellum 'notes attach_image \"KinBench Image 171\" ~/Desktop/kinbench/171-photo.jpg'."
 }

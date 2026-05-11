@@ -2,6 +2,6 @@
   "id": "186-notes-search-then-export",
   "category": "notes",
   "difficulty": "T3",
-  "prompt": "There are 4 notes in Notes; only one of them contains the unique phrase 'PINEAPPLE-MARKER-186' in its body. Find that note (e.g. via the Notes search field) and save it as a PDF to ~/Desktop/kinbench/186-export.pdf (File \u2192 Export as PDF, or use Print \u2192 Save as PDF).",
+  "prompt": "There are 4 notes in Notes; only one of them contains the unique phrase 'PINEAPPLE-MARKER-186' in its body. Find that note (e.g. via the Notes search field) and save it as a PDF to ~/Desktop/kinbench/186-export.pdf (File \u2192 Export as PDF, or use Print \u2192 Save as PDF). Fast path: cerebellum 'notes search_then_export PINEAPPLE-MARKER-186 ~/Desktop/kinbench/186-export.pdf'.",
   "timeout_sec": 90
 }

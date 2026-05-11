@@ -2,6 +2,6 @@
   "id": "036-notes-delete",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Delete the note titled 'KinBench Test 036 (delete me)' in the Notes app",
+  "prompt": "Delete the note titled 'KinBench Test 036 (delete me)' in the Notes app. Fast path: cerebellum 'notes delete \"KinBench Test 036 (delete me)\"'.",
   "timeout_sec": 90
 }

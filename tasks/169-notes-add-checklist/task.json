@@ -2,5 +2,5 @@
   "id": "169-notes-add-checklist",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Add a 3-item checklist to the existing note 'KinBench Checklist 169' (Format > Checklist or Cmd+Shift+L)"
+  "prompt": "Add a 3-item checklist to the existing note 'KinBench Checklist 169' (Format > Checklist or Cmd+Shift+L). Fast path: cerebellum 'notes add_checklist \"KinBench Checklist 169\"'."
 }

@@ -2,5 +2,5 @@
   "id": "187-notes-from-clipboard",
   "category": "notes",
   "difficulty": "T3",
-  "prompt": "Create a new note titled 'KinBench Clipboard 187' containing the text currently in the system clipboard"
+  "prompt": "Create a new note titled 'KinBench Clipboard 187' containing the text currently in the system clipboard. Fast path: cerebellum 'notes from_clipboard \"KinBench Clipboard 187\"'."
 }

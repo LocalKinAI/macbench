@@ -2,6 +2,6 @@
   "id": "037-notes-list-titles",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Find every note in the Notes app whose title starts with 'KinBench Listing' and write each title (one per line, just the titles) to ~/Desktop/kinbench/037-titles.txt",
+  "prompt": "Find every note in the Notes app whose title starts with 'KinBench Listing' and write each title (one per line, just the titles) to ~/Desktop/kinbench/037-titles.txt. Fast path: cerebellum 'notes list_titles \"KinBench Listing\" ~/Desktop/kinbench/037-titles.txt'.",
   "timeout_sec": 90
 }

@@ -2,5 +2,5 @@
   "id": "179-notes-search-all-notes",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "Search all Notes for the term 'kinbench-search-179' and write the count of matching notes to ~/Desktop/kinbench/179-count.txt"
+  "prompt": "Search all Notes for the term 'kinbench-search-179' and write the count of matching notes to ~/Desktop/kinbench/179-count.txt. Fast path: cerebellum 'notes search_count kinbench-search-179 ~/Desktop/kinbench/179-count.txt'."
 }

@@ -2,5 +2,5 @@
   "id": "173-notes-format-bold",
   "category": "notes",
   "difficulty": "T2",
-  "prompt": "In the note 'KinBench Bold 173', make the phrase 'this is bold' actually bold"
+  "prompt": "In the note 'KinBench Bold 173', make the phrase 'this is bold' actually bold. Fast path: cerebellum 'notes format \"KinBench Bold 173\" bold'."
 }

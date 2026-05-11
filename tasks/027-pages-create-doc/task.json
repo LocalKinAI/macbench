@@ -2,6 +2,6 @@
   "id": "027-pages-create-doc",
   "category": "pages",
   "difficulty": "T2",
-  "prompt": "Open Pages, create a new blank document, type 'Hello world from kinbench' as the body, and save the document to ~/Desktop/kinbench/027-doc.pages",
+  "prompt": "Open Pages, create a new blank document, type 'Hello world from kinbench' as the body, and save the document to ~/Desktop/kinbench/027-doc.pages. Fast path: cerebellum 'pages new ~/Desktop/kinbench/027-doc.pages' then cerebellum 'pages add_text ~/Desktop/kinbench/027-doc.pages \"Hello world from kinbench\"'.",
   "timeout_sec": 90
 }

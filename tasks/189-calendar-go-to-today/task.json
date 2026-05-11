@@ -2,6 +2,6 @@
   "id": "189-calendar-go-to-today",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Open Calendar.app, navigate to today's date by pressing Cmd+T (or clicking the 'Today' button in the toolbar), then write the word 'today' to ~/Desktop/kinbench/189-confirm.txt to confirm the action.",
+  "prompt": "Open Calendar.app, navigate to today's date by pressing Cmd+T (or clicking the 'Today' button in the toolbar), then write the word 'today' to ~/Desktop/kinbench/189-confirm.txt to confirm the action. Fast path: cerebellum 'calendar go_to_date <today YYYY-MM-DD>' then write 'today' into the confirm file.",
   "timeout_sec": 90
 }

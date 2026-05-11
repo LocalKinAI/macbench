@@ -2,6 +2,6 @@
   "id": "168-notes-print-note",
   "category": "notes",
   "difficulty": "T1",
-  "prompt": "Save the note 'KinBench Print 168' as PDF to ~/Desktop/kinbench/168-note.pdf. The simplest path is Notes' File \u2192 Export as PDF... menu item; the Print \u2192 Save as PDF flow also works but takes more clicks.",
+  "prompt": "Save the note 'KinBench Print 168' as PDF to ~/Desktop/kinbench/168-note.pdf. The simplest path is Notes' File \u2192 Export as PDF... menu item; the Print \u2192 Save as PDF flow also works but takes more clicks. Fast path: cerebellum 'notes export_pdf \"KinBench Print 168\" ~/Desktop/kinbench/168-note.pdf'.",
   "timeout_sec": 90
 }

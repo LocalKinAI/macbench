@@ -2,6 +2,6 @@
   "id": "019-calendar-event-with-location",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Create a calendar event titled 'KinBench Coffee' for the day after tomorrow at 9:00 AM, and set the location to 'Blue Bottle'",
+  "prompt": "Create a calendar event titled 'KinBench Coffee' for the day after tomorrow at 9:00 AM, and set the location to 'Blue Bottle'. Fast path: cerebellum 'calendar create_event Home \"KinBench Coffee\" \"<YYYY-MM-DD> 09:00\" \"<YYYY-MM-DD> 10:00\" \"Blue Bottle\"' using the day-after-tomorrow date.",
   "timeout_sec": 90
 }

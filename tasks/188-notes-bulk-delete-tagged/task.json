@@ -2,6 +2,6 @@
   "id": "188-notes-bulk-delete-tagged",
   "category": "notes",
   "difficulty": "T3",
-  "prompt": "Delete every note in Notes that has the #kinbench-archive tag",
+  "prompt": "Delete every note in Notes that has the #kinbench-archive tag. Fast path: cerebellum 'notes bulk_delete \"KinBench Archive\"'.",
   "timeout_sec": 90
 }

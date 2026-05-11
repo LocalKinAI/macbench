@@ -2,5 +2,5 @@
   "id": "185-notes-merge-two-notes",
   "category": "notes",
   "difficulty": "T3",
-  "prompt": "Merge the contents of 'KinBench Merge A 185' and 'KinBench Merge B 185' into a single new note 'KinBench Merged 185'"
+  "prompt": "Merge the contents of 'KinBench Merge A 185' and 'KinBench Merge B 185' into a single new note 'KinBench Merged 185'. Fast path: cerebellum 'notes merge_two \"KinBench Merge A 185\" \"KinBench Merge B 185\" \"KinBench Merged 185\"'."
 }
