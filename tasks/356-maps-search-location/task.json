@@ -2,6 +2,6 @@
   "id": "356-maps-search-location",
   "category": "maps",
   "difficulty": "T1",
-  "prompt": "Open Maps and search for 'Apple Park, Cupertino'",
-  "status": "stub"
+  "prompt": "Open Maps and search for 'Apple Park, Cupertino'. Use `cerebellum 'maps search \"Apple Park, Cupertino\"'`.",
+  "timeout_sec": 60
 }

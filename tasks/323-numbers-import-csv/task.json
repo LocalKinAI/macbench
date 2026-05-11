@@ -2,7 +2,6 @@
   "id": "323-numbers-import-csv",
   "category": "numbers",
   "difficulty": "T3",
-  "prompt": "Import the CSV file ~/Desktop/kinbench/323-data.csv into a new Numbers spreadsheet, save the spreadsheet to ~/Desktop/kinbench/323-imported.numbers",
-  "timeout_sec": 240,
-  "status": "stub"
+  "prompt": "Open the CSV file ~/Desktop/kinbench/323-data.csv in Numbers (File > Open, or drag onto Numbers). Numbers will create a new spreadsheet. Save the resulting spreadsheet to ~/Desktop/kinbench/323-imported.numbers. When done, write ~/Desktop/kinbench/323-csv-confirm.txt containing 'done'.",
+  "timeout_sec": 240
 }

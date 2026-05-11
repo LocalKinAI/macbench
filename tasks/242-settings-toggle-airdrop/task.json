@@ -2,6 +2,6 @@
   "id": "242-settings-toggle-airdrop",
   "category": "settings",
   "difficulty": "T1",
-  "prompt": "Toggle AirDrop visibility between 'Contacts Only' and 'Everyone for 10 minutes'",
-  "status": "stub"
+  "prompt": "Toggle AirDrop visibility between 'Contacts Only' and 'Everyone for 10 minutes'. Fast path: open Control Center > AirDrop, or `cerebellum 'settings open com.apple.preferences.AirDrop'`. The eval reads com.apple.sharingd DiscoverableMode and expects it to differ from the value captured at setup. If your AirDrop UI doesn't allow toggling (e.g. on a Mac with no Wi-Fi), document it.",
+  "timeout_sec": 90
 }

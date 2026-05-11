@@ -2,6 +2,6 @@
   "id": "273-settings-screen-saver-pick",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Pick a different screen saver in System Settings \u003e Screen Saver (any non-current option)",
-  "status": "stub"
+  "prompt": "Pick a different screen saver. System Settings > Screen Saver > scroll and select any non-current screen saver. Fast path: `cerebellum 'settings open com.apple.ScreenSaver-Settings.extension'`. The eval reads `defaults -currentHost read com.apple.screensaver moduleDict` and expects the moduleName to have changed since setup.",
+  "timeout_sec": 120
 }

@@ -2,6 +2,6 @@
   "id": "350-photos-add-to-album",
   "category": "photos",
   "difficulty": "T2",
-  "prompt": "Add a specific photo to the album 'KinBench Album 350'",
-  "status": "stub"
+  "prompt": "Add a specific photo to the album 'KinBench Album 350'. Use `cerebellum 'photos recent 1 /tmp/350.txt'` to learn a photo name, then `cerebellum 'photos add_to_album \"KinBench Album 350\" \"<photo-name>\"'`.",
+  "timeout_sec": 120
 }

@@ -2,6 +2,6 @@
   "id": "321-numbers-merge-cells",
   "category": "numbers",
   "difficulty": "T2",
-  "prompt": "Merge cells A1 and B1 in the active Numbers table",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/321-sheet.numbers in Numbers. Select cells A1 and B1 together, then merge them (Table menu > Merge Cells, or right-click the selection > Merge Cells). Save. When done, write ~/Desktop/kinbench/321-merge-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

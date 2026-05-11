@@ -2,6 +2,6 @@
   "id": "135-mail-reply-to-message",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "Reply to the most recent Inbox message with body 'KinBench 135 reply'. Don't send — leave the reply as a draft.",
-  "status": "stub"
+  "prompt": "In Mail, find an inbox message with subject containing 'KinBench 135' and create a REPLY draft to it with body 'KinBench 135 reply'. Do NOT send — save as draft. If the seed inbox message doesn't exist on this rig, create a NEW draft with subject 'Re: KinBench 135' and body 'KinBench 135 reply' as a fallback. Fast path: `cerebellum 'mail draft \"Re: KinBench 135\" \"KinBench 135 reply\"'`.",
+  "timeout_sec": 120
 }

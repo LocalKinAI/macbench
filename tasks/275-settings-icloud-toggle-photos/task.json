@@ -2,6 +2,6 @@
   "id": "275-settings-icloud-toggle-photos",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Toggle iCloud Photos sync (System Settings \u003e [Apple ID] \u003e iCloud \u003e Photos)",
-  "status": "stub"
+  "prompt": "Toggle iCloud Photos sync. System Settings > [Apple ID at top] > iCloud > Photos > toggle 'Sync this Mac'. iCloud sync state is sandboxed under cloud/photo daemons and unreadable from the shell; the eval soft-passes if the iCloud pane was opened (System Settings running). If not signed in to iCloud, mark this as platform-blocked.",
+  "timeout_sec": 120
 }

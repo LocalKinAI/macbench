@@ -2,6 +2,6 @@
   "id": "093-safari-show-bookmarks",
   "category": "safari",
   "difficulty": "T1",
-  "prompt": "Open Safari's bookmarks view (Cmd+Option+B)",
-  "status": "stub"
+  "prompt": "Open Safari's bookmarks view (Cmd+Option+B or Bookmarks menu > Edit Bookmarks). After it's open, write the file ~/Desktop/kinbench/093-bookmarks-confirm.txt with the text 'bookmarks shown' to confirm.",
+  "timeout_sec": 90
 }

@@ -2,6 +2,6 @@
   "id": "308-pages-track-changes",
   "category": "pages",
   "difficulty": "T2",
-  "prompt": "Enable Track Changes mode in Pages (Edit \u003e Track Changes)",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/308-doc.pages in Pages. Enable Track Changes from the Edit menu (Edit > Track Changes). Save. When done, write ~/Desktop/kinbench/308-track-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

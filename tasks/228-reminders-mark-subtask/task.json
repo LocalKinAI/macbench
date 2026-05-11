@@ -2,6 +2,6 @@
   "id": "228-reminders-mark-subtask",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Mark the subtask 'KinBench Subtask 228' (under 'KinBench Parent 228') as completed",
-  "status": "stub"
+  "prompt": "In the Reminders app, the reminder 'KinBench Subtask 228' (associated with parent 'KinBench Parent 228') currently exists in the default list. Mark 'KinBench Subtask 228' as completed (click its checkbox). Fast path: `cerebellum 'reminders complete Reminders \"KinBench Subtask 228\"'` (replace 'Reminders' with the actual default list name if different).",
+  "timeout_sec": 90
 }

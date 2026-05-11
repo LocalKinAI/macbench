@@ -2,6 +2,6 @@
   "id": "101-safari-bookmark-in-folder",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Bookmark the current page into a specific bookmarks folder named 'KinBench' (create the folder if it doesn't exist)",
-  "status": "stub"
+  "prompt": "Safari is open on https://www.apple.com. Bookmark this page into a bookmarks folder named 'KinBench' (create the folder if it doesn't exist). Then write 'kinbench folder + apple.com bookmark' to ~/Desktop/kinbench/101-bookmark-folder-confirm.txt.",
+  "timeout_sec": 180
 }

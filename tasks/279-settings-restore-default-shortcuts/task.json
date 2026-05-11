@@ -2,6 +2,6 @@
   "id": "279-settings-restore-default-shortcuts",
   "category": "settings",
   "difficulty": "T3",
-  "prompt": "In System Settings \u003e Keyboard \u003e Keyboard Shortcuts, click 'Restore Defaults' to reset all shortcuts",
-  "status": "stub"
+  "prompt": "Restore default keyboard shortcuts. System Settings > Keyboard > Keyboard Shortcuts > 'Restore Defaults' button (bottom). Setup injects a custom shortcut and the eval verifies it's gone (the user-symbolic-hotkeys plist returns to baseline / loses the injected binding). Fast path: `defaults delete com.apple.symbolichotkeys && killall cfprefsd`. The eval reads com.apple.symbolichotkeys and expects the injected key 9999 to be absent.",
+  "timeout_sec": 180
 }

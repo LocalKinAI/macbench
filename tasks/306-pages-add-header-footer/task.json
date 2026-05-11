@@ -2,6 +2,6 @@
   "id": "306-pages-add-header-footer",
   "category": "pages",
   "difficulty": "T2",
-  "prompt": "Add a header to the Pages document containing the text 'KinBench 306'",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/306-doc.pages in Pages. Add a header to the document containing the text 'KinBench 306'. (Hover near the top of the page; the three header text fields will appear. Type into one.) Save. When done, write ~/Desktop/kinbench/306-header-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

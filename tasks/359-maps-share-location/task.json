@@ -2,6 +2,6 @@
   "id": "359-maps-share-location",
   "category": "maps",
   "difficulty": "T2",
-  "prompt": "In Maps, share the location 'Apple Park, Cupertino' via Mail (Share button \u003e Mail). Save the resulting email as a draft.",
-  "status": "stub"
+  "prompt": "Share the location 'Apple Park, Cupertino' via Mail as a draft. Use `cerebellum 'maps share_url \"Apple Park, Cupertino\" /tmp/359-url.txt'` to generate the URL, then `cerebellum 'mail draft \"Apple Park\" \"<url-from-file>\"'`.",
+  "timeout_sec": 120
 }

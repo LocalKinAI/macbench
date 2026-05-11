@@ -2,6 +2,6 @@
   "id": "209-calendar-show-availability",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Find available 1-hour time slots tomorrow between 9 AM and 5 PM, and write them (one per line, format 'HH:MM-HH:MM') to ~/Desktop/kinbench/209-slots.txt",
-  "status": "stub"
+  "prompt": "Examine Calendar.app events for TOMORROW between 9:00 AM and 5:00 PM. Find all 1-hour time slots that are completely free (no overlapping events). Write each free slot on its own line in format 'HH:MM-HH:MM' (24-hour, no AM/PM) to ~/Desktop/kinbench/209-slots.txt. Example line: '11:00-12:00'. The file must contain at least one valid slot.",
+  "timeout_sec": 180
 }

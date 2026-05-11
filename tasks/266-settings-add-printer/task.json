@@ -2,6 +2,6 @@
   "id": "266-settings-add-printer",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Open System Settings \u003e Printers \u0026 Scanners \u003e Add Printer dialog (don't actually add — just open the dialog)",
-  "status": "stub"
+  "prompt": "Open the System Settings > Printers & Scanners > Add Printer dialog. Don't actually add a printer — just open the dialog. Fast path: `cerebellum 'settings open com.apple.preference.printfax'`, then click the '+' button. The eval soft-passes if the Printers pane is open (process running).",
+  "timeout_sec": 90
 }

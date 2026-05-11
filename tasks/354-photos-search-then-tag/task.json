@@ -2,7 +2,6 @@
   "id": "354-photos-search-then-tag",
   "category": "photos",
   "difficulty": "T3",
-  "prompt": "Search Photos for photos taken in the last 30 days, mark the first 3 results as Favorite",
-  "timeout_sec": 240,
-  "status": "stub"
+  "prompt": "Find the first 3 recent photos and mark each as Favorite. Use `cerebellum 'photos recent 3 ~/Desktop/kinbench/354-recent.txt'`, then for each name in that file call `cerebellum 'photos set_favorite \"<name>\"'`.",
+  "timeout_sec": 180
 }

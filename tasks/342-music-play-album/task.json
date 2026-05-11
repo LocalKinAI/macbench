@@ -2,6 +2,6 @@
   "id": "342-music-play-album",
   "category": "music",
   "difficulty": "T2",
-  "prompt": "Play a specific album from the library (any album with at least one song)",
-  "status": "stub"
+  "prompt": "Play any album from the library. Use `cerebellum 'music play_album \"<album-name>\"'` (pick an album you discover with `cerebellum 'music search_track \"\" ~/Desktop/kinbench/342-search.txt'` or browse the library).",
+  "timeout_sec": 120
 }

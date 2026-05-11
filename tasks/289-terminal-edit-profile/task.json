@@ -2,6 +2,6 @@
   "id": "289-terminal-edit-profile",
   "category": "terminal",
   "difficulty": "T2",
-  "prompt": "Change the Terminal profile to 'Pro' or any non-default profile (Terminal \u003e Settings \u003e Profiles)",
-  "status": "stub"
+  "prompt": "Change the Terminal window's active profile to 'Pro' (any built-in non-default profile is acceptable — Pro, Homebrew, Ocean, etc). Use Terminal > Settings > Profiles, the Shell menu's Use Settings As Default, or Window > Profiles. Apply it to the front window.",
+  "timeout_sec": 180
 }

@@ -2,6 +2,6 @@
   "id": "231-reminders-set-recurring",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Set the reminder 'KinBench Recurring 231' to repeat weekly",
-  "status": "stub"
+  "prompt": "In the Reminders app, set the existing reminder 'KinBench Recurring 231' to repeat weekly. Reminders' AppleScript doesn't expose recurrence rules, so drive the UI: open the reminder's info pane and pick Repeat → Weekly. The reminder already has a due date from setup.",
+  "timeout_sec": 90
 }

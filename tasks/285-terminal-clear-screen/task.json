@@ -2,6 +2,6 @@
   "id": "285-terminal-clear-screen",
   "category": "terminal",
   "difficulty": "T1",
-  "prompt": "Clear the current Terminal screen (Cmd+K or 'clear' command)",
-  "status": "stub"
+  "prompt": "Clear the Terminal screen (Cmd+K, or run the 'clear' command, or send the ANSI reset). Then write the text 'screen-cleared' to ~/Desktop/kinbench/285-confirm.txt to confirm.",
+  "timeout_sec": 90
 }

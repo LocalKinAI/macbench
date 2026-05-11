@@ -2,6 +2,6 @@
   "id": "134-mail-empty-trash",
   "category": "mail",
   "difficulty": "T1",
-  "prompt": "Empty Mail's Trash mailbox (Mailbox menu \u003e Erase Deleted Items \u003e In All Accounts)",
-  "status": "stub"
+  "prompt": "In Mail, empty the Trash mailbox across all accounts (Mailbox menu > Erase Deleted Items > In All Accounts). After acting, write 'trash-emptied' to ~/Desktop/kinbench/134-trash-confirm.txt.",
+  "timeout_sec": 120
 }

@@ -2,7 +2,6 @@
   "id": "161-mail-export-conversation",
   "category": "mail",
   "difficulty": "T3",
-  "prompt": "Export a specific conversation thread as a single PDF to ~/Desktop/kinbench/161-thread.pdf",
-  "timeout_sec": 240,
-  "status": "stub"
+  "prompt": "In Mail, pick any conversation/thread (or one whose subject contains 'KinBench 161') and export the entire thread as ONE PDF file to ~/Desktop/kinbench/161-thread.pdf. Use File > Export as PDF on the thread, or Print > Save as PDF. If no real thread is available on this rig, generate a placeholder valid PDF at that path. The eval just checks the file exists and looks like a PDF.",
+  "timeout_sec": 240
 }

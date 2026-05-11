@@ -2,6 +2,6 @@
   "id": "300-pages-set-margins",
   "category": "pages",
   "difficulty": "T1",
-  "prompt": "Change the document margins to 1 inch on all sides (Document inspector \u003e Margins)",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/300-doc.pages in Pages. Open the Document inspector (View > Inspector > Document) and change the page margins (top, bottom, left, right) to 1 inch each. Save. When done, write ~/Desktop/kinbench/300-margins-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

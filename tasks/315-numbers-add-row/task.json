@@ -2,6 +2,6 @@
   "id": "315-numbers-add-row",
   "category": "numbers",
   "difficulty": "T2",
-  "prompt": "Insert a new row above row 3 in the open Numbers spreadsheet",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/315-sheet.numbers in Numbers. The first table starts with 5 rows. Insert a new (blank) row above the current row 3. (Click row 3's row header > Add Row Above, or use Table menu > Add Row Above.) Save. When done, write ~/Desktop/kinbench/315-row-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

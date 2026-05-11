@@ -2,6 +2,6 @@
   "id": "116-safari-show-source",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "View the page source of the current Safari page (Develop menu \u003e Show Page Source). Develop menu must be enabled first.",
-  "status": "stub"
+  "prompt": "Safari is open on https://www.example.com with the Develop menu already enabled. View the page source (Develop menu > Show Page Source, or Cmd+Option+U). Then save the visible source HTML to ~/Desktop/kinbench/116-source.html — you can copy the text from the source view, or use 'curl -L https://www.example.com -o ~/Desktop/kinbench/116-source.html' as a fallback to capture the same page.",
+  "timeout_sec": 150
 }

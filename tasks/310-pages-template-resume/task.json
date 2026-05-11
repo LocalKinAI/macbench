@@ -2,7 +2,6 @@
   "id": "310-pages-template-resume",
   "category": "pages",
   "difficulty": "T3",
-  "prompt": "Create a new Pages document from the Resume template, replace the placeholder name with 'Jacky Sun' and email with 'sxm1981@gmail.com'. Save to ~/Desktop/kinbench/310-resume.pages",
-  "timeout_sec": 300,
-  "status": "stub"
+  "prompt": "Open Pages and create a new document using a Resume template (File > New > choose a Resume / CV template). Replace the placeholder name with 'Jacky Sun' and the placeholder email with 'sxm1981@gmail.com'. Save the result to ~/Desktop/kinbench/310-resume.pages. When done, write ~/Desktop/kinbench/310-resume-confirm.txt containing 'done'.",
+  "timeout_sec": 300
 }

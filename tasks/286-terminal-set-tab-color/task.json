@@ -2,6 +2,6 @@
   "id": "286-terminal-set-tab-color",
   "category": "terminal",
   "difficulty": "T2",
-  "prompt": "Set the active Terminal tab's color to red (Window menu \u003e Tab \u003e Color)",
-  "status": "stub"
+  "prompt": "Tint the active Terminal tab so its background colour is visibly reddish. Use Shell > Edit Title > Tab Bar Color, Window menu, or change the active profile to one with a red/warm background. Then write 'tab-colored' to ~/Desktop/kinbench/286-confirm.txt.",
+  "timeout_sec": 150
 }

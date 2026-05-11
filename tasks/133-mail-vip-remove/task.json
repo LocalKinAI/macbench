@@ -2,6 +2,6 @@
   "id": "133-mail-vip-remove",
   "category": "mail",
   "difficulty": "T1",
-  "prompt": "Remove a specific sender from the VIP list",
-  "status": "stub"
+  "prompt": "In Mail, remove a sender from the VIP list — click the VIP icon (star) next to a sender, or use the VIPs panel in Mail's sidebar. After acting, write 'vip-removed' to ~/Desktop/kinbench/133-vip-remove-confirm.txt (eval paper trail; VIPs.plist is TCC-protected).",
+  "timeout_sec": 120
 }

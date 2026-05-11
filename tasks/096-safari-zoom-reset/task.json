@@ -2,6 +2,6 @@
   "id": "096-safari-zoom-reset",
   "category": "safari",
   "difficulty": "T1",
-  "prompt": "Reset Safari's zoom on the current page to 100% (Cmd+0)",
-  "status": "stub"
+  "prompt": "Safari is open and the page has been zoomed in 3 times. Reset the zoom on the current page to 100% (Cmd+0, or cerebellum 'safari actual_size'). Then write 'zoom reset to 100' to ~/Desktop/kinbench/096-zoom-reset.txt.",
+  "timeout_sec": 90
 }

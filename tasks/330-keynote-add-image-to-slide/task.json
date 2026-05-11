@@ -2,6 +2,6 @@
   "id": "330-keynote-add-image-to-slide",
   "category": "keynote",
   "difficulty": "T2",
-  "prompt": "Insert the image ~/Desktop/kinbench/330-photo.jpg into the current Keynote slide",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/330-deck.key in Keynote. Insert the image ~/Desktop/kinbench/330-photo.jpg into the current slide (Insert menu > Choose…, or drag the image into the slide). Save. You may use the helper: cerebellum 'keynote add_image 1 ~/Desktop/kinbench/330-photo.jpg'. When done, write ~/Desktop/kinbench/330-image-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

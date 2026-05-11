@@ -2,6 +2,6 @@
   "id": "329-keynote-change-theme",
   "category": "keynote",
   "difficulty": "T2",
-  "prompt": "Change the Keynote presentation's theme to 'Modern Portfolio' or any non-default theme",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/329-deck.key in Keynote (it uses the default 'White' theme). Change the theme to any other theme — 'Modern Portfolio' if available, otherwise pick any non-default option (Document inspector > Change Theme button). Save. When done, write ~/Desktop/kinbench/329-theme-confirm.txt containing 'done'.",
+  "timeout_sec": 240
 }

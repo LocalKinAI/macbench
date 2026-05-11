@@ -2,7 +2,6 @@
   "id": "335-keynote-build-from-outline",
   "category": "keynote",
   "difficulty": "T3",
-  "prompt": "Read the markdown outline at ~/Desktop/kinbench/335-outline.md (each '#' heading is a slide title; bullet items become slide bullets), create a 5-slide presentation from it, save to ~/Desktop/kinbench/335-deck.key",
-  "timeout_sec": 360,
-  "status": "stub"
+  "prompt": "Read the markdown outline at ~/Desktop/kinbench/335-outline.md. Each '#' heading becomes a slide title; the bullet lines beneath it become that slide's body bullets. Build a 5-slide Keynote presentation matching the outline and save it to ~/Desktop/kinbench/335-deck.key. When done, write ~/Desktop/kinbench/335-outline-confirm.txt containing 'done'.",
+  "timeout_sec": 360
 }

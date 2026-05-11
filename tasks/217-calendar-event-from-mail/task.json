@@ -2,7 +2,6 @@
   "id": "217-calendar-event-from-mail",
   "category": "calendar",
   "difficulty": "T3",
-  "prompt": "Find a Mail message containing flight info (subject contains 'flight'), create a calendar event from the departure date/time",
-  "timeout_sec": 300,
-  "status": "stub"
+  "prompt": "There is a Mail draft with subject 'KinBench Flight 217' whose body contains a departure date and time in ISO-like format (e.g. '2026-06-15 09:30'). Read that draft (use Mail.app or AppleScript), parse the departure date/time, and create a calendar event titled 'KinBench Flight 217' in Calendar.app at that exact start time with a 1-hour duration. Hint: cerebellum 'calendar create_event Home \"KinBench Flight 217\" \"2026-06-15 09:30\" \"2026-06-15 10:30\"' after you read the draft.",
+  "timeout_sec": 300
 }

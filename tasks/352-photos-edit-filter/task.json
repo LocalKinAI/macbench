@@ -2,6 +2,6 @@
   "id": "352-photos-edit-filter",
   "category": "photos",
   "difficulty": "T2",
-  "prompt": "Apply the 'Vivid' filter to a specific photo (Edit mode \u003e Filters \u003e Vivid)",
-  "status": "stub"
+  "prompt": "Apply the 'Vivid' filter to a specific photo (Edit mode > Filters > Vivid). Photos AS dict doesn't expose Edit/Filter; do via UI/keystroke and write ~/Desktop/kinbench/352-confirm.txt with the photo name to confirm.",
+  "timeout_sec": 180
 }

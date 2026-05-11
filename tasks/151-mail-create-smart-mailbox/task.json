@@ -2,6 +2,6 @@
   "id": "151-mail-create-smart-mailbox",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "Create a Smart Mailbox titled 'KinBench This Month' showing messages received this month",
-  "status": "stub"
+  "prompt": "In Mail, create a Smart Mailbox titled 'KinBench This Month' that shows messages received in the current month (Mailbox > New Smart Mailbox). After creating, write 'smart-mailbox-created' to ~/Desktop/kinbench/151-smart-confirm.txt (Smart mailbox plist is TCC-restricted; confirmation file is the eval's paper trail).",
+  "timeout_sec": 180
 }

@@ -2,6 +2,6 @@
   "id": "281-settings-multi-display-mirror-toggle",
   "category": "settings",
   "difficulty": "T3",
-  "prompt": "Toggle display mirroring on a multi-monitor setup (System Settings \u003e Displays \u003e Mirror Displays). If single display, report 'single display' and skip.",
-  "status": "stub"
+  "prompt": "Open System Settings > Displays. If multiple displays are connected, toggle Mirror Displays (or use the equivalent Use as Mirror option) and write 'mirroring-toggled' to ~/Desktop/kinbench/281-result.txt. If only one display is present, write 'single display' to that file and don't attempt the toggle.",
+  "timeout_sec": 180
 }

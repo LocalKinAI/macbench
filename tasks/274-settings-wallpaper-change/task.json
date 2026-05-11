@@ -2,6 +2,6 @@
   "id": "274-settings-wallpaper-change",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Change the desktop wallpaper to a different image in System Settings \u003e Wallpaper",
-  "status": "stub"
+  "prompt": "Change the desktop wallpaper to a different image. UI: System Settings > Wallpaper > pick a built-in wallpaper. Fast path: `cerebellum 'settings set_wallpaper /System/Library/Desktop\\ Pictures/Solid\\ Colors/Stone.png'`, or `osascript -e 'tell app \"System Events\" to set picture of every desktop to \"/System/Library/Desktop Pictures/Solid Colors/Stone.png\"'`. The eval queries `osascript` for the current desktop picture path and expects it to differ from setup.",
+  "timeout_sec": 90
 }

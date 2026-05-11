@@ -2,6 +2,6 @@
   "id": "260-settings-display-multi-monitor",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Open System Settings \u003e Displays \u003e Arrange and view multi-monitor arrangement (or report 'single display' if only one display is connected)",
-  "status": "stub"
+  "prompt": "Open System Settings > Displays. If multiple displays are connected, navigate to the Arrange view; if only one display is present, that's fine. Either way, write either 'single display' or 'multi-monitor: <N>' (where N is the display count) to ~/Desktop/kinbench/260-displays.txt.",
+  "timeout_sec": 150
 }

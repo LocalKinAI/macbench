@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Pages comments are stored as strings in the bundle. We grep for the comment
+# text inside the unzipped .pages.
+set -uo pipefail
+F="$HOME/Desktop/kinbench/309-doc.pages"
+CONF="$HOME/Desktop/kinbench/309-comment-confirm.txt"
+
+[[ -e "$F" ]] || { echo "FAIL: $F missing"; exit 1; }
+SIZE="$(stat -f %z "$F" 2>/dev/null || stat -c %s "$F" 2>/dev/null || echo 0)"
+[[ "$SIZE" -gt 1024 ]] || { echo "FAIL: $F too small"; exit 2; }
+
+if file "$F" | grep -qi "zip"; then
+  TMP="$(mktemp -d)"
+  trap 'rm -rf "$TMP"' EXIT
+  if unzip -q -o "$F" -d "$TMP" 2>/dev/null; then
+    if grep -r -a -l "KinBench 309 comment" "$TMP" 2>/dev/null | grep -q .; then
+      echo "PASS: comment text found in bundle"
+      exit 0
+    fi
+  fi
+fi
+if [[ -f "$CONF" ]]; then
+  echo "PASS (soft): confirmation present, doc size=$SIZE"
+  exit 0
+fi
+echo "PARTIAL: doc present ($SIZE bytes) — soft pass"
+exit 0

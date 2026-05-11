@@ -2,6 +2,6 @@
   "id": "303-pages-set-font",
   "category": "pages",
   "difficulty": "T2",
-  "prompt": "Change the font of the selected paragraph to Helvetica 14pt",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/303-doc.pages in Pages. Select the existing paragraph (Cmd+A or the paragraph text) and change its font to Helvetica at 14 points (use the Format > Font menu or the Format sidebar). Save. When done, write ~/Desktop/kinbench/303-font-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

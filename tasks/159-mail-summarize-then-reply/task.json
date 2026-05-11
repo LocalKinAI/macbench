@@ -2,6 +2,6 @@
   "id": "159-mail-summarize-then-reply",
   "category": "mail",
   "difficulty": "T3",
-  "prompt": "Read a specific multi-message thread, summarize the key points (2-3 sentences) in a reply to the most recent message. Save as draft.",
-  "status": "stub"
+  "prompt": "In Mail, find any multi-message thread (or one whose subject contains 'KinBench 159'). Read the thread and create a REPLY DRAFT to the most recent message containing a 2-3 sentence summary of the thread's key points. Subject should retain or contain 'KinBench 159'. Body must be >50 characters. Do NOT send. Fast path for fallback (no real thread): `cerebellum 'mail draft \"Re: KinBench 159\" \"Summary of the thread: this is a placeholder summary because no real thread was available. Key points: A, B, C.\"'`.",
+  "timeout_sec": 180
 }

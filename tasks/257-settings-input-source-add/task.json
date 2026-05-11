@@ -2,6 +2,6 @@
   "id": "257-settings-input-source-add",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Add a new input source (any non-current source — e.g. 'Pinyin - Simplified' or 'British English') in System Settings \u003e Keyboard \u003e Input Sources",
-  "status": "stub"
+  "prompt": "Add a new input source (any non-current source — e.g. 'Pinyin - Simplified' or 'British English'). System Settings > Keyboard > Input Sources > Edit > + > pick a language > Add. Fast path: open the pane with `cerebellum 'settings open com.apple.Keyboard-Settings.extension'`. The eval reads com.apple.HIToolbox AppleEnabledInputSources and expects the source count to have grown by at least 1 since setup.",
+  "timeout_sec": 120
 }

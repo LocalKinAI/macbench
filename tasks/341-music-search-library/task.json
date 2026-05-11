@@ -2,6 +2,6 @@
   "id": "341-music-search-library",
   "category": "music",
   "difficulty": "T2",
-  "prompt": "Search the Music library for 'Beatles' (or any artist with multiple matches)",
-  "status": "stub"
+  "prompt": "Search the Music library for any artist/track and write matches to ~/Desktop/kinbench/341-search.txt (one match per line). Use `cerebellum 'music search_track \"<query>\" ~/Desktop/kinbench/341-search.txt'`.",
+  "timeout_sec": 120
 }

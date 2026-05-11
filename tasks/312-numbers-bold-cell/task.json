@@ -2,6 +2,6 @@
   "id": "312-numbers-bold-cell",
   "category": "numbers",
   "difficulty": "T1",
-  "prompt": "In the open Numbers spreadsheet, make cell A1's value bold",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/312-sheet.numbers in Numbers. Click cell A1, then make its content bold (Cmd+B). Save. When done, write ~/Desktop/kinbench/312-bold-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

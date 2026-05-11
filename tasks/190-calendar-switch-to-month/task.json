@@ -2,6 +2,6 @@
   "id": "190-calendar-switch-to-month",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Switch Calendar view to Month (Cmd+3 or View \u003e by Month)",
-  "status": "stub"
+  "prompt": "Open Calendar.app and switch the view to Month (press Cmd+3 or use View > by Month). Then write 'month' to ~/Desktop/kinbench/190-confirm.txt to confirm.",
+  "timeout_sec": 90
 }

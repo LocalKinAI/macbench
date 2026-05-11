@@ -2,7 +2,6 @@
   "id": "362-multi-search-then-calendar",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Search Mail for messages with subject containing 'flight'. From the most recent match, find the departure date/time, create a calendar event titled 'KinBench Flight 362' with that start time",
-  "timeout_sec": 360,
-  "status": "stub"
+  "prompt": "Setup will plant a Mail draft titled 'Flight KinBench 362' with a departure time of '2026-06-15 14:30' in the body. Open Mail, search for messages with subject containing 'flight', open the most recent match (the planted draft), read the departure date/time from the body, then create a calendar event titled 'KinBench Flight 362' on 2026-06-15 starting at 14:30 (end at 15:30).",
+  "timeout_sec": 360
 }

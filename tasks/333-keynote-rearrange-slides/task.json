@@ -2,6 +2,6 @@
   "id": "333-keynote-rearrange-slides",
   "category": "keynote",
   "difficulty": "T2",
-  "prompt": "Move slide 3 to position 1 in the slide navigator",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/333-deck.key in Keynote (3 slides labelled Slide1, Slide2, Slide3 in their titles). In the slide navigator, drag slide 3 to the top so it becomes slide 1. The new order should be Slide3, Slide1, Slide2. Save. When done, write ~/Desktop/kinbench/333-rearrange-confirm.txt containing 'done'.",
+  "timeout_sec": 240
 }

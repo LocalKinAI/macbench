@@ -2,6 +2,6 @@
   "id": "230-reminders-attach-image",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Attach the image ~/Desktop/kinbench/230-img.jpg to the reminder 'KinBench Image 230'",
-  "status": "stub"
+  "prompt": "In the Reminders app, attach the image at ~/Desktop/kinbench/230-img.jpg to the reminder 'KinBench Image 230'. The Reminders AppleScript dictionary doesn't expose attachments, so drive the UI: open Reminders, select the reminder, click its (i) info button or use the menu / drag-drop to add the image. The reminder already exists from setup.",
+  "timeout_sec": 90
 }

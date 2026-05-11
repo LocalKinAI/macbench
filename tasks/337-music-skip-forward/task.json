@@ -2,6 +2,6 @@
   "id": "337-music-skip-forward",
   "category": "music",
   "difficulty": "T1",
-  "prompt": "Skip to the next track in Music",
-  "status": "stub"
+  "prompt": "Skip to the next track in Music. Use `cerebellum 'music next'` if available.",
+  "timeout_sec": 60
 }

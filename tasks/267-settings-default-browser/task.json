@@ -2,6 +2,6 @@
   "id": "267-settings-default-browser",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Change the default web browser (System Settings \u003e Desktop \u0026 Dock \u003e Default web browser) to a non-current browser",
-  "status": "stub"
+  "prompt": "Change the default web browser. System Settings > Desktop & Dock > Default web browser > pick a different one (e.g. switch from Safari to Chrome or vice versa). Fast path: install `defaultbrowser` brew formula then `defaultbrowser chrome`/`defaultbrowser safari`. The eval reads the LaunchServices http handler via `plutil -p ~/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist` and expects the http/https handler to differ from setup.",
+  "timeout_sec": 120
 }

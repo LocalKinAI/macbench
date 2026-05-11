@@ -2,6 +2,6 @@
   "id": "221-reminders-show-flagged",
   "category": "reminders",
   "difficulty": "T1",
-  "prompt": "Switch to the Flagged smart list in Reminders (sidebar \u003e Flagged)",
-  "status": "stub"
+  "prompt": "Open the Reminders app and switch to the 'Flagged' smart list (click 'Flagged' in the sidebar). To confirm to the eval that you're done, write the word PASS to ~/Desktop/kinbench/221-flagged-confirm.txt. There is no cerebellum fast path for sidebar navigation — drive the UI.",
+  "timeout_sec": 90
 }

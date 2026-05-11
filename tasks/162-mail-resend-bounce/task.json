@@ -2,6 +2,6 @@
   "id": "162-mail-resend-bounce",
   "category": "mail",
   "difficulty": "T3",
-  "prompt": "Find a draft message in the Drafts mailbox titled 'KinBench 162 Resend' and modify it to add 'Re-sending' to the subject. Save as draft.",
-  "status": "stub"
+  "prompt": "In Mail, find the existing DRAFT message titled 'KinBench 162 Resend' (the setup script seeds it). Modify the subject by prepending or appending 'Re-sending' so the new subject contains both 'KinBench 162 Resend' and 'Re-sending'. Do NOT send — save as draft. Fast path: delete the seed and recreate with new subject — `cerebellum 'mail bulk_delete_drafts \"KinBench 162 Resend\"'` then `cerebellum 'mail draft \"Re-sending: KinBench 162 Resend\" \"Re-sending body\"'`.",
+  "timeout_sec": 180
 }

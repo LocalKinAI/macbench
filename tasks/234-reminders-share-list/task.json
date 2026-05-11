@@ -2,6 +2,6 @@
   "id": "234-reminders-share-list",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Open the share sheet for the reminder list 'kinbench-share-234' (don't actually share — just open the share UI)",
-  "status": "stub"
+  "prompt": "In the Reminders app, open the share sheet for the existing list 'kinbench-share-234' (the list was created by setup). Right-click the list in the sidebar > Share List, or click the share icon. Don't actually invite anyone — just opening the share UI is enough. When done, write the word PASS to ~/Desktop/kinbench/234-share-confirm.txt. Fast path to create the list: `cerebellum 'reminders create_list kinbench-share-234'` (setup already did this).",
+  "timeout_sec": 90
 }

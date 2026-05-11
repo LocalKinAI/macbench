@@ -2,6 +2,6 @@
   "id": "192-calendar-switch-to-day",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Switch Calendar view to Day (Cmd+1 or View \u003e by Day)",
-  "status": "stub"
+  "prompt": "Open Calendar.app and switch the view to Day (press Cmd+1 or use View > by Day). Then write 'day' to ~/Desktop/kinbench/192-confirm.txt to confirm.",
+  "timeout_sec": 90
 }

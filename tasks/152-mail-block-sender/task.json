@@ -2,6 +2,6 @@
   "id": "152-mail-block-sender",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "Add a specific sender to Mail's blocked senders list (Settings \u003e Junk Mail \u003e Blocked)",
-  "status": "stub"
+  "prompt": "In Mail, add a sender to the Blocked Senders list (Mail > Settings > Junk Mail > Blocked, or right-click a message > Block sender). Use 'blocked@example.com' if no real sender is available. After acting, write 'blocked-sender' to ~/Desktop/kinbench/152-block-confirm.txt — this is the eval's paper trail because the blocked-senders plist is TCC-protected.",
+  "timeout_sec": 150
 }

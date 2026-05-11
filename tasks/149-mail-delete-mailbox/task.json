@@ -2,6 +2,6 @@
   "id": "149-mail-delete-mailbox",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "Delete the custom mailbox named 'kinbench-deleteme'",
-  "status": "stub"
+  "prompt": "In Mail, delete the custom mailbox named 'kinbench-deleteme' (it is pre-created by the setup). Fast path: `cerebellum 'mail get_accounts /tmp/149.txt'` then `cerebellum 'mail delete_folder \"<account>\" kinbench-deleteme'`.",
+  "timeout_sec": 150
 }

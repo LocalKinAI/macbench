@@ -2,7 +2,6 @@
   "id": "366-multi-finder-then-quicklook",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Find a PDF file in ~/Documents (use Finder), open it in Preview, then take a screenshot of the Preview window and save to ~/Desktop/kinbench/366-shot.png",
-  "timeout_sec": 300,
-  "status": "stub"
+  "prompt": "Use Finder to locate the PDF that setup planted at ~/Desktop/kinbench/366-doc.pdf, open it in Preview (Quick Look or double-click), then capture a screenshot of the screen while Preview is in front and save it to ~/Desktop/kinbench/366-shot.png.",
+  "timeout_sec": 300
 }

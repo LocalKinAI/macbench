@@ -2,6 +2,6 @@
   "id": "316-numbers-add-column",
   "category": "numbers",
   "difficulty": "T2",
-  "prompt": "Insert a new column before column B in the open Numbers spreadsheet",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/316-sheet.numbers in Numbers. Insert a new (blank) column before column B. (Click the column B header > Add Column Before, or Table menu > Add Column Before.) Save. When done, write ~/Desktop/kinbench/316-col-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

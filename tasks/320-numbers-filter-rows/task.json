@@ -2,6 +2,6 @@
   "id": "320-numbers-filter-rows",
   "category": "numbers",
   "difficulty": "T2",
-  "prompt": "Filter the active Numbers table to show only rows where column A is greater than 100",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/320-sheet.numbers in Numbers. Add a filter rule that shows only rows where column A is greater than 100. (Organize sidebar > Filter > enable Filters > Add a filter > Column A > Number > Greater Than > 100.) Save. When done, write ~/Desktop/kinbench/320-filter-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

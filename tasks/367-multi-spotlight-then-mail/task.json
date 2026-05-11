@@ -2,7 +2,6 @@
   "id": "367-multi-spotlight-then-mail",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Use Spotlight to find a contact named 'Apple' (the company), copy their email address, compose a Mail draft to that address with subject 'KinBench 367'. If no Apple contact, use any contact with an email and report the contact's name.",
-  "timeout_sec": 300,
-  "status": "stub"
+  "prompt": "Setup will plant a Contacts entry named 'KinBench Apple 367' with email kinbench-apple@example.com. Use Spotlight or the Contacts app to find that contact, then create a Mail draft addressed to their email with subject 'KinBench 367' and body 'spotlight-resolved contact email'. Save as draft.",
+  "timeout_sec": 300
 }

@@ -2,6 +2,6 @@
   "id": "240-settings-toggle-bluetooth",
   "category": "settings",
   "difficulty": "T1",
-  "prompt": "Toggle Bluetooth (turn it off if on, or on if off; either via Control Center or System Settings)",
-  "status": "stub"
+  "prompt": "Toggle Bluetooth (turn it off if on, or on if off). Fast path: `cerebellum 'settings toggle_bluetooth OFF'` (or `ON`), or `blueutil --power 0` / `blueutil --power 1`. Otherwise use Control Center > Bluetooth, or System Settings > Bluetooth. The eval reads /Library/Preferences/com.apple.Bluetooth ControllerPowerState (or the running blued state) and expects it differs from setup time.",
+  "timeout_sec": 90
 }

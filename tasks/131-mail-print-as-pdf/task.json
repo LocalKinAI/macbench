@@ -2,6 +2,6 @@
   "id": "131-mail-print-as-pdf",
   "category": "mail",
   "difficulty": "T1",
-  "prompt": "Save the most recent Inbox message as PDF to ~/Desktop/kinbench/131-message.pdf",
-  "status": "stub"
+  "prompt": "In Mail, take the most recent Inbox message (or any inbox message you can select) and save it as a PDF to ~/Desktop/kinbench/131-message.pdf. Use File > Export as PDF, or File > Print > Save as PDF. The eval just checks the PDF file exists and is non-trivially sized.",
+  "timeout_sec": 180
 }

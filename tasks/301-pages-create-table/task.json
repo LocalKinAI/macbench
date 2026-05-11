@@ -2,6 +2,6 @@
   "id": "301-pages-create-table",
   "category": "pages",
   "difficulty": "T2",
-  "prompt": "Insert a 3-row × 3-column table into the Pages document (Insert \u003e Table)",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/301-doc.pages in Pages. Insert a 3-row by 3-column table into the document body (Insert menu > Table, or via the toolbar). Save. You may use: cerebellum 'pages insert_table ~/Desktop/kinbench/301-doc.pages 3 3'. When done, write ~/Desktop/kinbench/301-table-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

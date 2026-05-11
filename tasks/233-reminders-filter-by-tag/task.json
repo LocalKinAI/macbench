@@ -2,6 +2,6 @@
   "id": "233-reminders-filter-by-tag",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Filter Reminders to show only items tagged with #kinbench",
-  "status": "stub"
+  "prompt": "In the Reminders app, switch to the '#kinbench' tag filter so only reminders tagged with #kinbench are shown (sidebar > Tags > kinbench, or click the tag in any reminder). When you're done, write the word PASS to ~/Desktop/kinbench/233-tag-confirm.txt. There is no AppleScript / cerebellum path for tag filter navigation — drive the UI.",
+  "timeout_sec": 90
 }

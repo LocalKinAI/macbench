@@ -2,6 +2,6 @@
   "id": "100-safari-add-reading-list",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Add the current Safari page (https://en.wikipedia.org/wiki/macOS) to Reading List",
-  "status": "stub"
+  "prompt": "Safari is open on https://en.wikipedia.org/wiki/macOS. Add the current page to Reading List (Bookmarks menu > Add to Reading List, Cmd+Shift+D, or right-click address bar). Then write 'reading list added: wikipedia macos' to ~/Desktop/kinbench/100-reading-list-confirm.txt.",
+  "timeout_sec": 120
 }

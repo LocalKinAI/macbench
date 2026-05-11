@@ -2,6 +2,6 @@
   "id": "095-safari-zoom-in",
   "category": "safari",
   "difficulty": "T1",
-  "prompt": "Zoom in on the current Safari page 3 times (Cmd+= three times)",
-  "status": "stub"
+  "prompt": "Zoom in on the current Safari page 3 times (Cmd+= three times, or cerebellum 'safari zoom_in 3'). After zooming, write the current page text zoom level to ~/Desktop/kinbench/095-zoom-level.txt (e.g. via JavaScript: document.body.style.zoom or window.devicePixelRatio; or just write 'zoomed-3' to the file).",
+  "timeout_sec": 90
 }

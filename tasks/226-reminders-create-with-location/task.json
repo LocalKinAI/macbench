@@ -2,6 +2,6 @@
   "id": "226-reminders-create-with-location",
   "category": "reminders",
   "difficulty": "T2",
-  "prompt": "Create a reminder titled 'KinBench Location 226' with a location-based trigger ('Apple Park, Cupertino' or any address — the geofence binding is what matters, not actual triggering)",
-  "status": "stub"
+  "prompt": "In the Reminders app, create a new reminder titled 'KinBench Location 226' and attach a location-based trigger (any address — e.g. 'Apple Park, Cupertino' — via the (i) info button > location toggle). The geofence binding is what matters, not actual triggering. AppleScript can't set location directly, so drive the UI. Note: `cerebellum 'reminders create Reminders \"KinBench Location 226\"'` will create the bare reminder fast — then UI the location step.",
+  "timeout_sec": 90
 }

@@ -2,7 +2,6 @@
   "id": "365-multi-music-pause-then-screenshot",
   "category": "multi-app",
   "difficulty": "T3",
-  "prompt": "Pause Music playback (Cmd+Space in Music or menu bar) and then take a screenshot of the current desktop, save to ~/Desktop/kinbench/365-shot.png",
-  "timeout_sec": 240,
-  "status": "stub"
+  "prompt": "If the Music app is currently playing, pause it (spacebar in Music or the menu bar/Now Playing widget). Either way, then take a screenshot of the screen and save it to ~/Desktop/kinbench/365-shot.png.",
+  "timeout_sec": 240
 }

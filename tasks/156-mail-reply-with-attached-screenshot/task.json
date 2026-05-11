@@ -2,7 +2,6 @@
   "id": "156-mail-reply-with-attached-screenshot",
   "category": "mail",
   "difficulty": "T3",
-  "prompt": "Reply to a specific message with a fresh screenshot attached. Body: 'KinBench 156'. Save as draft.",
-  "timeout_sec": 240,
-  "status": "stub"
+  "prompt": "In Mail, create a DRAFT reply to any inbox message (or new draft if no seed available) with body 'KinBench 156' AND attach a fresh screenshot (use Cmd+Shift+5 or `screencapture` to make a screenshot first, then attach to the draft). Subject should contain 'KinBench 156'. Do NOT send. Fast path for fallback: `screencapture ~/Desktop/kinbench/156-screenshot.png && cerebellum 'mail draft \"KinBench 156\" \"KinBench 156\" \"$HOME/Desktop/kinbench/156-screenshot.png\"'`.",
+  "timeout_sec": 240
 }

@@ -2,6 +2,6 @@
   "id": "147-mail-create-mailbox",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "Create a new mailbox folder named 'kinbench-test-mailbox'",
-  "status": "stub"
+  "prompt": "In Mail, create a new mailbox folder named 'kinbench-test-mailbox' (Mailbox > New Mailbox). Fast path: query accounts via `cerebellum 'mail get_accounts /tmp/147.txt'`, then `cerebellum 'mail create_folder \"<first-account-name>\" kinbench-test-mailbox'`.",
+  "timeout_sec": 150
 }

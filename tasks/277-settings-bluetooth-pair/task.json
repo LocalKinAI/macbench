@@ -2,6 +2,6 @@
   "id": "277-settings-bluetooth-pair",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Open the Bluetooth pairing dialog (System Settings \u003e Bluetooth, with Bluetooth on so pairable devices are listed). Don't actually pair — just open the dialog.",
-  "status": "stub"
+  "prompt": "Open the Bluetooth pairing dialog. System Settings > Bluetooth (with Bluetooth on so pairable devices are listed). Don't actually pair — just open the pane. Fast path: `cerebellum 'settings toggle_bluetooth ON' && cerebellum 'settings open com.apple.preference.bluetooth'`. The eval soft-passes if the Bluetooth pane was opened.",
+  "timeout_sec": 90
 }

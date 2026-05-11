@@ -2,7 +2,6 @@
   "id": "311-pages-merge-text-from-files",
   "category": "pages",
   "difficulty": "T3",
-  "prompt": "Read the contents of three files in ~/Desktop/kinbench/311-sources/ (a.txt, b.txt, c.txt), concatenate them in order, and create a Pages document at ~/Desktop/kinbench/311-merged.pages containing the combined text",
-  "timeout_sec": 300,
-  "status": "stub"
+  "prompt": "Read the three text files in ~/Desktop/kinbench/311-sources/ (a.txt, b.txt, c.txt). Concatenate their contents in order (a, then b, then c) and create a new Pages document at ~/Desktop/kinbench/311-merged.pages with the combined text as the body. When done, write ~/Desktop/kinbench/311-merge-confirm.txt containing 'done'.",
+  "timeout_sec": 300
 }

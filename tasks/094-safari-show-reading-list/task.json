@@ -2,6 +2,6 @@
   "id": "094-safari-show-reading-list",
   "category": "safari",
   "difficulty": "T1",
-  "prompt": "Open Safari's Reading List sidebar",
-  "status": "stub"
+  "prompt": "Open Safari's Reading List sidebar (Bookmarks menu > Show Reading List Sidebar, or Cmd+Shift+L). After it's visible, write the file ~/Desktop/kinbench/094-reading-list-confirm.txt with the text 'reading list shown'.",
+  "timeout_sec": 90
 }

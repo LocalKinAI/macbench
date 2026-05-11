@@ -2,6 +2,6 @@
   "id": "211-calendar-add-birthday-calendar",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Show or hide the Birthdays calendar (Calendar list checkbox)",
-  "status": "stub"
+  "prompt": "Toggle the 'Birthdays' built-in calendar visibility in Calendar.app. Open Calendar > Settings (Cmd+,) > General and toggle the 'Show Birthdays calendar' checkbox. The defaults key is 'Show Birthdays Calendar' in com.apple.iCal.",
+  "timeout_sec": 120
 }

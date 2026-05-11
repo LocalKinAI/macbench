@@ -2,6 +2,6 @@
   "id": "194-calendar-toggle-mini-calendar",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Toggle the mini calendar in the Calendar sidebar (View \u003e Hide Calendar List / Show Calendar List)",
-  "status": "stub"
+  "prompt": "Open Calendar.app and toggle the calendar list/mini calendar in the sidebar (View > Hide Calendar List or View > Show Calendar List, keyboard: Cmd+Opt+S). Then write 'toggled' to ~/Desktop/kinbench/194-confirm.txt to confirm.",
+  "timeout_sec": 90
 }

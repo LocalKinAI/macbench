@@ -2,6 +2,6 @@
   "id": "107-safari-clear-cookies",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "In Safari Settings \u003e Privacy \u003e Manage Website Data, delete the data for example.com specifically",
-  "status": "stub"
+  "prompt": "Open Safari Settings (Cmd+,) > Privacy > Manage Website Data. Search for 'example.com', select that entry, and click Remove. Close the sheet with Done. Then write 'example.com data removed' to ~/Desktop/kinbench/107-cookies-confirm.txt (the cookie store is TCC-protected; we trust the confirm file).",
+  "timeout_sec": 180
 }

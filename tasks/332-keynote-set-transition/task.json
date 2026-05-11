@@ -2,6 +2,6 @@
   "id": "332-keynote-set-transition",
   "category": "keynote",
   "difficulty": "T2",
-  "prompt": "Set the transition between slides 1 and 2 to 'Cube' (Animate inspector \u003e Add Effect \u003e Cube)",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/332-deck.key in Keynote (which has 2 slides). Select slide 1 in the slide navigator and set its transition to 'Cube' (open the Animate inspector > Add Effect > Cube). Save. When done, write ~/Desktop/kinbench/332-transition-confirm.txt containing 'done'.",
+  "timeout_sec": 240
 }

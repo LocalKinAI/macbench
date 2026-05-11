@@ -2,6 +2,6 @@
   "id": "191-calendar-switch-to-week",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Switch Calendar view to Week (Cmd+2 or View \u003e by Week)",
-  "status": "stub"
+  "prompt": "Open Calendar.app and switch the view to Week (press Cmd+2 or use View > by Week). Then write 'week' to ~/Desktop/kinbench/191-confirm.txt to confirm.",
+  "timeout_sec": 90
 }

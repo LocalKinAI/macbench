@@ -2,6 +2,6 @@
   "id": "287-terminal-rename-tab",
   "category": "terminal",
   "difficulty": "T2",
-  "prompt": "Rename the active Terminal tab to 'KinBench 287' (Window menu \u003e Edit Tab Title)",
-  "status": "stub"
+  "prompt": "Rename the active Terminal tab's title to 'KinBench 287' (Shell > Edit Title or Window > Edit Tab Title — set the custom tab title, not just the running command).",
+  "timeout_sec": 150
 }

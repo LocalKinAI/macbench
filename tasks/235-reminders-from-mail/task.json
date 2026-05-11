@@ -2,7 +2,6 @@
   "id": "235-reminders-from-mail",
   "category": "reminders",
   "difficulty": "T3",
-  "prompt": "Find a Mail message in the Inbox containing action items (e.g. 'Please do X, Y, Z'), create a reminder for each action item",
-  "timeout_sec": 300,
-  "status": "stub"
+  "prompt": "There is a saved mail-style message at ~/Desktop/kinbench/235-mail.txt containing three action items (each line starting with 'Please '). Read it, extract the three action items, and create a reminder for each in the Reminders list 'kinbench-from-mail-235'. Title each reminder with the exact action text (e.g. 'Please review the Q3 report'). Setup creates the list; you create the three reminders. Fast path: `cerebellum 'reminders create kinbench-from-mail-235 \"Please ...\"'` for each. (We don't read Mail directly because TCC blocks it — the .txt mock keeps the task offline-runnable.)",
+  "timeout_sec": 90
 }

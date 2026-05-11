@@ -2,6 +2,6 @@
   "id": "264-settings-trackpad-three-finger-drag",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Enable 'Three-Finger Drag' for the trackpad (System Settings \u003e Accessibility \u003e Pointer Control \u003e Trackpad Options)",
-  "status": "stub"
+  "prompt": "Enable 'Three-Finger Drag' for the trackpad. System Settings > Accessibility > Pointer Control > Trackpad Options > toggle 'Use trackpad for dragging' on, and pick 'Three-Finger Drag' style. Fast path: `defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true && defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true`. The eval reads TrackpadThreeFingerDrag and expects 1.",
+  "timeout_sec": 120
 }

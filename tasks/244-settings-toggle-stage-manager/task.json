@@ -2,6 +2,6 @@
   "id": "244-settings-toggle-stage-manager",
   "category": "settings",
   "difficulty": "T1",
-  "prompt": "Toggle Stage Manager via Control Center",
-  "status": "stub"
+  "prompt": "Toggle Stage Manager. Open Control Center (menu bar) > Stage Manager and click the toggle, or set via `defaults write com.apple.WindowManager GloballyEnabled -bool <new_value>` (followed by `killall WindowManager`). The eval reads com.apple.WindowManager GloballyEnabled and expects it changed.",
+  "timeout_sec": 90
 }

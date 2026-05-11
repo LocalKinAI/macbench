@@ -2,6 +2,6 @@
   "id": "126-mail-mark-as-unread",
   "category": "mail",
   "difficulty": "T1",
-  "prompt": "Mark a specific already-read message as unread",
-  "status": "stub"
+  "prompt": "In Mail, find an inbox message with subject containing 'KinBench 126' and mark it as UNREAD. After acting, also write 'marked-unread' to ~/Desktop/kinbench/126-unread-confirm.txt (this is the eval's paper trail). Fast path: `cerebellum 'mail mark_unread \"KinBench 126\"'` then write the confirm file.",
+  "timeout_sec": 120
 }

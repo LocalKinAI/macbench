@@ -2,7 +2,6 @@
   "id": "360-maps-multi-stop-route",
   "category": "maps",
   "difficulty": "T3",
-  "prompt": "Plan a multi-stop route in Maps: from current location → 'Apple Park, Cupertino' → 'Stanford University' → 'Half Moon Bay'",
-  "timeout_sec": 300,
-  "status": "stub"
+  "prompt": "Open the Maps app and plan a driving route with at least two stops, going from 'Apple Park, Cupertino' to 'Stanford University, Stanford CA' to 'Half Moon Bay, CA'. Once Maps shows the multi-leg route, write the three location names (one per line) to ~/Desktop/kinbench/360-route.txt to confirm.",
+  "timeout_sec": 300
 }

@@ -2,6 +2,6 @@
   "id": "259-settings-display-resolution",
   "category": "settings",
   "difficulty": "T2",
-  "prompt": "Change the display resolution to 'More Space' or 'Larger Text' in System Settings \u003e Displays (any non-current option)",
-  "status": "stub"
+  "prompt": "Change the display resolution to 'More Space' or 'Larger Text' (any non-current option). UI: System Settings > Displays > click a different size tile. Fast path: `cerebellum 'settings open com.apple.preference.displays'`. Resolution state lives in com.apple.windowserver.displays.plist (TCC-protected); the eval prefers `system_profiler SPDisplaysDataType` for resolution; soft-passes if the Displays pane is open.",
+  "timeout_sec": 120
 }

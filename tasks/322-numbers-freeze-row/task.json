@@ -2,6 +2,6 @@
   "id": "322-numbers-freeze-row",
   "category": "numbers",
   "difficulty": "T2",
-  "prompt": "Freeze the first (header) row of the active Numbers table",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/322-sheet.numbers in Numbers. Freeze the first (header) row so it stays visible while scrolling. (Format sidebar > Table > Headers & Footer > set Header Rows to 1 if needed, then choose Freeze Header Rows; or Table menu > Freeze Header Rows.) Save. When done, write ~/Desktop/kinbench/322-freeze-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

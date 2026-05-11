@@ -2,6 +2,6 @@
   "id": "348-photos-rotate-photo",
   "category": "photos",
   "difficulty": "T1",
-  "prompt": "Rotate a specific photo 90° clockwise (Image menu \u003e Rotate Clockwise or Cmd+R)",
-  "status": "stub"
+  "prompt": "Rotate a specific photo 90° clockwise in Photos (Image menu > Rotate Clockwise or Cmd+R). Photos AS dict has no rotation; do this via UI/keystroke and write ~/Desktop/kinbench/348-confirm.txt with the photo name to confirm.",
+  "timeout_sec": 120
 }

@@ -2,6 +2,6 @@
   "id": "196-calendar-go-to-date",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Use View \u003e Go to Date (Cmd+Shift+T) to navigate to March 15, 2027",
-  "status": "stub"
+  "prompt": "Open Calendar.app and use View > Go to Date (Cmd+Shift+T) to navigate to March 15, 2027. Then write '2027-03-15' to ~/Desktop/kinbench/196-confirm.txt to confirm.",
+  "timeout_sec": 120
 }

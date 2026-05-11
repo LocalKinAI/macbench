@@ -2,6 +2,6 @@
   "id": "338-music-volume-down",
   "category": "music",
   "difficulty": "T1",
-  "prompt": "Lower the Music app's playback volume by 10% (or by 3 menu-bar volume key presses)",
-  "status": "stub"
+  "prompt": "Lower the Music app's playback volume by 10%. Use `cerebellum 'music volume_down'` or `cerebellum 'music set_volume N'`.",
+  "timeout_sec": 60
 }

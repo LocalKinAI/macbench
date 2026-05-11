@@ -2,6 +2,6 @@
   "id": "204-calendar-set-event-color",
   "category": "calendar",
   "difficulty": "T2",
-  "prompt": "Change the calendar of event 'KinBench Color 204' so it displays in a different color",
-  "status": "stub"
+  "prompt": "Calendar.app does not let you set per-event colors directly — events inherit the color of their calendar. Therefore, to change the display color of the event titled 'KinBench Color 204', move it to a different calendar that has a different color. After moving, the event should live in a calendar whose name is NOT the one it started in.",
+  "timeout_sec": 180
 }

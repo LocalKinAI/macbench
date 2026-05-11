@@ -2,6 +2,6 @@
   "id": "299-pages-add-image",
   "category": "pages",
   "difficulty": "T1",
-  "prompt": "Insert the image ~/Desktop/kinbench/299-photo.jpg into the open Pages document",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/299-doc.pages in Pages, then insert the image ~/Desktop/kinbench/299-photo.jpg into the document body. Save the file. You may use the helper: cerebellum 'pages insert_image ~/Desktop/kinbench/299-doc.pages ~/Desktop/kinbench/299-photo.jpg'. When done, write the file ~/Desktop/kinbench/299-image-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

@@ -2,6 +2,6 @@
   "id": "106-safari-clear-history",
   "category": "safari",
   "difficulty": "T2",
-  "prompt": "Clear Safari's browsing history for 'the last hour' (History \u003e Clear History \u003e 'the last hour')",
-  "status": "stub"
+  "prompt": "Clear Safari's browsing history for 'the last hour' (History > Clear History... > choose 'the last hour' > Clear History). Then write 'history cleared: last hour' to ~/Desktop/kinbench/106-clear-history-confirm.txt (the History.db is TCC-protected; we trust the confirm file).",
+  "timeout_sec": 150
 }

@@ -2,6 +2,6 @@
   "id": "123-safari-bookmark-export",
   "category": "safari",
   "difficulty": "T3",
-  "prompt": "Export Safari bookmarks as HTML (File \u003e Export \u003e Bookmarks) to ~/Desktop/kinbench/123-bookmarks.html",
-  "status": "stub"
+  "prompt": "Use Safari's File > Export > Bookmarks... menu to export the bookmarks to an HTML file at ~/Desktop/kinbench/123-bookmarks.html. The file should be a Netscape-format bookmarks HTML file with a non-trivial size.",
+  "timeout_sec": 180
 }

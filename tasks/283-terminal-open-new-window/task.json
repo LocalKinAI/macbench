@@ -2,6 +2,6 @@
   "id": "283-terminal-open-new-window",
   "category": "terminal",
   "difficulty": "T1",
-  "prompt": "Open a new Terminal window (Cmd+N)",
-  "status": "stub"
+  "prompt": "Open a new Terminal window (Cmd+N or via the File menu) and then write the text 'window-opened' to ~/Desktop/kinbench/283-confirm.txt to confirm the action completed.",
+  "timeout_sec": 120
 }

@@ -2,6 +2,6 @@
   "id": "318-numbers-add-chart",
   "category": "numbers",
   "difficulty": "T2",
-  "prompt": "Insert a 2D bar chart from the data in A1:B10",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/318-sheet.numbers in Numbers. The sheet has data in A1:B10. Select that range, then insert a 2D bar chart from it (Insert menu > Chart > 2D > Bar). Save. When done, write ~/Desktop/kinbench/318-chart-confirm.txt containing 'done'.",
+  "timeout_sec": 240
 }

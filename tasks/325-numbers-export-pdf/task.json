@@ -2,6 +2,6 @@
   "id": "325-numbers-export-pdf",
   "category": "numbers",
   "difficulty": "T3",
-  "prompt": "Export the active Numbers spreadsheet as PDF to ~/Desktop/kinbench/325-sheet.pdf (File \u003e Export To \u003e PDF)",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/325-sheet.numbers in Numbers. Export it as PDF to ~/Desktop/kinbench/325-sheet.pdf (File > Export To > PDF…). You may use the helper: cerebellum 'numbers save_as_pdf ~/Desktop/kinbench/325-sheet.numbers ~/Desktop/kinbench/325-sheet.pdf'.",
+  "timeout_sec": 240
 }

@@ -2,6 +2,6 @@
   "id": "141-mail-add-signature",
   "category": "mail",
   "difficulty": "T2",
-  "prompt": "Compose a draft and apply a specific Mail signature (use any signature configured in your Mail settings). Subject: 'KinBench 141'.",
-  "status": "stub"
+  "prompt": "In Mail, compose a NEW draft — do NOT send. Subject: 'KinBench 141'. Apply any configured Mail signature to the draft (Mail menu > Settings > Signatures shows the names; or in the compose window the signature dropdown at the top). If no signature exists, write a body that contains the literal text '-- \\nKinBench Signature' (the standard signature delimiter) as a manual fallback. Fast path: `cerebellum 'mail draft \"KinBench 141\" \"body\\n-- \\nKinBench Signature\"'`.",
+  "timeout_sec": 150
 }

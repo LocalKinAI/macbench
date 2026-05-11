@@ -2,6 +2,6 @@
   "id": "353-photos-create-memory",
   "category": "photos",
   "difficulty": "T2",
-  "prompt": "Create a Memory from the album 'KinBench Album 353' (right-click album \u003e Create Memory)",
-  "status": "stub"
+  "prompt": "Create a Memory from the album 'KinBench Album 353' (right-click album > Create Memory). Photos AS dict doesn't expose Memory creation; do via UI and write ~/Desktop/kinbench/353-confirm.txt to confirm.",
+  "timeout_sec": 180
 }

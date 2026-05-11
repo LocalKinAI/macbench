@@ -2,6 +2,6 @@
   "id": "317-numbers-format-currency",
   "category": "numbers",
   "difficulty": "T2",
-  "prompt": "Format the values in column A as USD currency with 2 decimal places",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/317-sheet.numbers in Numbers. Select column A (click the A column header) and format all cells as USD currency with 2 decimal places. (Format sidebar > Cell > Data Format > Currency; set Currency to US Dollar, Decimals to 2.) Save. When done, write ~/Desktop/kinbench/317-currency-confirm.txt containing 'done'.",
+  "timeout_sec": 180
 }

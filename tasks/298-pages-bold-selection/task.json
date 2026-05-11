@@ -2,6 +2,6 @@
   "id": "298-pages-bold-selection",
   "category": "pages",
   "difficulty": "T1",
-  "prompt": "In an open Pages document, select the phrase 'KinBench 298' and make it bold (Cmd+B)",
-  "status": "stub"
+  "prompt": "Open ~/Desktop/kinbench/298-doc.pages in Pages. Find the phrase 'KinBench 298' in the document body, select it, and make it bold (Cmd+B). Save the file. You may use the helper: cerebellum 'pages bold_selection' after selecting the text. When done, write the file ~/Desktop/kinbench/298-bold-confirm.txt containing the word 'done'.",
+  "timeout_sec": 180
 }
