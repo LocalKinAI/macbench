@@ -5,6 +5,19 @@ All notable changes to macbench are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - 2026-05-12 — README context update for cross-platform kinclaw
+
+Documentation-only change. The agent under test
+([kinclaw](https://github.com/LocalKinAI/kinclaw)) shipped its Linux
+Phase 2-5 + Windows Phase 6 ports overnight (kinclaw commit `d7cee60`,
+2026-05-12). macbench itself remains **intentionally macOS-only** — the
+eval scripts depend on AppleScript and Mac apps — so the README
+Quickstart now explicitly notes that Linux/Windows builds of kinclaw
+won't have anything to drive here. Use the macOS build of kinclaw when
+running macbench.
+
+No changes to tasks, scoring, or runner code. Score table is unchanged.
+
 ## [Unreleased] - 2026-05-11 — v0.2: web category + auto-cleanup + paper #11 fixes
 
 Companion release to **paper #11** ("Grep-Routed Agents: Bypassing the

@@ -190,7 +190,13 @@ write more.
 ## Quickstart
 
 You need:
-- macOS 14+ (Sonoma or newer)
+- macOS 14+ (Sonoma or newer) — macbench itself is intentionally
+  macOS-only (its eval scripts use AppleScript + Mac apps). The
+  *agent* you point at it can be anything; e.g.
+  [kinclaw](https://github.com/LocalKinAI/kinclaw) is now cross-platform
+  (macOS / Linux / Windows as of 2026-05-12), but macbench's *tasks*
+  measure macOS Finder, Mail, Calendar, Notes, etc., so a Linux build
+  of kinclaw won't have anything to drive here. Use the macOS build.
 - Go 1.22+ (only to compile the runner; tasks themselves are shell + AppleScript)
 - An agent binary that takes a prompt and drives macOS — e.g.
   [kinclaw](https://github.com/LocalKinAI/kinclaw), or a wrapper script
