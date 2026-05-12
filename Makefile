@@ -6,13 +6,19 @@
 #   TASKS       Comma-separated subset (e.g. 001,005,016)
 #   TIMEOUT     Per-task timeout (e.g. 90s, 2m)
 #   SKIP_WARMUP=1   Skip the warmup pre-step (useful for tight rerun loops)
+#   SKIP_CLEANUP=1  Skip the post-run cleanup (keep artifacts in place)
+#   KILL_APPS=1     Cleanup also force-quits user-facing apps (Notes /
+#                   Reminders / Calendar / Mail / Safari …). Default
+#                   is to leave them open and only purge KinBench data.
 #
 # Examples:
 #   make bench AGENT=./kinclaw AGENT_ARGS='-soul pilot.soul.md -exec {prompt}'
 #   make bench AGENT=./agent.sh AGENT_ARGS='{prompt}' TASKS=001,005
 #   make bench SKIP_WARMUP=1 ...   # second-pass run without re-resetting state
+#   make cleanup                    # purge KinBench data + sandbox, leave apps open
+#   make cleanup KILL_APPS=1        # also close user apps
 
-.PHONY: help build bench bench-record bench-fast warmup test clean
+.PHONY: help build bench bench-record bench-fast warmup cleanup test clean
 
 AGENT       ?=
 AGENT_ARGS  ?= {prompt}
@@ -29,7 +35,7 @@ help:                    ## Show this help
 build:                   ## Compile the runner (catches typos before a benchmark run)
 	go build -o /dev/null .
 
-bench: build             ## Reset env (warmup) + run all tasks against AGENT
+bench: build             ## Reset env (warmup) + run AGENT + auto-cleanup garbage after
 	@if [ -z "$(AGENT)" ]; then \
 	  echo "✗ AGENT is required, e.g. make bench AGENT=./kinclaw AGENT_ARGS='-exec {prompt}'"; \
 	  exit 2; \
@@ -40,9 +46,20 @@ bench: build             ## Reset env (warmup) + run all tasks against AGENT
 	  echo ""; \
 	  echo "→ starting bench…"; \
 	fi
-	go run . -agent "$(AGENT)" -agent-args "$(AGENT_ARGS)" $(ARGS)
+	@# Run the bench; capture its exit code; ALWAYS run cleanup after
+	@# (unless SKIP_CLEANUP=1). This way we don't leave 100s of KinBench
+	@# notes/reminders/events + 13MB of sandbox files between runs.
+	@set +e; \
+	  go run . -agent "$(AGENT)" -agent-args "$(AGENT_ARGS)" $(ARGS); \
+	  rc=$$?; \
+	  if [ -z "$$SKIP_CLEANUP" ]; then \
+	    echo ""; \
+	    echo "→ cleaning up (SKIP_CLEANUP=1 to skip)…"; \
+	    ./tools/cleanup.sh; \
+	  fi; \
+	  exit $$rc
 
-bench-fast: build        ## bench without the warmup step (rerun-failed loop, dev iteration)
+bench-fast: build        ## bench without warmup AND without post-cleanup (dev iteration)
 	@if [ -z "$(AGENT)" ]; then \
 	  echo "✗ AGENT is required"; exit 2; \
 	fi
@@ -54,10 +71,17 @@ bench-record: build      ## Like bench, but record each task to mp4 via kinrec
 	  exit 2; \
 	fi
 	@if [ -z "$$SKIP_WARMUP" ]; then ./warmup.sh; fi
-	go run . -agent "$(AGENT)" -agent-args "$(AGENT_ARGS)" -record $(ARGS)
+	@set +e; \
+	  go run . -agent "$(AGENT)" -agent-args "$(AGENT_ARGS)" -record $(ARGS); \
+	  rc=$$?; \
+	  if [ -z "$$SKIP_CLEANUP" ]; then ./tools/cleanup.sh; fi; \
+	  exit $$rc
 
 warmup:                  ## Reset env: kill apps, wipe sandbox, clean KinBench data, probe TCC
 	@./warmup.sh
+
+cleanup:                 ## Post-bench cleanup: purge KinBench data + sandbox (leaves user apps open by default; KILL_APPS=1 to also close them)
+	@./tools/cleanup.sh
 
 test:                    ## Lint + sanity-check that all 50 tasks load
 	@go vet ./...

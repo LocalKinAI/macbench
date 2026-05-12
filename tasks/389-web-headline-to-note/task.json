@@ -1,0 +1,7 @@
+{
+  "id": "389-web-headline-to-note",
+  "category": "web",
+  "difficulty": "T3",
+  "prompt": "Cross-app pipeline: fetch the H1 heading from https://example.com via JavaScript eval and save it to ~/Desktop/kinbench/389-h1.txt; then create a Notes app entry titled 'KinBench Web 389' with that H1 as its body. Fast path: run `cerebellum 'web js https://example.com \"document.querySelector(\\\"h1\\\").innerText\" ~/Desktop/kinbench/389-h1.txt'` then `cerebellum \"notes create 'KinBench Web 389' \\\"$(cat ~/Desktop/kinbench/389-h1.txt)\\\"\"`.",
+  "timeout_sec": 60
+}

@@ -1,0 +1,7 @@
+{
+  "id": "386-web-eval-js",
+  "category": "web",
+  "difficulty": "T2",
+  "prompt": "Evaluate the JavaScript expression `document.querySelector(\"h1\").innerText` on https://example.com and save the result to ~/Desktop/kinbench/386-h1.txt. Fast path: `cerebellum 'web js https://example.com \"document.querySelector(\\\"h1\\\").innerText\" ~/Desktop/kinbench/386-h1.txt'`.",
+  "timeout_sec": 30
+}

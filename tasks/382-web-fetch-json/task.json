@@ -1,0 +1,7 @@
+{
+  "id": "382-web-fetch-json",
+  "category": "web",
+  "difficulty": "T1",
+  "prompt": "Fetch the GitHub API for the LocalKinAI/macbench repo at https://api.github.com/repos/LocalKinAI/macbench and save the JSON body to ~/Desktop/kinbench/382-repo.json. Fast path: `cerebellum 'web fetch https://api.github.com/repos/LocalKinAI/macbench ~/Desktop/kinbench/382-repo.json'`.",
+  "timeout_sec": 30
+}

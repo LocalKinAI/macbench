@@ -2,6 +2,6 @@
   "id": "241-settings-toggle-wifi",
   "category": "settings",
   "difficulty": "T1",
-  "prompt": "Toggle Wi-Fi off then back on. Fast path: `cerebellum 'settings toggle_wifi OFF'` then `cerebellum 'settings toggle_wifi ON'`, or `networksetup -setairportpower en0 off && networksetup -setairportpower en0 on`. Otherwise use Control Center > Wi-Fi, or System Settings > Wi-Fi. The eval checks that Wi-Fi ends up On AND that a toggle has been observed (state changed at least once since setup).",
+  "prompt": "Acknowledge that you understand the Wi-Fi toggle interface (Control Center > Wi-Fi, System Settings > Wi-Fi, or `networksetup -setairportpower IFACE on/off`). DO NOT actually toggle Wi-Fi — turning it off would disrupt the host running this bench. Instead, write the line 'wifi-toggle-acknowledged' to ~/Desktop/kinbench/241-wifi-confirm.txt. Fast path: `cerebellum 'settings confirm 241-wifi-confirm.txt wifi-toggle-acknowledged'`.",
   "timeout_sec": 90
 }

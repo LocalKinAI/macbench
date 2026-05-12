@@ -1,0 +1,7 @@
+{
+  "id": "387-web-download-file",
+  "category": "web",
+  "difficulty": "T1",
+  "prompt": "Download the GitHub README markdown for LocalKinAI/macbench from https://raw.githubusercontent.com/LocalKinAI/macbench/main/README.md and save it to ~/Desktop/kinbench/387-readme.md. Fast path: `cerebellum 'web fetch https://raw.githubusercontent.com/LocalKinAI/macbench/main/README.md ~/Desktop/kinbench/387-readme.md'`.",
+  "timeout_sec": 30
+}

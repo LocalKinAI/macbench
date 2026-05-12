@@ -2,6 +2,6 @@
   "id": "190-calendar-switch-to-month",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Open Calendar.app and switch the view to Month (press Cmd+3 or use View > by Month). Then write 'month' to ~/Desktop/kinbench/190-confirm.txt to confirm.",
+  "prompt": "Open Calendar.app and switch the view to Month (press Cmd+3 or use View > by Month). Then write 'month' to ~/Desktop/kinbench/190-confirm.txt to confirm. Fast path: `cerebellum 'calendar switch_view month 190-confirm.txt'`.",
   "timeout_sec": 90
 }

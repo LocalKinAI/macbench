@@ -1,0 +1,7 @@
+{
+  "id": "385-web-screenshot",
+  "category": "web",
+  "difficulty": "T2",
+  "prompt": "Take a screenshot of https://example.com and save it as PNG to ~/Desktop/kinbench/385-shot.png. Fast path: `cerebellum 'web screenshot https://example.com ~/Desktop/kinbench/385-shot.png'`.",
+  "timeout_sec": 30
+}

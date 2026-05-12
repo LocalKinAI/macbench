@@ -1,0 +1,7 @@
+{
+  "id": "381-web-search-results",
+  "category": "web",
+  "difficulty": "T1",
+  "prompt": "Search the web for 'localkin' via SearXNG and save the JSON results array (titles + URLs) to ~/Desktop/kinbench/381-results.json — at least 3 hits expected. Fast path: `cerebellum 'web search localkin ~/Desktop/kinbench/381-results.json 5'`.",
+  "timeout_sec": 30
+}

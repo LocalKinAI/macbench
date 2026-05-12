@@ -1,0 +1,7 @@
+{
+  "id": "388-web-research-pipeline",
+  "category": "web",
+  "difficulty": "T3",
+  "prompt": "Research pipeline: search the web for 'kinclaw github' and save the top 5 result URLs + titles as JSON to ~/Desktop/kinbench/388-research.json. Then fetch the first result's URL and save the page body to ~/Desktop/kinbench/388-first.html. Fast path: run `cerebellum 'web search \"kinclaw github\" ~/Desktop/kinbench/388-research.json 5'`, then read the first URL from that JSON and `cerebellum 'web fetch <URL> ~/Desktop/kinbench/388-first.html'`.",
+  "timeout_sec": 60
+}

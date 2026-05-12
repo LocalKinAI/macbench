@@ -1,0 +1,7 @@
+{
+  "id": "384-web-render-js",
+  "category": "web",
+  "difficulty": "T2",
+  "prompt": "Use Playwright to fetch https://example.com with JavaScript rendered, extract the body text, and save it to ~/Desktop/kinbench/384-body.txt. Fast path: `cerebellum 'web fetch_js https://example.com ~/Desktop/kinbench/384-body.txt body'`.",
+  "timeout_sec": 30
+}

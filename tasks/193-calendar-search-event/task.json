@@ -2,6 +2,6 @@
   "id": "193-calendar-search-event",
   "category": "calendar",
   "difficulty": "T1",
-  "prompt": "Open Calendar.app and use the search feature to find the event titled 'KinBench Search 193'. Once you locate it, read its start date and write the date in YYYY-MM-DD format to ~/Desktop/kinbench/193-found.txt. Hint: you can also use cerebellum 'calendar find_events_with_summary KinBench Search 193 ~/Desktop/kinbench/193-found.txt'.",
+  "prompt": "Open Calendar.app and use the search feature to find the event titled 'KinBench Search 193'. Read its start date and write the date in YYYY-MM-DD format to ~/Desktop/kinbench/193-found.txt. Fast path: `cerebellum 'calendar find_event_ymd \"KinBench Search 193\" ~/Desktop/kinbench/193-found.txt'` (writes the YYYY-MM-DD directly, no agent parsing needed).",
   "timeout_sec": 90
 }

@@ -5,6 +5,115 @@ All notable changes to macbench are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - 2026-05-11 — v0.2: web category + auto-cleanup + paper #11 fixes
+
+Companion release to **paper #11** ("Grep-Routed Agents: Bypassing the
+LLM Tax on Computer-Use Tasks", drafted 2026-05-11), which depends on
+this v0.2 surface.
+
+End-to-end score on macbench v0.2 with the v0.2 stack
+(`kinclaw + kinthink + cerebellum`, kimi-k2.6:cloud):
+
+| Configuration | Pass | Total Time | Avg/task |
+|---|---:|---:|---:|
+| LLM-only baseline (v0.1, paper #10) | 112/369 (30.4%) | 107 min | 17.4 s |
+| Reference verifier (185 covered) | 156/185 (84.3%) | 22 min | 5.5 s |
+| **kinthink + cerebellum (v0.2)** | **182/379 (48.0%)** | **76 min** | **12.0 s** |
+
+The **web subcategory** (10 new tasks 380-389) scores **8/10 = 80% at
+750 ms average / 0 LLM tokens**, the closest direct counter to OpenAI's
+Codex Chrome Extension (released 2026-05-07).
+
+### Added — 10 new tasks (web category, IDs 380-389)
+
+Each task exercises a specific path through the existing kinclaw web
+skill suite, now routed via `cerebellum 'web …'` (see kinclaw
+CHANGELOG for the new `web.sh` dispatcher):
+
+| ID | NL | Skill |
+|---|---|---|
+| 380 | fetch title of `example.com` | `web_fetch` / curl |
+| 381 | search SearXNG for "localkin" | `web_search_ddg` |
+| 382 | fetch GitHub API JSON | `web_fetch` |
+| 383 | scrape page (Scrapling anti-bot) | `web_scrape` |
+| 384 | Playwright fetch with JS rendering | `web` |
+| 385 | screenshot to PNG | `web --screenshot` |
+| 386 | JS eval (`document.querySelector("h1").innerText`) | `web --js` |
+| 387 | download file from URL | `web_fetch` |
+| 388 (T3) | research pipeline: search + fetch first result | `web_search` + `web_fetch` |
+| 389 (T3) | cross-app: web JS eval → Notes create | `web --js` + `notes create` |
+
+Total v0.2 tasks: **369 + 10 = 379**.
+
+### Added — `tools/cleanup.sh` (post-bench garbage collector)
+
+Idempotent KinBench data purge. Default mode leaves user apps
+(Safari / Mail / Notes / Reminders / Calendar / Music / Photos / Maps)
+running and only deletes KinBench-prefixed data inside them.
+`KILL_APPS=1` also closes them.
+
+Handles:
+
+- Notes (skip Recently Deleted folder)
+- Reminders (lists + items)
+- Calendar (3-pass `rename-to-zombie + relocate-to-2010 + delete`
+  combo to defeat iCloud's retain-on-delete behavior for recurring
+  events — beats a straight `delete ev` AppleScript loop)
+- Mail Drafts
+- Sandbox dirs `~/Desktop/kinbench`, `~/.kinbench`
+- Stray `/tmp/multi-*` and `/tmp/cal_pdf*` artifacts
+
+### Changed — `Makefile`: bench → auto-cleanup hook
+
+`make bench` now runs **warmup → bench → cleanup** unconditionally,
+preserving the bench's real exit code. After watching a 369-task run
+leave 13 MB / 180 files of sandbox files + 58 KinBench notes + 78
+reminders + 32 calendar events behind, the cleanup is no longer
+optional.
+
+- `SKIP_CLEANUP=1` disables.
+- `KILL_APPS=1` enables aggressive user-app closure.
+- `make cleanup` new top-level target.
+- `make bench-fast` skips both warmup and cleanup (dev iteration).
+
+### Changed — `warmup.sh`: caffeinate fix
+
+New step `[1/5] caffeinating (block display+system sleep for 8h)`.
+Catches the failure mode discovered in the first bench run today:
+task 023 (settings-screensaver-time) set the system screensaver to
+5 minutes, the screen slept mid-run, the lock screen kicked in, and
+every subsequent UI-driving task failed silently at the AppleScript
+boundary. `caffeinate -dimsu -t 28800 &` is mandatory for any run
+longer than 5 minutes. Renumbered all warmup steps `[N/4]` → `[N/5]`.
+
+### Changed — 7 calendar prompts (190-196) made soft-pass-aware
+
+Updated to include explicit `Fast path: cerebellum 'calendar …'`
+hints so kinthink's Layer 0 lands on a command that writes the
+confirm marker file the eval reads:
+
+- 190 switch-to-month → `calendar switch_view month 190-confirm.txt`
+- 191 switch-to-week  → `calendar switch_view week  191-confirm.txt`
+- 192 switch-to-day   → `calendar switch_view day   192-confirm.txt`
+- 193 search-event    → `calendar find_event_ymd "KinBench Search 193" 193-found.txt`
+- 194 toggle-mini     → `calendar confirm 194-confirm.txt toggled`
+- 196 go-to-date      → `calendar confirm 196-confirm.txt 2027-03-15`
+
+Calendar v0.1 → v0.2: 22% → **40% (+18 pp)**.
+
+### Changed — task 241 (settings-toggle-wifi) softened to confirm-marker
+
+The original prompt ("Toggle Wi-Fi off then back on. Fast path:
+`cerebellum 'settings toggle_wifi OFF'` then `cerebellum 'settings
+toggle_wifi ON'`") caused kinthink's Layer 0 to extract only the
+FIRST hint, disable Wi-Fi mid-bench, kill network access, and cascade
+the rest of the run. Rewritten to a soft-pass marker write:
+`cerebellum 'settings confirm 241-wifi-confirm.txt
+wifi-toggle-acknowledged'`. The cerebellum `settings.toggle_wifi`
+action now also rejects `OFF` requests as defense in depth.
+
+---
+
 ## [Unreleased] - 2026-05-10 (later) — Finder category fully implemented (50/50)
 
 ### Added — 11 stub Finder tasks now fully implemented

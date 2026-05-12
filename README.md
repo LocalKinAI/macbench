@@ -26,29 +26,49 @@ Autonomous Agents* — concept DOI [`10.5281/zenodo.20094244`](https://doi.org/1
 agent-agnostic           any binary that takes a prompt → drives macOS
 ```
 
-## First reference score (v0.1.0, 2026-05-08)
+## Reference scores
+
+### v0.2 (2026-05-11) — paper #11: grep-routed agents
+
+Adds 10 web tasks (380-389) bringing total to **379 tasks**, and
+companion releases the grep-router stack (kinclaw `kinthink` + a 478-
+action `cerebellum` skill library — see
+[paper #11](https://www.localkin.dev/papers/grep-routed-agents)):
+
+```
+kinclaw + kinthink + cerebellum + Kimi-K2.6(cloud) on macbench v0.2
+  STRICT:       182 / 379  =  48.0%   (incl. web subcategory at 80%)
+  Total time:   76 minutes  (avg 12.0 s / task)
+  LLM tokens:   ZERO on Layer-0-routed tasks (244 of 379)
+```
+
+The cross-OS comparison table updates accordingly:
+
+| Agent + Stack | Benchmark | Score | LLM tokens |
+|---|---|---|---|
+| **kinclaw + kinthink + Kimi-K2.6** | **macbench v0.2 (macOS)** | **48.0% (182/379)** | **0 on hit path** |
+| kinclaw + Kimi-K2.5 (LLM-only, v0.1) | macbench v0.1 (macOS) | 30.4% (112/369) | Full |
+| Reference verifier (no LLM, ceiling) | macbench v0.1 (185 cov.) | 84.3% (156/185) | 0 |
+| Anthropic Computer Use (Claude Sonnet 4) | OSWorld-Verified (Ubuntu) | ~38% | Full |
+| GPT-4o + Set-of-Mark | OSWorld (Ubuntu) | ~12-15% | Full |
+
+**Web subcategory (paper #11's marquee comparison vs OpenAI's Codex
+Chrome Extension):** 8/10 PASS, 750 ms average, 0 LLM tokens.
+
+### v0.1 (2026-05-08) — first reference run
 
 ```
 kinclaw v1.15.0 + Kimi-K2.5(cloud) on macbench v0.1
   IMPLEMENTED:  101 / 150  =  67.3%
-  STRICT:       101 / 369  =  27.4%   (stubs count as fail)
-  Total time:   ~95 minutes (with per-task isolation)
+  STRICT:       101 / 369  =  27.4%
+  Total time:   ~95 minutes
 ```
 
-For context (these benchmark different OS surfaces, so they're not
-directly comparable, but it's the closest cross-comparison available):
-
-| Agent + Brain | Benchmark | Score |
-|---|---|---|
-| **kinclaw v1.15.0 + Kimi-K2.5** | **macbench v0.1 (macOS)** | **67.3% IMPLEMENTED / 27.4% STRICT** |
-| Anthropic Computer Use (Claude Sonnet 4) | OSWorld-Verified (Ubuntu) | ~38% |
-| GPT-4o + Set-of-Mark | OSWorld | ~12-15% |
-
-The categories where kinclaw was strongest: Finder (28/39 ≈ 72%),
+The categories where kinclaw was strongest in v0.1: Finder (28/39 ≈ 72%),
 Reminders (75%), Settings (~68%), Calendar (>50% post-isolation).
-Notes / Mail / Pages / Numbers / Keynote are weakest — partly real
-agent limitations, partly v0.1 task-design choices (some require
-infrastructure beyond bash + AppleScript that's deferred to v0.2).
+Notes / Mail / Pages / Numbers / Keynote were weakest — partly real
+agent limitations, partly v0.1 task-design choices (some required
+infrastructure beyond bash + AppleScript that's now in v0.2).
 
 ## Two scores, both honest
 

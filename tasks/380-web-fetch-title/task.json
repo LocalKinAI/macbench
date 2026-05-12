@@ -1,0 +1,7 @@
+{
+  "id": "380-web-fetch-title",
+  "category": "web",
+  "difficulty": "T1",
+  "prompt": "Fetch https://example.com and save its raw HTML body to ~/Desktop/kinbench/380-page.html. Fast path: `cerebellum 'web fetch https://example.com ~/Desktop/kinbench/380-page.html'`.",
+  "timeout_sec": 30
+}

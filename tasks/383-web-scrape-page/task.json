@@ -1,0 +1,7 @@
+{
+  "id": "383-web-scrape-page",
+  "category": "web",
+  "difficulty": "T1",
+  "prompt": "Use the anti-bot scraper (Scrapling) to extract clean text from https://example.com and save it to ~/Desktop/kinbench/383-text.txt. Fast path: `cerebellum 'web scrape https://example.com ~/Desktop/kinbench/383-text.txt'`.",
+  "timeout_sec": 30
+}
